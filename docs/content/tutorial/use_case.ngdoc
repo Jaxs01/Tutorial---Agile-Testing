@@ -1,0 +1,40 @@
+Name
+
+Maintain TODO list
+
+Description
+
+This is a use case describing the activity that a user would perform in order to create and update their own TODO list.
+
+Primary Actor
+
+User
+
+Precondition
+
+Must be logged in with read/write access
+
+Trigger
+
+User has accessed on the TODO items
+
+Basic Flow
+
+User/System
+
+User access the TODO list/System shows all current and completed tasks
+User adds new item/System adds item to list
+User completes existing item/System displays that the item is completed
+
+Alternate Flow
+
+User/System
+
+User utilises a filter to only show active items/System displays only items which do not have status completed
+User utilises a filter to only show completed items/System displays only items which have status completed
+User removes any completed items to trash/System removes completed items
+
+
+Post-Condition
+
+When all conditions are met, user sees the correct list of TODO items

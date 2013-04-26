@@ -1,0 +1,84 @@
+Test Plan & Test Cases
+
+Approach
+
+All tests will be run through the browser manually by the test analyst. Items failing can be categorised as Sev 1 (major) and Sev 2 (minor).
+
+In scope
+
+* add an item
+* complete an item
+* filters
+* remove completed
+
+Out of scope
+
+* performance and security testing
+
+Entry Criteria
+
+* versioned code drop is available
+* all unit tests are passing
+* test data is available
+
+Exit Criteria
+
+* no sev 1 issues
+* all planned tests have been executed
+* all identified defects have been addressed
+
+Test Cases
+
+1. Empty list display
+
+Load new page
+
+Result
+no items showing
+empty text box
+0 active items
+
+2. Add an item
+
+active items count 0
+
+Load page
+Add text, "first item"
+Press enter
+
+Result
+first time showing
+active items
+
+3. Complete an item
+
+active items count 1
+
+Press tick
+
+Result
+item strikethrough
+active items 0
+clear completed 1
+
+
+4. Filter items
+
+active items count 1
+completed items count 1
+total visible count 2
+
+Press filter active
+Visible only 1 active
+
+Press filer completed
+Visible only 1 completed
+
+5. Remove completed items
+
+completed items count 1
+
+Press clear completed
+
+No visible
+items count 0

@@ -1,0 +1,48 @@
+Software Requirements Specification
+
+This Software Requirements Specification (SRS) specifies the requirements for the TODO list appliction. The SRS is used as the basis for design and qualification testing for the TODO list.
+
+1. Introduction
+
+1.2. Purpose
+
+The TODO items application is to help manage one's own tasks.
+
+1.2. Document conventions
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].
+
+The grammatical rules in this document are to be interpreted as described in [RFC4234].
+
+2. Overall description
+
+Simple to do list managers will keep lists flat, possibly allowing you to categorize or tag your tasks (or use GTD methodology to segment your tasks based on where you are). It allows you to organize your to do items into projects or different areas of your life. Being able to mark an item as complete gives you the simple ability to quickly look up what the next item on your list is to tackle.
+
+2.1. Product Perspective
+
+ToDoList provides a set of easy-to-use tools for monitoring several tasks and due dates. The program's efficient layout is designed to keep users informed of progress and upcoming deadlines on everything from simple tasks to major projects.This simple program performs its job quickly, easily, and intuitively.
+
+2.2. Product Functions
+
+2.2.1. The system shall allow the user to add a task
+2.2.2. The system shall allow the user to mark a task as complete
+2.2.3. The system shall allow the user to undo actions
+2.2.4. The system shall allow the user to remove completed tasks
+2.2.5. The system shall allow the user to display item totals
+2.2.6. The system shall allow the user to filter the display of tasks by status
+2.2.7. The system shall allow the user to remember tasks between sessions
+
+2.3. System Features
+
+2.3.1. The system must protect user's data
+2.3.2. The system shall allow the user to store data in a cloud-based service
+
+3. References
+
+3.1.  Normative References
+
+   [RFC2119] Bradner, S., "Key words for use in RFCs to Indicate
+             Requirement Levels", BCP 14, RFC 2119, March 1997.
+
+   [RFC4234] Crocker, D. and P.  Overell, "Augmented BNF for Syntax
+             Specifications: ABNF", RFC 4234, October 2005.

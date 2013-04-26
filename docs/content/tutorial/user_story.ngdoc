@@ -1,0 +1,46 @@
+User Story
+
+John wants to manage his time better. For that, he needs to see a list of all his current tasks.
+He wants to scan by active and completed status.
+He also doesn't want to have a cluttered list of old, and no longer relevant, completed tasks.
+
+As a user,
+I want to be able to add and complete items in a TODO list
+So that I can manage my tasks
+
+Scenario: Creating items
+Given there is an empty list
+When I add an item
+  and add text
+Then 1 active item is shown
+
+Given there is 1 item in the list
+When I add another item
+Then 2 active items are shown
+
+Scenario: Completing items
+Given there is 1 active item in the list
+When I complete an item
+Then there is still 1 item in the list
+  and there is are 0 active items
+  and 1 completed item
+
+Scenario: Filtering items
+Given there is 1 active item
+  and 1 completed item
+When I filter by active
+Then 1 active items is shown
+  and 0 completed items is shown
+
+Given there is 1 active item
+  and 1 completed item
+When I filter by completed
+Then 0 active items is shown
+  and 1 completed items is shown
+
+Scenario: Cleaning up completed items
+Given there is 1 active items
+  and 1 completed items
+When I clear out completed items
+Then 1 active items is shown
+  and 0 completed items is shown

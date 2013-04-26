@@ -1,0 +1,38 @@
+@ngdoc overview
+@name Contributing
+@description
+
+
+* <a href="#H1_4">Checking Out and Building</a>
+
+
+<a name="H1_4"></a>
+# Checking Out and Building Angular
+
+This source code is hosted at {@link http://bitbucket.com:Assurity/education-agile-testing BitBucket}, which we also use to
+accept code contributions. The repository can be found at **<https://bitbucket.org/Assurity/education-agile-testing>**.
+
+Several steps are needed to check out and build this:
+
+
+## Installation Dependencies
+
+Before you can build it, you must install or configure the following dependencies on your
+machine:
+
+* Git: The {@link http://help.github.com/mac-git-installation Github Guide to Installing Git} is
+quite a good source for information on Git.
+
+* {@link http://nodejs.org Node.js}: We use Node to generate the documentation, run a
+development web server, run tests, and generate a build. Depending on your system, you can install Node either from source or as a
+pre-packaged bundle.
+
+  Once installed, you'll also need several npms (node packages), which you can install once you checked out a local copy
+  of the education repository (see below) with:
+
+  * `cd education-agile-testing`
+  * `npm install`
+
+* {@link http://gruntjs.com Grunt}: We use Grunt as our build system. Install the grunt command-line tool globally with:
+
+  * `sudo npm install -g grunt-cli`
