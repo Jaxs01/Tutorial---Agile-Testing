@@ -49,4 +49,4 @@ testrunner/testlist.js
 .classpath
 .csv
 gradle.properties
-
+.idea
