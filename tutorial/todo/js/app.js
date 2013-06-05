@@ -1,3 +1,11 @@
+/**
+ * @ngdoc overview
+ * @name TodoMVC
+ * @description
+ *
+ * The main TodoMVC app module
+ */
+
 /*global angular */
 /*jshint unused:false */
 'use strict';

@@ -1,23 +1,42 @@
-var util = require('./lib/grunt/utils.js');
+module.exports = function (grunt) {
 
-module.exports = function(grunt) {
-  //grunt plugins
-  grunt.loadTasks('lib/grunt');
+  grunt.loadNpmTasks('grunt-ngdocs');
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  var NG_VERSION = util.getVersion();
-  var dist = 'agiletesting-'+ NG_VERSION.full;
-
-  util.init();
-
-  //config
   grunt.initConfig({
 
-    docs: {
-      process: ['build/docs/*.html', 'build/docs/.htaccess']
+    ngdocs: {
+      options: {
+        dest: 'build',
+        scripts: ['angular.js'],
+        html5Mode: false,
+        title: "Agile Testing Tutorial"
+      },
+      tutorial: {
+        src: ['docs/content/**/*.ngdoc'],
+        title: 'Tutorial'
+      },
+      api: {
+        src: ['tutorial/todo/js/**/*.js'],
+        title: "Todo Code"
+      }
+    },
+    connect: {
+      server: {
+        options: {
+          port: 9001,
+          base: 'build',
+          keepalive: true
+        }
+      }
+    },
+    watch: {
+      files: ['docs/content/**/*.ngdoc', 'tutorial/todo/js/**/*.js'],
+      tasks: 'ngdocs'
     }
-
   });
 
-  grunt.registerTask('package', ['docs']);
-  grunt.registerTask('default', ['package']);
+  grunt.registerTask('default', ['ngdocs']);
+
 };

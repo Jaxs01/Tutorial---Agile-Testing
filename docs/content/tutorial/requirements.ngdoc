@@ -1,3 +1,7 @@
+@ngdoc overview
+@name Software Requirements Specification
+@description
+
 Software Requirements Specification
 
 This Software Requirements Specification (SRS) specifies the requirements for the TODO list appliction. The SRS is used as the basis for design and qualification testing for the TODO list.
