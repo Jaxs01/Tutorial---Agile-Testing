@@ -4,7 +4,6 @@
 
 <ul doc-tutorial-nav="0"></ul>
 
-
 You are now ready to build the Todo app. In this step, you will become familiar
 with the most important source code files, learn how to start the development servers bundled with
 angular-seed, and run the application in the browser.

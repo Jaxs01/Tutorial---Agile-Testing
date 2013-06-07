@@ -3,7 +3,7 @@
 @description
 
 Name
-
+<pre>
 Maintain TODO list
 
 Description
@@ -42,3 +42,4 @@ User removes any completed items to trash/System removes completed items
 Post-Condition
 
 When all conditions are met, user sees the correct list of TODO items
+</pre>

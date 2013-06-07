@@ -2,6 +2,7 @@
 @name User Story
 @description
 
+<pre>
 User Story
 
 John wants to manage his time better. For that, he needs to see a list of all his current tasks.
@@ -48,3 +49,4 @@ Given there is 1 active items
 When I clear out completed items
 Then 1 active items is shown
   and 0 completed items is shown
+</pre>

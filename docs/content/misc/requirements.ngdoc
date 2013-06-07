@@ -2,6 +2,7 @@
 @name Software Requirements Specification
 @description
 
+<pre>
 Software Requirements Specification
 
 This Software Requirements Specification (SRS) specifies the requirements for the TODO list appliction. The SRS is used as the basis for design and qualification testing for the TODO list.
@@ -50,3 +51,4 @@ ToDoList provides a set of easy-to-use tools for monitoring several tasks and du
 
    [RFC4234] Crocker, D. and P.  Overell, "Augmented BNF for Syntax
              Specifications: ABNF", RFC 4234, October 2005.
+</pre>

@@ -14,8 +14,12 @@ module.exports = function (grunt) {
         title: "Agile Testing Tutorial"
       },
       tutorial: {
-        src: ['docs/content/**/*.ngdoc'],
+        src: ['docs/content/tutorial/**/*.ngdoc'],
         title: 'Tutorial'
+      },
+      misc: {
+        src: ['docs/content/misc/**/*.ngdoc'],
+        title: 'Misc'
       },
       api: {
         src: ['tutorial/todo/js/**/*.js'],
