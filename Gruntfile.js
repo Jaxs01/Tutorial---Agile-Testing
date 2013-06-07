@@ -11,15 +11,15 @@ module.exports = function (grunt) {
         dest: 'build',
         scripts: ['angular.js'],
         html5Mode: false,
-        title: "Agile Testing Tutorial"
+        title: "Agile Testing"
       },
-      tutorial: {
-        src: ['docs/content/tutorial/**/*.ngdoc'],
-        title: 'Tutorial'
+      exploratory: {
+        src: ['docs/content/exploratory/**/*.ngdoc'],
+        title: 'Exploratory Testing'
       },
-      misc: {
-        src: ['docs/content/misc/**/*.ngdoc'],
-        title: 'Misc'
+      planning: {
+        src: ['docs/content/planning/**/*.ngdoc'],
+        title: 'Planning'
       },
       api: {
         src: ['tutorial/todo/js/**/*.js'],
