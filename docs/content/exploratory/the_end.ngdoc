@@ -1,9 +1,5 @@
 @ngdoc overview
-@name Tutorial: The End
+@name Summary: The End
 @description
 
-Our application is now complete. Feel free to experiment with the code further, and jump back to
-previous steps using the `git checkout` command.
-
-We hope this tutorial was useful to you and that you learned enough about Agile Testing to make you want
-to learn more.
+# Summary - Exploratory Testing

@@ -1,0 +1,21 @@
+@ngdoc overview
+@name Introduction
+@description
+
+Work through the tutorial to understand what is involved in Agile Testing. As you work through the tutorial, you will:
+
+* Agile Testing Mindset: understand the history and mindset behind agile testing and how it
+  impacts software quality during agile projects.
+
+* Testing Techniques: understand the types of testing and specific testing techniques
+  typically used by business, development, and testing personnel during agile projects.
+
+* Agile Testing Process: understand the process by which agile teams plan, implement,
+  perform, and report on testing activities.
+
+* Test Automation: understand why test automation is important, what tests are commonly
+  automated, and who is typically involved in automation efforts.
+
+* Beyond the Team : understand how agile testers interact with management, integrate with
+  other projects/groups, address policy and regulation, and operate in distributed
+  environments.

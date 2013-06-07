@@ -3,6 +3,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-ngdocs');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.initConfig({
 
@@ -12,6 +13,10 @@ module.exports = function (grunt) {
         scripts: ['angular.js'],
         html5Mode: false,
         title: "Agile Testing"
+      },
+      overview: {
+        src: ['docs/content/overview/**/*.ngdoc'],
+        title: 'Overview'
       },
       exploratory: {
         src: ['docs/content/exploratory/**/*.ngdoc'],
@@ -36,8 +41,21 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['docs/content/**/*.ngdoc', 'tutorial/todo/js/**/*.js'],
-      tasks: 'ngdocs'
+      tutorial: {
+        files: ['docs/content/**/*.ngdoc', 'tutorial/todo/js/**/*.js'],
+        tasks: 'ngdocs'
+      },
+      img: {
+        files: ['docs/img/**/*'],
+        tasks: 'copy'
+      }
+    },
+    copy: {
+      main: {
+        files: [
+          {expand: true, cwd: 'docs', src: ['img/**'], dest: 'build/'}
+        ]
+      }
     }
   });
 
