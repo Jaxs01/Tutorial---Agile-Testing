@@ -2,3 +2,12 @@
 @name Tutorial: 2 - Automation after coding
 @description
 
+# Automation - after coding
+
+* Vendor tools
+* Record/Playback
+* Done by testers or automation team
+* If developers automate unit tests – it’s after coding
+* Expensive
+
+<img class="diagram" src="img/exploratory/puzzle.png" width="488" height="413">

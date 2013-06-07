@@ -2,3 +2,7 @@
 @name Video: 3 - Exploratory Testing
 @description
 
+# Exploratory Testing
+
+<img class="diagram" src="img/playVideo.jpg" width="488" height="413"
+ onclick="javascript:alert('Yes, this is now a video playing - ha!')">

@@ -2,3 +2,14 @@
 @name Tutorial: 1 - Testing as a phase
 @description
 
+# Testing as a phase
+
+* code then then
+* separate, siloed teams
+* heavyweight process
+  * requirements, design documents
+  * test plans
+  * 'traceability'
+  * change review boards
+* testing is a bottleneck
+

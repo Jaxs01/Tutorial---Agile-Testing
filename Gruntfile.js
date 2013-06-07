@@ -10,7 +10,7 @@ module.exports = function (grunt) {
     ngdocs: {
       options: {
         dest: 'build',
-        scripts: ['angular.js'],
+        scripts: ['angular.js', '../js/multichoice.js'],
         html5Mode: false,
         title: "Agile Testing"
       },
@@ -45,20 +45,21 @@ module.exports = function (grunt) {
         files: ['docs/content/**/*.ngdoc', 'tutorial/todo/js/**/*.js'],
         tasks: 'ngdocs'
       },
-      img: {
-        files: ['docs/img/**/*'],
+      assets: {
+        files: ['docs/img/**/*', 'docs/js/**/*'],
         tasks: 'copy'
       }
     },
     copy: {
       main: {
         files: [
-          {expand: true, cwd: 'docs', src: ['img/**'], dest: 'build/'}
+          {expand: true, cwd: 'docs', src: ['img/**'], dest: 'build/'},
+          {expand: true, cwd: '.', src: ['js/**'], dest: 'build/'}
         ]
       }
     }
   });
 
-  grunt.registerTask('default', ['ngdocs']);
+  grunt.registerTask('default', ['ngdocs', 'copy']);
 
 };
