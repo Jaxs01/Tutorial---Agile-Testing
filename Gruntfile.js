@@ -46,7 +46,7 @@ module.exports = function (grunt) {
         tasks: 'ngdocs'
       },
       assets: {
-        files: ['docs/img/**/*', 'docs/js/**/*'],
+        files: ['docs/img/**/*', 'js/**/*'],
         tasks: 'copy'
       }
     },
