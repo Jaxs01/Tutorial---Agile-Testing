@@ -11,6 +11,7 @@ module.exports = function (grunt) {
       options: {
         dest: 'build',
         scripts: ['angular.js', '../js/multichoice.js'],
+        styles: ['css/multichoice.css'],
         html5Mode: false,
         title: "Agile Testing"
       },
@@ -46,7 +47,7 @@ module.exports = function (grunt) {
         tasks: 'ngdocs'
       },
       assets: {
-        files: ['docs/img/**/*', 'js/**/*'],
+        files: ['docs/img/**/*', 'js/**/*', 'css/**/*'],
         tasks: 'copy'
       }
     },
@@ -54,7 +55,7 @@ module.exports = function (grunt) {
       main: {
         files: [
           {expand: true, cwd: 'docs', src: ['img/**'], dest: 'build/'},
-          {expand: true, cwd: '.', src: ['js/**'], dest: 'build/'}
+          {expand: true, cwd: '.', src: ['js/**', 'css/**'], dest: 'build/'}
         ]
       }
     }
