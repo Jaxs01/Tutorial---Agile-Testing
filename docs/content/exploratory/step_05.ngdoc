@@ -1,7 +1,14 @@
 @ngdoc overview
-@name Tutorial: 5 - Exploring Todo
+@name Tutorial: 5 - Exploring todo
 @description
 
 # The todos application
+
+With this exercise, once you have the code running, you need to do some exploratory testing. You are looking for:
+
+* defects
+* new features
+
+Then, you need to look at the code base and see how it might helped you solve the problem of those defects.
 
 <img class="diagram" src="img/exploratory/todos.png" width="488" height="413">

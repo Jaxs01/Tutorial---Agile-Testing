@@ -1,0 +1,17 @@
+@ngdoc overview
+@name Tutorial: 7 - Scavenger hunt
+@description
+
+#Which of these issues did you find?
+
+#### Defects
+
+* shouldn't be able update a completed task
+* clear completed needs a confirmation
+* should not be able to create duplicates
+
+####Features
+
+* escape key on edit open doesn't shut the edit - we want this to cancel the edit rather than commit
+* when editing a task, single click on done commits the change and marks the task as complete
+* should be able to track the editing of tasks via changes in the url on the browser
