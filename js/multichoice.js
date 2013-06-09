@@ -17,7 +17,7 @@ angular.module('ng').
         }
 
         $scope.showHint = function () {
-          $scope.hint = "You have " + $scope.numberCorrect() +" out of " + $scope.questions.length + " correct";
+          $scope.hint = "You have " + $scope.numberCorrect() + " out of " + $scope.questions.length + " correct";
           $scope.isHint = true;
         }
 
@@ -29,7 +29,7 @@ angular.module('ng').
           return answered
         }
 
-        $scope.numberCorrect = function(){
+        $scope.numberCorrect = function () {
           var correct = 0;
           angular.forEach($scope.questions, function (question) {
             if (question.isCorrect) correct++;
@@ -63,14 +63,4 @@ angular.module('ng').
         "<li class='btn btn-primary' ng-click='showHint()'><a>Show Hint</a></li>" +
         "</ul>"
     }
-  })
-  .controller('AgileVsWaterfallQuiz', function ($scope) {
-    $scope.title = "How does agile change things?";
-    $scope.options = { a: "Waterfall", b: "Agile" };
-    $scope.questions = [
-      { answer: "b", question: "Whole-team approach", hint: "Work together please."},
-      { answer: "b", question: "Coding and testing are one process"},
-      { answer: "b", question: "Feedback, collaboration key"},
-      { answer: "b", question: "Test-infected developers, better tools, better-designed tests"}
-    ];
   });
