@@ -4,9 +4,9 @@
     "author": "Pascal Hartig <phartig@rdrei.net>",
     "version": "1.0.0",
     "devDependencies": {
-        "testacular": "~ 0.4.0"
+        "karma": "0.8.4"
     },
     "scripts": {
-        "test": "testacular start config/testacular.conf.js"
+        "test": "../../../node_modules/karma/bin/karma start config/testacular.conf.js"
     }
 }
