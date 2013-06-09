@@ -39,18 +39,19 @@ angular.module('ng').
       }],
       transclude: true,
       template: "<h1>Quiz: {{title}}</h1>" +
-        "<table ng-class='multichoice'>" +
-        "<tbody>" +
+        "<table>" +
+        "<tbody class='multichoice'>" +
         "<tr>" +
         "<td ng-repeat=\"option in options\">{{option}}</td>" +
         "<td colspan='2'>" +
         "</tr>" +
         "<tr ng-repeat='q in questions' ng-init='i = $index' >" +
-        "<td ng-repeat='(key, value) in options' class='question-response'><input type='radio' name='{{i + q.answer}}' ng-click='answer(q, key)'></td>" +
-        "<td class='question-number'>{{$index+1}}.</td>" +
+        "<td ng-repeat='(key, value) in options' class='text-center'>" +
+        "<input type='radio' name='{{i + q.answer}}' ng-click='answer(q, key)'></td>" +
+        "<td class='text-success'>{{$index+1}}.</td>" +
         "<td class='question-text'>" +
         "{{q.question}}" +
-        "<p class='info' ng-show='isAnswered'>{{q.hint}}</p>" +
+        "<p class='text-info' ng-show='isAnswered'>{{q.hint}}</p>" +
         "</td>" +
         "</tr>" +
         "</tbody>" +
