@@ -5,3 +5,9 @@ To run the test suite, run these commands:
 
     npm install -d
     npm test
+
+To get coverage:
+
+* `./node_modules/.bin/karma start config/unit.conf.js`
+
+
