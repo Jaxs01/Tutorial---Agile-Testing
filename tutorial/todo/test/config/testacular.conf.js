@@ -9,6 +9,17 @@ files = [
   'test/unit/**/*.js'
 ];
 
+preprocessors = {
+  'js/**/*.js': 'coverage'
+};
+
+reporters = ['coverage'];
+
+coverageReporter = {
+  type : 'html',
+  dir : 'coverage/'
+}
+
 autoWatch = true;
 
 browsers = ['Chrome'];

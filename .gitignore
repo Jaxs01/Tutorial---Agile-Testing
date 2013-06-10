@@ -42,6 +42,7 @@ public/vendor
 public/dist
 node_modules
 testrunner/testlist.js
+coverage
 
 .gradle
 .settings
