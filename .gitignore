@@ -51,3 +51,4 @@ coverage
 .csv
 gradle.properties
 .idea
+npm-debug.log

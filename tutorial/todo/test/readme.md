@@ -10,4 +10,8 @@ To get coverage:
 
 * `./node_modules/.bin/karma start config/unit.conf.js`
 
+e2e tests
+
+* `./node_modules/.bin/karma start config/e2e.conf.js`
+
 
