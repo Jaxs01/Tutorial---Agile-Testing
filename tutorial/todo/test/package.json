@@ -7,6 +7,6 @@
         "karma": "0.8.4"
     },
     "scripts": {
-        "test": "../../../node_modules/karma/bin/karma start config/testacular.conf.js"
+        "test": "../../../node_modules/.bin/karma start config/testacular.conf.js"
     }
 }
