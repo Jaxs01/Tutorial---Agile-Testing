@@ -6,12 +6,16 @@ To run the test suite, run these commands:
     npm install -d
     npm test
 
-To get coverage:
+To see other commands: `grunt -h`
 
-* `./node_modules/.bin/karma start config/unit.conf.js`
-
-e2e tests
-
-* `./node_modules/.bin/karma start config/e2e.conf.js`
-
-
+````text
+Available tasks
+       connect  Start a connect web server. *
+         karma  run karma. *
+       default  Alias for "test" task.
+          test  Alias for "unit", "coverage", "acceptance" tasks.
+    acceptance  Alias for "connect", "karma:e2e" tasks.
+          unit  Alias for "karma:unit" task.
+      coverage  Alias for "karma:coverage" task.
+        server  Alias for "connect:server:keepalive" task.
+````
