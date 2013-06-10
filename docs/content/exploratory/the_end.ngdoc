@@ -4,8 +4,11 @@
 
 # Summary - Exploratory Testing
 
-Exploratory testing requires you to use quite sophisticated heuristics.
+Exploratory testing requires you to use quite sophisticated heuristics. Exploring reveals unintended consequences and uncovers implicit expectations
 
 * do as much exploratory testing as possible
 * avoid manual regression tests
-* requires a solid base of automation
+* critical thinking, no requirements doc needed
+* diverse ideas
+* rich resources
+* hard to do with a solid base of automation because you end of doing regression testing instead
