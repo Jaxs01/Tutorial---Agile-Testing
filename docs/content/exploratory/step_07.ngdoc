@@ -15,3 +15,8 @@
 * escape key on edit open doesn't shut the edit - we want this to cancel the edit rather than commit
 * when editing a task, single click on done commits the change and marks the task as complete
 * should be able to track the editing of tasks via changes in the url on the browser
+
+####Browsers
+
+* what browsers did people try? if not, why not?
+* how about user-agents? (spoofed or not)
