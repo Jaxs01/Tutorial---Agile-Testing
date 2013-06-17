@@ -1,31 +1,138 @@
 @ngdoc overview
-@name Tutorial: 7 - Scavenger hunt
+@name Tutorial: 7 - Exercise
 @description
 
-#Which of these issues did you find?
+Agile Testing tutorial
 
-#### Defects
+<ul doc-tutorial-nav="0"></ul>
 
-* shouldn't be able update a completed task
-* clear completed needs a confirmation
-* should not be able to create duplicates
+You are now ready to build the Todo app. In this step, you will become familiar
+with the most important source code files, learn how to start the development servers bundled with
+angular-seed, and run the application in the browser.
 
-####Features
 
-* escape key on edit open doesn't shut the edit - we want this to cancel the edit rather than commit
-* when editing a task, single click on done commits the change and marks the task as complete
-* should be able to track the editing of tasks via changes in the url on the browser
+<div class="tabbable" show="true" >
+  <div class="tab-pane well" title="Specifying">
+      <ol>
+        <li><p>In todo directory, run this command:</p>
+        <pre>git checkout -f exploratory-step-0</pre>
+        <p>This resets your workspace to step 0 of the tutorial app.</p>
+        <p>You must repeat this for every future step in the tutorial and change the number to
+        the number of the step you are on. This will cause any changes you made within
+        your working directory to be lost.</p></li>
 
-####Browsers
+        <li>Start the app: <code>grunt server</code></li>
+        <li>Load the app in the browser: <code>http://localhost:8000/</code></li>
+      </ol>
 
-* what browsers did people try? if not, why not?
-* how about user-agents? (spoofed or not)
+      <h1>How would you specify this app?</h1>
+      <ol>
+        <li>Spent 5 minutes getting to understand this application</li>
+        <li>Think about how you specify this application? How have you done this in the past?</li>
+        <li>Would you use SRS, use cases, user stories?</li>
+        <li>Who are you used to being involved in these?</li>
+        <li>How might that change with an agile process?</li>
+  </div>
 
-# What couldn't you do?
+  <div class="tab-pane well" title="Testing">
+      <ol>
+        <li><p>Reset the workspace to step 1.</p>
+          <pre>git checkout -f exploratory-step-1</pre>
+        </li>
+      </ol>
 
-* ??
+      <h1>How would you test this app?</h1>
+      <ol>
+        <li>Spent 5 minutes thiniing about how you would test this app</li>
+        <li>Think about how you specify this application? How have you done this in the past?</li>
+        <li>Would you use test plans or cases, acceptance criteria, none of those?</li>
+        <li>Who does these and when?</li>
+        <li>How might that change with an agile process?</li>
+      </ol>
+  </div>
 
-####Problems
+  <div class="tab-pane well" title="Unit tests">
+      <ol>
+        <li><p>Reset the workspace to step 2.</p>
+          <pre>git checkout -f exploratory-step-2</pre>
+        </li>
+      </ol>
 
-* too much to test if you get it all at the end
-* requires other knowledge (dev, analysis, business)
+      <h1>Running unit tests</h1>
+      <p>Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.</p>
+      <ol>
+        <li><code>grunt unit</code>
+        <li>Can you read the test results?</li>
+        <li>Open up source code, can you find the tests and relate them back to the results?</li>
+        <li>Can you understand the tests?</li>
+        <li>What test scenarios do these NOT cover?</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Acceptance">
+      <ol>
+        <li><p>Reset the workspace to step 3.</p>
+          <pre>git checkout -f exploratory-step-3</pre>
+        </li>
+      </ol>
+
+      <h1>Running acceptance tests</h1>
+      <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
+      <ol>
+        <li><code>grunt acceptance</code>
+        <li>Can you read the test results?</li>
+        <li>Open up source code, can you find the tests and relate them back to the results?</li>
+        <li>Can you understand the tests?</li>
+        <li>How reliable are these tests going to be?</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Manual tests">
+      <ol>
+        <li><p>Reset the workspace to step 4.</p>
+        <pre>git checkout -f exploratory-step-4</pre></li>
+      </ol>
+
+      <h1>Manual exploratory testing</h1>
+      <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
+      <ol>
+        <li><code>grunt acceptance</code>
+        <li>Can you read the test results?</li>
+        <li>Open up source code, can you find the tests and relate them back to the results?</li>
+        <li>Can you understand the tests?</li>
+        <li>How reliable are these tests going to be?</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Defects">
+      <ol>
+        <li><p>Reset the workspace to step 5.</p>
+          <pre>git checkout -f exploratory-step-5</pre>
+        </li>
+
+        <li>Instructions:</li>
+        <li>Instructions 2</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Metrics">
+      <ol>
+        <li><p>Reset the workspace to step 6.</p>
+          <pre>git checkout -f exploratory-step-6</pre>
+        </li>
+
+        <li>Instructions:</li>
+        <li>Instructions 2</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Change">
+      <ol>
+        <li><p>Reset the workspace to step 7.</p>
+        <pre>git checkout -f exploratory-step-7</pre></li>
+
+        <li>Instructions:</li>
+        <li>Instructions 2</li>
+      </ol>
+  </div>
+</div>

@@ -1,12 +1,12 @@
 @ngdoc overview
-@name Tutorial: 8 - Core practices
+@name Tutorial: 9 - Whole team
 @description
 
-# Core Practices
+# Whole-team approach
 
-* Continuous integration
-* Frequent and fast feedback
-* Coding and testing one process 
-* Test environments 
-* Manage technical debt 
-* Work incrementally
+* Team commitment to quality
+* Team responsible for testing
+* Testers get support, training
+* Developers do testing activities
+* Testers and developers pair
+* Get the right people
