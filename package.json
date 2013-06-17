@@ -17,7 +17,7 @@
     "grunt-contrib-copy": "~0.4.1"
   },
   "scripts": {
-    "start": "node connect"
+    "start": "grunt connect"
   },
   "engines": {
     "node": ">= 0.8.0"
