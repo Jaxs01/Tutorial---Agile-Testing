@@ -25,7 +25,7 @@ and follow the instructions for setting up your computer.
       <li><p>Clone the todo-tutorial repository located at <a
 href="https://bitbucket.org/Assurity/todo-tutorial/">Github</a> by running the following command:</p>
       <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
-      <p>This command creates the <code>angular-phonecat</code> directory in your current
+      <p>This command creates the <code>todo-tutorial</code> directory in your current
 directory.</p></li>
       <li><p>Change your current directory to <code>todo-tutorial</code>:</p>
       <pre>cd todo-tutorial</pre>
@@ -53,7 +53,7 @@ to run <code>grunt server</code>,  a simple bundled http server with grunt.</p><
       <li><p>Clone the todo-tutorial repository located at <a
 href="https://bitbucket.org/Assurity/todo-tutorial/">Github</a> by running the following command:</p>
       <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
-      <p>This command creates the <code>angular-phonecat</code> directory in your current
+      <p>This command creates the <code>todo-tutorial</code> directory in your current
 directory.</p></li>
       <li><p>Change your current directory to <code>todo-tutorial</code>:</p>
       <pre>cd todo-tutorial</pre>
