@@ -43,7 +43,7 @@ angular-seed, and run the application in the browser.
 
       <h1>How would you test this app?</h1>
       <ol>
-        <li>Spent 5 minutes thiniing about how you would test this app</li>
+        <li>Spent 5 minutes thinking about how you would test this app</li>
         <li>Think about how you specify this application? How have you done this in the past?</li>
         <li>Would you use test plans or cases, acceptance criteria, none of those?</li>
         <li>Who does these and when?</li>
