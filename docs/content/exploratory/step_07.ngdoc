@@ -32,15 +32,11 @@ angular-seed, and run the application in the browser.
         <li>Would you use SRS, use cases, user stories?</li>
         <li>Who are you used to being involved in these?</li>
         <li>How might that change with an agile process?</li>
+      </ol>
   </div>
 
   <div class="tab-pane well" title="Testing">
-      <ol>
-        <li><p>Reset the workspace to step 1.</p>
-          <pre>git checkout -f exploratory-step-1</pre>
-        </li>
-      </ol>
-
+      <p reset-workspace step="1"></p>
       <h1>How would you test this app?</h1>
       <ol>
         <li>Spent 5 minutes thinking about how you would test this app</li>
@@ -52,12 +48,7 @@ angular-seed, and run the application in the browser.
   </div>
 
   <div class="tab-pane well" title="Unit tests">
-      <ol>
-        <li><p>Reset the workspace to step 2.</p>
-          <pre>git checkout -f exploratory-step-2</pre>
-        </li>
-      </ol>
-
+      <div reset-workspace step="2"></div>
       <h1>Running unit tests</h1>
       <p>Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.</p>
       <ol>
@@ -70,12 +61,7 @@ angular-seed, and run the application in the browser.
   </div>
 
   <div class="tab-pane well" title="Acceptance">
-      <ol>
-        <li><p>Reset the workspace to step 3.</p>
-          <pre>git checkout -f exploratory-step-3</pre>
-        </li>
-      </ol>
-
+      <div reset-workspace step="3"></div>
       <h1>Running acceptance tests</h1>
       <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
       <ol>
@@ -88,11 +74,7 @@ angular-seed, and run the application in the browser.
   </div>
 
   <div class="tab-pane well" title="Manual tests">
-      <ol>
-        <li><p>Reset the workspace to step 4.</p>
-        <pre>git checkout -f exploratory-step-4</pre></li>
-      </ol>
-
+      <div reset-workspace step="4"></div>
       <h1>Manual exploratory testing</h1>
       <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
       <ol>
@@ -105,32 +87,24 @@ angular-seed, and run the application in the browser.
   </div>
 
   <div class="tab-pane well" title="Defects">
+      <div reset-workspace step="5"></div>
       <ol>
-        <li><p>Reset the workspace to step 5.</p>
-          <pre>git checkout -f exploratory-step-5</pre>
-        </li>
-
         <li>Instructions:</li>
         <li>Instructions 2</li>
       </ol>
   </div>
 
   <div class="tab-pane well" title="Metrics">
+      <div reset-workspace step="6"></div>
       <ol>
-        <li><p>Reset the workspace to step 6.</p>
-          <pre>git checkout -f exploratory-step-6</pre>
-        </li>
-
         <li>Instructions:</li>
         <li>Instructions 2</li>
       </ol>
   </div>
 
   <div class="tab-pane well" title="Change">
+      <div reset-workspace step="7"></div>
       <ol>
-        <li><p>Reset the workspace to step 7.</p>
-        <pre>git checkout -f exploratory-step-7</pre></li>
-
         <li>Instructions:</li>
         <li>Instructions 2</li>
       </ol>
