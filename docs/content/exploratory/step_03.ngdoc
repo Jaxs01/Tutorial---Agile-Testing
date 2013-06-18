@@ -2,10 +2,51 @@
 @name Video: 3 - Exploratory testing
 @description
 
-# Exploratory Testing
+<screencast vimeo="67086114" length="5" title="Exploratory Testing" byline="Don't get lost in aimless testing!"></screencast>
 
-<screencast vimeo="67086114" title="Exploratory Testing"></screencast>
+<blockquote voicescript heading="Exploratory Testing">
 
-(I am a 5-7 minute video that goes over the basics about trad vs agile and about how agile changes things.)
+Let's start with the premise of whether the team is waterfall or agile, we still need to attend to bugs in software at some point. Whether they arrive within a development cycle or after shipping, why weren’t they found in code reviews, unit testing, static analysis, or other developer-oriented activity? Why didn’t the test automation find them? How did they elude manual testing?
 
-(I am imaging this content is hosted on vimeo or youtube, or even on our own servers)
+Some issues are not best addressed with automation, unit testing, and so forth, they are simply inaccessible. Automate all you want, they will defy you and resurface to plague your users.
+
+## Bugs: Preventing and Detecting
+
+Bug-prevention techniques are generally developer-oriented and consist of things such as writing better specs, performing code reviews, running static analysis tools, and performing unit testing (which is often automated).
+Detecting Bugs usually comes in two forms of dynamic analysis: automated testing (writing test code to test an application) and manual testing (using shipping user interfaces to apply inputs manually). Automated testing carries both stigma and respect, but it has limits. Manual testing is the other part of that puzzle to bug prevention and detection.
+
+## Manual Tests
+
+Manual testing is human-present testing. A human testers use their brain, fingers, and wit to create the scenarios that will cause software either to fail or to fulfill its mission. Human-present testing allows the best chance to create realistic user scenarios, using real user data in real user environments and still allowing for the possibility of recognizing both obvious and subtle bugs.
+Manual testing is the best choice for finding bugs related to the underlying business logic of an application. It is complex and requires a human in the loop to verify that it is correct, a task that automation is too often ill-suited to accomplish.
+
+### Scripted Manual Testing
+
+Many manual testers are guided by scripts, written in advance, that guide input selection and dictate how the software’s results are to be checked for correctness. Sometimes scripts are specific: Enter this value, press this button, or check for that result. Such scripts are often documented in spreadsheet tables and require maintenance as features get updated through either new development or bug fixes. The scripts serve a secondary purpose of documenting the actual testing that was performed.
+Often, scripted manual testing is too rigid for some applications, or test processes and testers take a less-formal approach.
+
+## Exploratory Testing
+
+When the scripts are removed entirely, the process is called exploratory testing. Testers may interact with the application in whatever way they want and use the information the application provides to react, change course, and generally explore the application’s functionality without restraint. It may seem ad hoc to some, but in the hands of a skilled and experienced exploratory tester, this technique can prove powerful.
+
+Exploratory testing is especially suited to modern web application development using agile methods because development cycles are short, leaving little time for formal script writing and maintenance. Features often evolve quickly, so minimizing dependent artifacts (like pre-prepared test cases) is a desirable attribute. If the test case has a good chance of becoming irrelevant, why write it in the first place? Are you not setting yourself up for spending more time maintaining test cases than actually doing testing?
+
+The drawback to exploratory testing is that testers risk wasting a great deal of time wandering around an application looking for things to test and trying to find bugs. The lack of preparation, structure, and guidance can lead to many unproductive hours and retesting the same functionality over and over, particularly when multiple testers or test teams are involved. Without documentation, how do testers ensure they are getting good coverage?
+
+## Conclusion
+
+The world of manual exploratory testing is one of the most challenging and satisfying jobs in the IT industry. When done properly, exploratory testing is a strategic challenge and a match of wits between the manual tester and an application to discover hidden bugs, usability issues, and security concerns.
+The problem is that much of the modern practice of manual testing is aimless, ad hoc, and repetitive. Downright boring, some might add.
+This agile world of exploratory testing is also exciting because with it requires working as a team, closely with developers with the automated testing suite and bug finding and fixing in tight cycles.
+
+Reference: Exploratory Software Testing, James Whittaker
+
+</blockquote>
+
+<!--
+## Questions to think about
+
+1. Why can’t we just build software to test software? Why isn’t automation the answer to the software-testing problem?
+1. What type of code is automation good at testing? What type of code requires manual testing?
+1. What types of bugs is automation good at detecting? What types of bugs is automation bad at detecting? Give examples.
+-->
