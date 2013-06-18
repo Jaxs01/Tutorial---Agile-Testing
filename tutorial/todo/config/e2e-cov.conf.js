@@ -1,7 +1,10 @@
-// Testacular configuration
+/**
+ * Currently there is no coverage with e2e but it has been implemented - track it down!
+ * see: https://github.com/karma-runner/karma/issues/347
+ */
 
 // base path, that will be used to resolve files and exclude
-basePath = '../../';
+basePath = '../';
 
 // list of files / patterns to load in the browser
 files = [
@@ -9,6 +12,17 @@ files = [
   ANGULAR_SCENARIO_ADAPTER,
   'test/e2e/**/*.js'
 ];
+
+preprocessors = {
+  'js/**/*.js': 'coverage'
+};
+
+reporters = ['coverage'];
+
+coverageReporter = {
+  type : 'html',
+  dir : 'coverage/'
+}
 
 // list of files to exclude
 exclude = [];

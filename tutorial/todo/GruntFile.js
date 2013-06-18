@@ -25,7 +25,7 @@ module.exports = function (grunt) {
       server: {
         options: {
           port: 9999,
-          base: '../../todo'
+          base: '../todo'
         }
       }
     }
