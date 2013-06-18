@@ -22,7 +22,7 @@ angular-seed, and run the application in the browser.
         your working directory to be lost.</p></li>
 
         <li>Start the app: <code>grunt server</code></li>
-        <li>Load the app in the browser: <code>http://localhost:8000/</code></li>
+        <li>Load the app in the browser: <code>http://localhost:9999/</code></li>
       </ol>
 
       <h1>How would you specify this app?</h1>
