@@ -2,9 +2,10 @@
 @name Video: 3 - Exploratory testing
 @description
 
-<screencast vimeo="67086114" length="5" title="Exploratory Testing" byline="Don't get lost in aimless testing!"></screencast>
+<screencast length="5" title="Exploratory Testing" byline="Don't get lost in aimless testing!">
+  <a href="http://vimeo.com/53953" embed-video controls=0></a>
 
-<blockquote voicescript heading="Exploratory Testing">
+  <blockquote voice-script heading="Exploratory Testing">
 
 Let's start with the premise of whether the team is waterfall or agile, we still need to attend to bugs in software at some point. Whether they arrive within a development cycle or after shipping, why weren’t they found in code reviews, unit testing, static analysis, or other developer-oriented activity? Why didn’t the test automation find them? How did they elude manual testing?
 
@@ -41,7 +42,10 @@ This agile world of exploratory testing is also exciting because with it require
 
 Reference: Exploratory Software Testing, James Whittaker
 
-</blockquote>
+  </blockquote>
+
+</screencast>
+
 
 <!--
 ## Questions to think about
