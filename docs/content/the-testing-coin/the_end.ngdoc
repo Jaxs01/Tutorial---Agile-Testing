@@ -1,0 +1,14 @@
+@ngdoc overview
+@name Summary: The End
+@description
+
+# Summary - The Testing Coin
+
+Exploratory testing requires you to use quite sophisticated heuristics. Exploring reveals unintended consequences and uncovers implicit expectations
+
+* do as much exploratory testing as possible
+* avoid manual regression tests
+* critical thinking, no requirements doc needed
+* diverse ideas
+* rich resources
+* hard to do with a solid base of automation because you end of doing regression testing instead

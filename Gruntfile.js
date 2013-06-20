@@ -23,6 +23,10 @@ module.exports = function (grunt) {
         src: ['docs/content/exploratory/**/*.ngdoc'],
         title: 'Exploratory Testing'
       },
+      'thetestingcoin': {
+        src: ['docs/content/the-testing-coin/**/*.ngdoc'],
+        title: 'The Testing Coin'
+      },
       planning: {
         src: ['docs/content/planning/**/*.ngdoc'],
         title: 'Planning'
