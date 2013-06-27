@@ -23,7 +23,8 @@ angular-seed, and run the application in the browser.
         <li>Start the app: <code>grunt server</code></li>
         <li>Load the app in the browser: <code><a href="http://localhost:9999">http://localhost:9999/</a></code></li>
       </ol>
-      <h1>How would you test this app?</h1>
+      <h1>Scripted Manual Testing</h1>
+      <p>How would you test this app?</p>
       <ol>
         <li>Spent 5 minutes thinking about how you would test this app</li>
         <li>Think about how you specify this application? How have you done this in the past?</li>
@@ -33,16 +34,29 @@ angular-seed, and run the application in the browser.
       </ol>
   </div>
 
-  <div class="tab-pane well" title="Unit tests">
-      <p reset-workspace step="2"></p>
-      <h1>Running unit tests</h1>
-      <p>Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.</p>
+  <div class="tab-pane well" title="Record-Replay">
+      <p reset-workspace step="4"></p>
+      <p>Install Selenium IDE for mozilla</p>
       <ol>
-        <li><code>grunt unit</code>
+        <li>Install Mozilla Firefox</li>
+        <li>Install Selenium IDE</li>
+        <li>In Firefox, Tools, Selenium IDE, Open Test &gt; <code>test/acceptance/scenario.html</code></li>
+        <li>Run tests</li>
+      </ol>
+      <h1>Recording acceptance tests</h1>
+      <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
+      <ol>
+        <li><code>grunt server</code>
         <li>Can you read the test results?</li>
         <li>Open up source code, can you find the tests and relate them back to the results?</li>
         <li>Can you understand the tests?</li>
-        <li>What test scenarios do these NOT cover?</li>
+        <li>How reliable are these tests going to be?</li>
+      </ol>
+      <h2>Extending yourself</h2>
+      <ol>
+        <li>Record your own tests</li>
+        <li>Extend the test suite with a new test case</li>
+        <li>Just record, the same test, how easy is it? What might some problems be?</li>
       </ol>
   </div>
 
@@ -59,16 +73,27 @@ angular-seed, and run the application in the browser.
       </ol>
   </div>
 
-  <div class="tab-pane well" title="Manual tests">
-      <p reset-workspace step="4"></p>
-      <h1>Manual exploratory testing</h1>
-      <p>Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.</p>
+  <div class="tab-pane well" title="Unit tests">
+      <p reset-workspace step="2"></p>
+      <h1>Running unit tests</h1>
+      <p>Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.</p>
       <ol>
-        <li><code>grunt acceptance</code>
+        <li><code>grunt unit</code>
         <li>Can you read the test results?</li>
         <li>Open up source code, can you find the tests and relate them back to the results?</li>
         <li>Can you understand the tests?</li>
-        <li>How reliable are these tests going to be?</li>
+        <li>What test scenarios do these NOT cover?</li>
+      </ol>
+  </div>
+
+  <div class="tab-pane well" title="Manual tests">
+      <p reset-workspace step="4"></p>
+      <h1>Manual exploratory testing</h1>
+      <p>Now that we know that the application should be working as expected, now it is time to break it!</p>
+      <ol>
+        <li>Start the app: <code>grunt server</code></li>
+        <li>Load the app in the browser: <code><a href="http://localhost:9999">http://localhost:9999/</a></code></li>
+        <li>What strategies could you now use to use to do exploratory testing?</li>
       </ol>
   </div>
 
