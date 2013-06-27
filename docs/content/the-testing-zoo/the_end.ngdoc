@@ -1,0 +1,12 @@
+@ngdoc overview
+@name Summary: The End
+@description
+
+# Summary - The Testing Coin
+
+Exploratory testing requires you to use quite sophisticated heuristics. Exploring reveals unintended consequences and uncovers implicit expectations
+
+* How did testing change in the second approach? (collaborative, immediate, preventing instead of finding, questions are important and encouraged)
+* How many bugs did you find? Did it matter? When were bugs being identified?
+* Which brochure was higher quality, in your opinion? How did the different approach change the outcomes for the client?
+* Can you see why automated testing is considered important in an agile context? Potential for regression / limited testing timeframes.
