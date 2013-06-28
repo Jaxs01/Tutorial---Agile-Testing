@@ -10,7 +10,7 @@ module.exports = function (grunt) {
     ngdocs: {
       options: {
         dest: 'build',
-        scripts: ['angular.js', '../js/multichoice.js', '../js/quizes.js', '../js/screencast.js', '../js/workspace.js'],
+        scripts: ['angular.js', '../js/multichoice.js', '../js/quizes.js', '../js/screencast.js', '../js/workspace.js', '../js/timer.js'],
         styles: ['css/multichoice.css'],
         html5Mode: false,
         title: "Agile Testing"

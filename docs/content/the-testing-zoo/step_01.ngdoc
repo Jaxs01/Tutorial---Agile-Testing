@@ -11,6 +11,9 @@
   * Verify that requirements are met
   * Count how many bugs you find
 
+  <countdown time="300"/>
+
+
 --> Speaker's Notes: To illustrate the differences between testing in a waterfall environment and an agile environment, we're going to get you to complete an exercise in each and draw your own comparisons. We'll start with the familiar. You'll have 5 minutes (it would have been 10, but development missed their deadline) to verify that the requirements from the Wellington Zoo Marketing Manager for their new brochure have been met. Your test exit report is very simple; how many bugs did you find.
 
   Hand out materials, have a visible countdown clock running (iPad or laptop)
