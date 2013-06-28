@@ -3,7 +3,6 @@ angular.module('ng')
     return {
       restrict: 'E',
       replace: true,
-      transclude: true,
       scope: {
         time: '@'
       },
@@ -26,11 +25,11 @@ angular.module('ng')
 
       },
       link: function (scope, elem, attrs) {
-        var tpl = angular.element('<timer interval="1000" countdown="' + scope.time + '" autostart="false">' +
+        var tpl = angular.element('<div class="countdown"><timer interval="1000" countdown="' + scope.time + '" autostart="false">' +
           '<div class="timer">{{minutes}}:{{seconds | pad}}</div>' +
           '</timer>' +
           '<button class="btn btn-primary" ng-click="startTimer()" ng-hide="timerRunning">Start</button>' +
-          '<button class="btn btn-primary" ng-click="stopTimer()" ng-show="timerRunning">Stop</button>');
+          '<button class="btn btn-primary" ng-click="stopTimer()" ng-show="timerRunning">Stop</button></div>');
         elem.append(tpl);
         $compile(tpl)(scope);
       }
