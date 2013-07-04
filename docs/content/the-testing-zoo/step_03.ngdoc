@@ -4,7 +4,6 @@
 
 # Start releasing!
 
-
 |--
 ^^ Test and Build
 
@@ -17,11 +16,33 @@
 
 ^^ Sprint #1
 
+<countdown time="300"/>
+
 ^^ Retrospective 1
+
+Keep / Kick / Try
+
+  * What worked well? KEEP IT.
+  * What didn't work well? KICK IT.
+  * What needs to change? TRY IT.
+
+<countdown time="60"/>
 
 ^^ Sprint #2
 
+<countdown time="300"/>
+
 ^^ Retrospective 2
+
+Keep / Kick / Try
+
+  * What worked well? KEEP IT.
+  * What didn't work well? KICK IT.
+  * What needs to change? TRY IT.
+
+<countdown time="60"/>
+
+^^ What was that?
 
   * Opportunity to ask questions early
   * Collaborate with developers and business
