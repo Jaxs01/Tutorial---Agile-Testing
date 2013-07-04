@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         styles: ['css/multichoice.css', 'css/timer.css'],
         html5Mode: false,
         title: "Agile Testing",
-        extensions: ['tabs']
+        extensions: ['tabs', 'notes']
       },
       overview: {
         src: ['docs/content/overview/**/*.ngdoc'],

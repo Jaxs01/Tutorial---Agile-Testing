@@ -23,3 +23,7 @@
 .countdown button {
     right: 30px;
 }
+
+.notes {
+    display: none;
+}
