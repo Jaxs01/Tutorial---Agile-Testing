@@ -5,10 +5,10 @@
 # Start testing!
 
 |--
-^^ Testing
+^^ Your mission
 
 * 5 minutes
-* Verify that requirements are met
+* Verify that the requirements from the Wellington Zoo Marketing Manager have been met.
 * Count how many bugs you find
 
 <countdown time="300"/>
@@ -30,7 +30,7 @@
 
 --> Speaker's Notes: The Wellington Zoo Marketing Manager receives her brochure. Her feedback is...
 
-^^ Hold on!
+^^ What was that?
 
 * Testing at the end of development
 * Testing from a requirements document
