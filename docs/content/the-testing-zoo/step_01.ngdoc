@@ -4,34 +4,24 @@
 
 # Start testing!
 
-<div class="tabbable" show="true" >
-  <div class="tab-pane well" title="Testing">
+|--
+^^ Testing
 
-  * 5 minutes
-  * Verify that requirements are met
-  * Count how many bugs you find
+* 5 minutes
+* Verify that requirements are met
+* Count how many bugs you find
 
-  <countdown time="300"/>
+<countdown time="300"/>
 
+--> Speaker's Notes: To illustrate the differences between testing in a waterfall environment and an agile environment, we're going to get you to complete an exercise in each and draw your own comparisons. We'll start with the familiar. You'll have 5 minutes (it would have been 10, but development missed their deadline) to verify that the requirements from the Wellington Zoo Marketing Manager for their new brochure have been met. Your test exit report is very simple; how many bugs did you find. Hand out materials, have a visible countdown clock running (iPad or laptop)
 
---> Speaker's Notes: To illustrate the differences between testing in a waterfall environment and an agile environment, we're going to get you to complete an exercise in each and draw your own comparisons. We'll start with the familiar. You'll have 5 minutes (it would have been 10, but development missed their deadline) to verify that the requirements from the Wellington Zoo Marketing Manager for their new brochure have been met. Your test exit report is very simple; how many bugs did you find.
+^^ Status Report
 
-  Hand out materials, have a visible countdown clock running (iPad or laptop)
-
-
-  </div>
-
-  <div class="tab-pane well" title="Status Report">
-
-  * Test Exit Reports
+* Test Exit Reports
 
 --> Speaker's Notes: Go around and ask for bug counts. (I would write these on a whiteboard in the room and leave them for discussion later in the session)
 
-
-
-  </div>
-
-  <div class="tab-pane well" title="Feedback">
+^^ Feedback
 
 * Great work on those bugs, but...
 * That's too much writing; more pictures would be great.
@@ -40,9 +30,7 @@
 
 --> Speaker's Notes: The Wellington Zoo Marketing Manager receives her brochure. Her feedback is...
 
-  </div>
-
-  <div class="tab-pane well" title="Hold on!">
+^^ Hold on!
 
 * Testing at the end of development
 * Testing from a requirements document
@@ -50,7 +38,4 @@
 * Testing in isolation
 
 --> Speaker's Notes: Discussion around how testing *feels* in a waterfall environment.
-  </div>
-
-
-</div>
+--|

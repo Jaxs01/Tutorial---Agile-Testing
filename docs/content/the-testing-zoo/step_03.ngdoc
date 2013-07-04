@@ -4,41 +4,30 @@
 
 # Start releasing!
 
-<div class="tabbable" show="true" >
-  <div class="tab-pane well" title="Test and Build">
+
+|--
+^^ Test and Build
 
   * Teams of 3 people; 2 developers & 1 tester
   * 5 minute sprints
   * Prioritised backlog to work through
   * Facilitator(s) act as the customer
 
---> Speaker's Notes: In agile the team work together to deliver a product. We'll work in teams of three, 2 developers and 1 tester. The testers cannot use scissors and felts, they don't have those skills, but otherwise everyone is working together. You can have a minute to work out who will be doing what...
+--> Speaker's Notes: In agile the team work together to deliver a product. We'll work in teams of three, 2 developers and 1 tester. The testers cannot use scissors and felts, they don't have those skills, but otherwise everyone is working together. You can have a minute to work out who will be doing what... Hand out the initial scrum board to each group, with all 9 stories blu-tacked in order down the left hand column, scissors, paper, felts, and page of useful images.
 
-    Hand out the initial scrum board to each group, with all 9 stories blu-tacked in order down the left hand column, scissors, paper, felts, and page of useful images.
+^^ Sprint #1
 
-  </div>
+^^ Retrospective 1
 
-  <div class="tab-pane well" title="Sprint #1">
+^^ Sprint #2
 
-  </div>
-
-  <div class="tab-pane well" title="Retrospective 1">
-
-  </div>
-
-  <div class="tab-pane well" title="Sprint #2">
-
-  </div>
-
-  <div class="tab-pane well" title="Retrospective 2">
+^^ Retrospective 2
 
   * Opportunity to ask questions early
   * Collaborate with developers and business
   * Fewer bugs
   * Better quality product
 
-  Speaker's Notes: Discussion around how testing *feels* in an agile environment.
+-->  Speaker's Notes: Discussion around how testing *feels* in an agile environment.
 
-  </div>
-
-</div>
+--|
