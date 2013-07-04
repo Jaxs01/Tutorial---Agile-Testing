@@ -42,6 +42,20 @@ Keep / Kick / Try
 
 <countdown time="60"/>
 
+^^ Sprint #3
+
+<countdown time="300"/>
+
+^^ Retrospective 3
+
+Keep / Kick / Try
+
+  * What worked well? KEEP IT.
+  * What didn't work well? KICK IT.
+  * What needs to change? TRY IT.
+
+<countdown time="60"/>
+
 ^^ What was that?
 
   * Opportunity to ask questions early
