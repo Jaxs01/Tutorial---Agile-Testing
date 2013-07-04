@@ -9,10 +9,6 @@ angular.module('ng')
       controller: function ($scope) {
         $scope.timerRunning = false;
 
-        $scope.getTime = function () {
-          $scope.time;
-        }
-
         $scope.startTimer = function () {
           $scope.$broadcast('timer-start');
           $scope.timerRunning = true;
@@ -23,14 +19,17 @@ angular.module('ng')
           $scope.timerRunning = false;
         };
 
+        $scope.$on('timer-finish', function(){
+          $scope.finished = true;
+        })
       },
       link: function (scope, elem, attrs) {
         var tpl = angular.element('<div class="countdown">' +
           '<timer interval="1000" countdown="' + scope.time + '" autostart="false">' +
-            '<div class="timer">{{minutes}}:{{seconds | pad}}</div>' +
+          '<div class="timer">{{minutes}}:{{seconds | pad}}</div>' +
           '</timer>' +
           '<button class="btn btn-primary" ng-click="startTimer()" ng-hide="timerRunning">Start</button>' +
-          '<button class="btn btn-primary" ng-click="stopTimer()" ng-show="timerRunning">Stop</button>' +
+          '<button class="btn btn-primary" ng-click="stopTimer()" ng-disabled="finished" ng-show="timerRunning">Stop</button>' +
           '</div>');
         elem.append(tpl);
         $compile(tpl)(scope);
@@ -106,13 +105,13 @@ angular.module('ng')
           if ($scope.countdown > 0) {
             $scope.countdown--;
           }
-          else if ($scope.countdown <= 0) {
+          else {
             $scope.stop();
+            $scope.$emit('timer-finish');
           }
-
           $scope.millis = new Date() - $scope.startTime;
 
-          if ($scope.countdown > 0) {
+          if ($scope.countdown >= 0) {
             $scope.millis = $scope.countdown * 1000
           }
 
