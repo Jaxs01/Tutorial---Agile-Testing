@@ -33,10 +33,5 @@
 
 <div multichoice ng-controller="TestingZoo" />
 
-* Testing at the end of development
-* Testing from a requirements document
-* Testing squeezed timeframe
-* Testing in isolation
-
 --> Speaker's Notes: Discussion around how testing *feels* in a waterfall environment.
 --|

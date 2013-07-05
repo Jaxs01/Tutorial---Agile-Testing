@@ -1,0 +1,12 @@
+@ngdoc overview
+@name The Testing Zoo: Introduction
+@description
+
+# What is agile testing?
+
+* Isn't testing just testing?
+* Why is agile different to any other context?
+
+<img class="diagram" src="img/the-testing-zoo/hhhmmmmm.jpg" >
+
+Yes - testing is just testing. The thought processes you use in identifying tests and skills that exercise an application to reveal bugs are applicable regardless of development methodology. But outside of the actual testing, there's a big difference. Why is agile different? There's a big change in test deliverables and the way that the tester works with other roles in the team. Succeeding in an agile role without education about these changes is difficult, more so than the challenge in switching domain / industry.
