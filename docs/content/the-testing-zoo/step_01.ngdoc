@@ -19,18 +19,19 @@
 
 * Test Exit Reports
 
+<img class="diagram" src="img/the-testing-zoo/report_tick_boxes.jpg" >
+
 --> Speaker's Notes: Go around and ask for bug counts. (I would write these on a whiteboard in the room and leave them for discussion later in the session)
 
 ^^ Feedback
 
-* Great work on those bugs, but...
-* That's too much writing; more pictures would be great.
-* It won't fold in to a brochure properly?
-* We don't have an elephant!
+<img class="diagram" src="img/the-testing-zoo/feedback-marketing.png" >
 
---> Speaker's Notes: The Wellington Zoo Marketing Manager receives her brochure. Her feedback is...
+--> Speaker's Notes: The Wellington Zoo Marketing Manager receives her brochure. Her feedback is... Great work on those bugs, but...; That's too much writing; more pictures would be great; It won't fold in to a brochure properly?; We don't have an elephant!
 
 ^^ What was that?
+
+<div multichoice ng-controller="TestingZoo" />
 
 * Testing at the end of development
 * Testing from a requirements document
