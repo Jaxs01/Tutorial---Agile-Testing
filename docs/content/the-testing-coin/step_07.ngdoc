@@ -17,8 +17,6 @@ angular-seed, and run the application in the browser.
 
     This resets your workspace to step 1 of the tutorial app.
 
-    You must repeat this for every future step in the tutorial and change the number to the number of the step you are on. This will cause any changes you made within your working directory to be lost.
-
 2. Start the app: `grunt server`
 3. Load the app in the browser: {@link http://localhost:9999}
 
@@ -34,20 +32,18 @@ How would you test this app?
 
 ^^ Record-Replay
 
-<p reset-workspace step="4"></p>
-
 ## Install Selenium IDE for mozilla
 
 1. Install Mozilla Firefox
 2. Install Selenium IDE
-3. In Firefox, Tools, Selenium IDE, Open Test &gt; `test/acceptance/scenario.html`
+3. In Firefox, Tools, Selenium IDE, Open Test &gt; `test/e2e/record-replay.html`
 4. Run tests
 
 ## Recording acceptance tests
 
 Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.
 
-1. `grunt server`
+1. `grunt server-test`
 2. Can you read the test results?
 3. Open up source code, can you find the tests and relate them back to the results?
 4. Can you understand the tests?
@@ -61,7 +57,6 @@ Acceptance tests usually give the big picture about the application - business p
 
 ^^ Acceptance
 
-<p reset-workspace step="3"></p>
 ## Running acceptance tests
 Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.
 
@@ -73,7 +68,6 @@ Acceptance tests usually give the big picture about the application - business p
 
 ^^ Unit tests
 
-<p reset-workspace step="2"></p>
 ## Running unit tests
 
 Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.
@@ -86,7 +80,6 @@ Unit tests can tell you a lot about how to go about testing the application. Und
 
 ^^ Manual tests
   
-<p reset-workspace step="4"></p>
 ## Manual exploratory testing
 
 Now that we know that the application should be working as expected, now it is time to break it!
