@@ -16,14 +16,14 @@ module.exports = function (grunt) {
         title: "Agile Testing",
         extensions: ['tabs', 'notes']
       },
-      overview: {
-        src: ['docs/content/overview/**/*.ngdoc'],
-        title: 'Overview'
-      },
-      exploratory: {
-        src: ['docs/content/exploratory/**/*.ngdoc'],
-        title: 'Exploratory Testing'
-      },
+//      overview: {
+//        src: ['docs/content/overview/**/*.ngdoc'],
+//        title: 'Overview'
+//      },
+//      exploratory: {
+//        src: ['docs/content/exploratory/**/*.ngdoc'],
+//        title: 'Exploratory Testing'
+//      },
       'thetestingcoin': {
         src: ['docs/content/the-testing-coin/**/*.ngdoc'],
         title: 'The Testing Coin'
@@ -31,15 +31,15 @@ module.exports = function (grunt) {
       'thetestingzoo': {
         src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
         title: 'The Testing Zoo'
-      },
-      planning: {
-        src: ['docs/content/planning/**/*.ngdoc'],
-        title: 'Planning'
-      },
-      api: {
-        src: ['tutorial/todo/js/**/*.js'],
-        title: "Todo Code"
       }
+//      planning: {
+//        src: ['docs/content/planning/**/*.ngdoc'],
+//        title: 'Planning'
+//      },
+//      api: {
+//        src: ['tutorial/todo/js/**/*.js'],
+//        title: "Todo Code"
+//      }
     },
     connect: {
       server: {
