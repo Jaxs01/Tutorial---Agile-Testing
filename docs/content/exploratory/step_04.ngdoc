@@ -1,5 +1,0 @@
-@ngdoc overview
-@name Test: 4 - Agile changes things
-@description
-
-<div multichoice ng-controller="AgileVsWaterfall" />
