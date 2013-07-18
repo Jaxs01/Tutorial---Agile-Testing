@@ -1,7 +1,25 @@
 @ngdoc overview
-@name 2 - Herding the animals
+@name 3 - Agile
 @description
 
-# Exercise: Releasing in Zealandia
+|--
 
-<img class='diagram' src="img/the-testing-zoo/zealandia.jpg">
+^^ Common Terminology
+
+* <b>Prioritised backlog</b> - What the business want, in order of what is most important to them.
+* <b>Story</b> - One item from the backlog, a specific want.
+* <b>Iteration</b> - Development and test spend a set period of time working on the most important stories.
+* <b>Product owner</b> - acts as the voice of the business, available to the team as they work.
+* <b>Retrospective</b> - An opportunity to review the iteration and change process.
+
+<img class='diagram' src="img/the-testing-zoo/agile-cycle.png" width="488">
+
+^^ Visual Management Board
+
+* <b>To Do</b> - What you have committed to delivering
+* <b>Doing</b> - What you are working on
+* <b>Done</b> - What has been completed
+
+<img class='diagram' src="img/the-testing-zoo/vmboard.png">
+
+--|

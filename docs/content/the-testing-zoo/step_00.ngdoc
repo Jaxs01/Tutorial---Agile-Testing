@@ -1,7 +1,15 @@
 @ngdoc overview
-@name Exercise: 0 - Welcome to the Zoo
+@name 1 - Waterfall
 @description
 
-# Exercise: Testing the brochure
+|--
 
-<img class="diagram" src="img/the-testing-zoo/wgtn_zoo.jpg" >
+^^ Waterfall
+
+* Testing is a phase
+* Testing happens after development
+* Testing can be isolated from other departments of the organisation
+
+<img class="diagram" src="img/the-testing-zoo/ganttchart.jpg"/>
+
+--|

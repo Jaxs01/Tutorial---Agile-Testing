@@ -1,10 +1,13 @@
 @ngdoc overview
-@name 1 - Waterfall
+@name 2 - Welcome to the Zoo
 @description
 
-# Start testing!
-
 |--
+
+^^ Exercise
+
+<img class="diagram" src="img/the-testing-zoo/wgtn_zoo.jpg"/>
+
 ^^ Your mission
 
 * 5 minutes
@@ -17,7 +20,9 @@
 
 ^^ Status Report
 
-* Test Exit Reports
+* How many bugs did you find?
+* Were you happy with your testing?
+* What could have made your testing better?
 
 <img class="diagram" src="img/the-testing-zoo/report_tick_boxes.jpg" >
 
@@ -25,13 +30,17 @@
 
 ^^ Feedback
 
+* How do you feel about this?
+
 <img class="diagram" src="img/the-testing-zoo/feedback-marketing.png" >
 
 --> Speaker's Notes: The Wellington Zoo Marketing Manager receives her brochure. Her feedback is... Great work on those bugs, but...; That's too much writing; more pictures would be great; It won't fold in to a brochure properly?; We don't have an elephant!
 
+<!--
 ^^ What was that?
 
 <div multichoice ng-controller="TestingZoo" />
 
---> Speaker's Notes: Discussion around how testing *feels* in a waterfall environment.
+-->
+
 --|

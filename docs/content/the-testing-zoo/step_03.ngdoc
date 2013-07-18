@@ -1,10 +1,12 @@
 @ngdoc overview
-@name 3 - Agile
+@name 4 - Seeking Sanctuary
 @description
 
-# Start releasing!
-
 |--
+^^ Exercise
+
+<img class='diagram' src="img/the-testing-zoo/zealandia.jpg">
+
 ^^ Your Mission
 
   * Teams of 3 people; 2 developers & 1 tester
@@ -15,15 +17,11 @@
 
 <img class='diagram' src="img/the-testing-zoo/agile-cycle.png" width="488">
 
---> Speaker's Notes: In agile the team work together to deliver a product. We'll work in teams of three, 2 developers and 1 tester. The testers cannot use scissors and felts, they don't have those skills, but otherwise everyone is working together. You can have a minute to work out who will be doing what... Hand out the initial scrum board to each group, with all 9 stories blu-tacked in order down the left hand column, scissors, paper, felts, and page of useful images.
-
 ^^ Sprint 1
 
 <countdown time="300"/>
 
 ^^ Retro 1
-
-Keep / Kick / Try
 
   * What worked well? KEEP IT.
   * What didn't work well? KICK IT.
@@ -37,8 +35,6 @@ Keep / Kick / Try
 
 ^^ Retro 2
 
-Keep / Kick / Try
-
   * What worked well? KEEP IT.
   * What didn't work well? KICK IT.
   * What needs to change? TRY IT.
@@ -51,18 +47,17 @@ Keep / Kick / Try
 
 ^^ Retro 3
 
-Keep / Kick / Try
-
   * What worked well? KEEP IT.
   * What didn't work well? KICK IT.
   * What needs to change? TRY IT.
 
 <countdown time="60"/>
 
+<!--
 ^^ What was that?
 
 <div multichoice ng-controller="Zealandia" />
 
--->  Speaker's Notes: Discussion around how testing *feels* in an agile environment.
+-->
 
 --|

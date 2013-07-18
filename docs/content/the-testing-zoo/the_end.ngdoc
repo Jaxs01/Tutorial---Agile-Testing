@@ -1,8 +1,6 @@
 @ngdoc overview
-@name Questions
+@name 5 - Review
 @description
-
-# Questions
 
 * How did testing change in the second approach?
 * How many bugs did you find? Did it matter?
@@ -10,3 +8,5 @@
 * Which brochure was higher quality, in your opinion?
 * How did the different approach change the outcomes for the client?
 * Can you see why automated testing is considered important in an agile context?
+
+<img class="diagram" src="img/the-testing-zoo/hhhmmmmm.jpg" >
