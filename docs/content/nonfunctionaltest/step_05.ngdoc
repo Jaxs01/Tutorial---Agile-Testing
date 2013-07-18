@@ -1,0 +1,16 @@
+@ngdoc overview
+@name 5 - Automation
+@description
+
+|--
+
+^^ How to select what to automate
+
+* Easy wins vs. Priorities
+* Simple tests can show trends, particularly for performance
+
+^^ Exercise
+
+Implement some simple performance checks in JMeter
+
+--|

@@ -1,0 +1,34 @@
+@ngdoc overview
+@name 2 - Identification
+@description
+
+|--
+
+^^ Identify
+
+* How do I know what the non-functional requirements are?
+
+* There's no requirements document in agile!
+
+* Where do I start?
+
+<img class="diagram" src="img/nonfunctionaltest/shrug.jpg"/>
+
+^^ Questions
+
+<b>Heuristic Test Strategy Model</b><br/>
+James Bach's Rapid Software Testing (RST) Course
+
+<img class="diagram" src="img/nonfunctionaltest/qualitycriteriacategories.png" width="488"/>
+
+^^ Deliverable
+
+Visual deliverables are an effective way of communicating complex information to a wide audience
+
+A mind map that can be stuck to the visual management board may be a better option than a document
+
+^^ Exercise
+
+Use FreeMind to create a mind map of the Heuristic Test Strategy Model ready for a discussion with your product owner
+
+--|

@@ -1,0 +1,29 @@
+@ngdoc overview
+@name 1 - Test Early
+@description
+
+|--
+
+^^ Test Early
+
+* We want to start looking at non-functional testing as early as possible.
+
+* We don't want to have "test sprints" at the end of a project.
+
+* Though non-functional testing is traditionally a specialist area of testing that takes a long time to execute, we can pull some elements in to each sprint.
+
+<img class="diagram" src="img/nonfunctionaltest/earlybird.jpg"/>
+
+^^ How?
+
+* Identify the non-functional testing that needs to occur
+
+* Prioritise this testing with the Product Owner
+
+* Pull the most important items in to sprints
+
+* Automate where possible
+
+<img class="diagram" src="img/nonfunctionaltest/pie.jpg"/>
+
+--|
