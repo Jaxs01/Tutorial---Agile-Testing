@@ -1,16 +1,46 @@
 @ngdoc overview
-@name 5 - Automation
+@name 5 - Farmer John
 @description
 
 |--
 
-^^ How to select what to automate
+^^ Mission
 
-* Easy wins vs. Priorities
-* Simple tests can show trends, particularly for performance
+* The MetService must comply with the NZ Govt Web Usability Standard
 
-^^ Exercise
+* The product owner thinks it is especially important for farmers to be able to print forecasts
 
-Implement some simple performance checks in JMeter
+* The rural section of the MetService website should meet the printable web page standard
+
+* Complete a 10 minute non-functional test session against the MetService website
+
+* Capture your testing in a session report
+
+<img class="diagram" src="img/nonfunctionaltest/farmer.jpg" width="488"/>
+
+^^ Printable web pages
+
+The main content of each web page, with the exception of archived web pages, must be printable in its entirety on standard sheets of paper.<br/>
+
+The following types of web page content should not be printed:
+<ul>
+    <li>primary content navigation;</li>
+    <li>secondary content navigation;</li>
+    <li>thematic or decorative banner;</li>
+    <li>breadcrumbs;</li>
+    <li>search form.</li>
+</ul>
+
+Web page content should be printable by default as black text on a white background.
+
+<countdown time="600"/>
+
+^^ Retrospective
+
+* How did you find that?
+
+* Any bugs?
+
+<img class="diagram" src="img/the-testing-zoo/hhhmmmmm.jpg"/>
 
 --|

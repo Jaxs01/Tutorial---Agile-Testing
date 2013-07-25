@@ -4,20 +4,20 @@
 
 |--
 
-^^ Testing session
+^^ Session based testing
 
-What is a testing session?
+* <b>Charter</b> - a goal or agenda for a test session.
 
-What is a charter?
+* <b>Session</b> - an uninterrupted period of time spent testing, ideally lasting one to two hours.
 
-How do I record what I've done?
+* Each session is focused on a charter, but not restricted to it.
 
-^^ Exercise
+* The tester creates and executes tests based on ideas or heuristics and records their progress.
 
-Use the prioritised mind map to select a charter item
+<img class="diagram" src="img/nonfunctionaltest/goal.jpg"/>
 
-Perform a non-functional test session against the application
+^^ Reporting
 
-Provide a session based test report using rapid reporter?
+<img class="diagram" src="img/nonfunctionaltest/EmptySBTM.png"/>
 
 --|

@@ -21,14 +21,20 @@ James Bach's Rapid Software Testing (RST) Course
 
 <img class="diagram" src="img/nonfunctionaltest/qualitycriteriacategories.png" width="488"/>
 
-^^ Deliverable
+^^ Mind Maps
 
-Visual deliverables are an effective way of communicating complex information to a wide audience
+* Are useful to retain structure in conversations with stakeholders
 
-A mind map that can be stuck to the visual management board may be a better option than a document
+* Are an effective way of communicating complex information
 
-^^ Exercise
+* Show scope and progress in a graphical way
 
-Use FreeMind to create a mind map of the Heuristic Test Strategy Model ready for a discussion with your product owner
+* Can be posted on the visual management board
+
+<img class="diagram" src="img/nonfunctionaltest/NonFunctionalTestingMindMap.png" width="568"/>
+
+^^ Quiz
+
+<div multichoice ng-controller="NonFunctional" />
 
 --|
