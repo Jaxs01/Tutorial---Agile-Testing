@@ -12,7 +12,7 @@
 
 * The rural section of the MetService website should meet the printable web page standard
 
-* Complete a 10 minute non-functional test session against the MetService website
+* Complete a 15 minute non-functional test session against the MetService website
 
 * Capture your testing in a session report
 
@@ -33,7 +33,7 @@ The following types of web page content should not be printed:
 
 Web page content should be printable by default as black text on a white background.
 
-<countdown time="600"/>
+<countdown time="900"/>
 
 ^^ Retrospective
 

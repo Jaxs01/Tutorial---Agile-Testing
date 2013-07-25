@@ -35,4 +35,16 @@ angular.module('ng').
       { answer: "b", question: "Better quality product", hint: "If the person wanting the software is working with you throughout and providing feedback and there's testing and discussion, it's just got to be better. Don't you think?"}
 
     ];
-  });
+  })
+
+  .controller('NonFunctional', function ($scope) {
+    $scope.title = "Non-functional testing?";
+    $scope.options = { a: "Yes", b: "No" };
+    $scope.questions = [
+        { answer: "b", question: "We should use test sprints for non-functional testing", hint: "Developers and testers should work together on the same stories"},
+        { answer: "a", question: "We can do non-functional testing without requirements", hint: "Testing can discover requirements when determining what will be acceptable to the product owner"},
+        { answer: "b", question: "Testers should prioritise non-functional testing", hint: "The product owner has responsibility for determining priority"},
+        { answer: "a", question: "Mind maps can show scope and progress of testing in a graphical way", hint: "Mind maps with icons can be stuck to Visual Management Boards"}
+
+    ];
+});
