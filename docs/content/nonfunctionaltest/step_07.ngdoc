@@ -1,0 +1,60 @@
+@ngdoc overview
+@name 7 - JMeter
+@description
+
+|--
+
+^^ Download
+
+<a href="https://jmeter.apache.org/download_jmeter.cgi">Download JMeter</a>
+
+^^ Thread Group
+
+<b>Purpose</b>
+<ul>
+<li>the number of users you want to simulate</li>
+<li>how often the users should send requests</li>
+<li>how many requests they should send</li>
+</ul>
+
+Each thread will execute the test plan in its entirety and completely independently of other test threads.
+Multiple threads are used to simulate concurrent connections to your server application.
+
+<img class="diagram" src="img/nonfunctionaltest/AddThreadGroup.png"/>
+
+^^ Configuration
+
+* <b>HTTP Request Defaults</b> - lets you set default values that your HTTP requests use
+
+<img class="diagram" src="img/nonfunctionaltest/HTTPRequestDefaults.png" width="600"/>
+
+* <b>HTTP Cookie Manager</b> - gives each thread its own cookies, shared across all HTTP requests
+
+<img class="diagram" src="img/nonfunctionaltest/AddHTTPCookieManager.png"/>
+
+^^ Request
+
+A person visiting <a href="http://www.metservice.com/rural/buller" target="_blank">http://www.metservice.com/rural/buller</a>
+
+<img class="diagram" src="img/nonfunctionaltest/RuralBuller.png" width="600"/>
+
+^^ Listener
+
+To view test results in a variety of formats
+
+<img class="diagram" src="img/nonfunctionaltest/listeners.png" width="600"/>
+
+^^ Tour
+
+* Turn your single request in to a tour of the website
+
+* Explore grouping requests in controllers
+
+* Try altering your Thread Group configuration
+
+* See what data is available from different types of Listeners
+
+<img class="diagram" src="img/nonfunctionaltest/performance.jpg"/>
+
+
+--|

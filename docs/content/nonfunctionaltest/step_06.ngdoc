@@ -2,15 +2,9 @@
 @name 6 - Automation
 @description
 
-|--
-
-^^ How to select what to automate
+# How to select what to automate
 
 * Easy wins vs. Priorities
 * Simple tests can show trends, particularly for performance
 
-^^ Exercise
-
-Implement some simple performance checks in JMeter
-
---|
+<img class="diagram" src="img/nonfunctionaltest/PerformanceTrend.jpg" width="600"/>

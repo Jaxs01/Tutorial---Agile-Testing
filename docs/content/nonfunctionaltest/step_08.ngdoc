@@ -1,0 +1,12 @@
+@ngdoc overview
+@name 8 - Behind the scenes
+@description
+
+# Behind the scenes
+
+* What is being returned?
+* How stable is it?
+* How important is it?
+
+<img class="diagram" src="img/nonfunctionaltest/BehindTheScenes.png" width="600"/>
+

@@ -2,9 +2,7 @@
 @name 3 - Prioritisation
 @description
 
-|--
-
-^^ What's Important?
+# What's Important?
 
 * Test time is limited, we want to use it wisely
 
@@ -15,13 +13,3 @@
 * How are these priorities recorded?
 
 <img class="diagram" src="img/nonfunctionaltest/priority.jpg"/>
-
-^^ Example
-
-A mind map with priorities entered??
-
-A test strategy excerpt??
-
-Potentially use ACC stuff - cleansed.
-
---|
