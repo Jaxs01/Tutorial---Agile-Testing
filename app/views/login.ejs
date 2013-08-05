@@ -1,0 +1,90 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="Description" content="Law in order">
+  <meta name="fragment" content="!">
+  <title>Education - Assurity Consulting</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+
+    <style type="text/css">
+        /* Override some defaults */
+        html, body {
+          background-color: #eee;
+        }
+        body {
+          padding-top: 40px;
+        }
+        .container {
+          width: 450px;
+        }
+
+        /* The white background content wrapper */
+        .container > .content {
+          background-color: #fff;
+          padding: 20px;
+          margin: 0 -20px;
+          -webkit-border-radius: 10px 10px 10px 10px;
+             -moz-border-radius: 10px 10px 10px 10px;
+                  border-radius: 10px 10px 10px 10px;
+          -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+             -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+        }
+
+  	  .login-form {
+  		margin-left: 65px;
+  	  }
+
+  	  legend {
+  		margin-right: -50px;
+  		font-weight: bold;
+  	  	color: #404040;
+  	  }
+
+  	  .form-control {
+  	    WIDTH: 80%
+  	  }
+
+      </style>
+
+	</head>
+	<body>
+
+	  <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="login-form">
+              <h2>Assurity Education</h2>
+
+                      <% if (message) { %>
+                      <p><%= message %></p>
+                      <% } %>
+
+                      <form class="form-horizontal" action="/login" method="post">
+                        <div class="form-group clearfix">
+                          <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                          <div class="col-lg-10">
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Email">
+                          </div>
+                        </div>
+                        <div class="form-group clearfix">
+                          <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                          <div class="col-lg-10">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                            <br/>
+                            <button type="submit" class="btn btn-default">Sign in</button>
+                          </div>
+                        </div>
+                        <div>
+                        </div>
+                      </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
