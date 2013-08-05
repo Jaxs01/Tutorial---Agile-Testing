@@ -35,14 +35,9 @@ Thumbs.db
 
 # Build generated files #
 #########################
-build
-bin
-results
-public/vendor
-public/dist
 node_modules
-testrunner/testlist.js
-coverage
+app/public
+app/node_modules
 
 .gradle
 .settings
