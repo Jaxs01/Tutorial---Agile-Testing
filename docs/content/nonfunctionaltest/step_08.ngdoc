@@ -2,6 +2,20 @@
 @name 8 - Behind the scenes
 @description
 
+
+^^ Tour
+
+* Turn your single request in to a tour of the website
+
+* Explore grouping requests in controllers
+
+* Try altering your Thread Group configuration
+
+* See what data is available from different types of Listeners
+
+<img class="diagram" src="img/nonfunctionaltest/performance.jpg"/>
+
+
 # Behind the scenes
 
 * What is being returned?
