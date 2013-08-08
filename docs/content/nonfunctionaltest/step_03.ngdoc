@@ -2,14 +2,22 @@
 @name 3 - Prioritisation
 @description
 
-# What's Important?
+|--
+
+^^ What's Important?
 
 * Test time is limited, we want to use it wisely
 
-* Focus on the things that are most important first
+* Focus on the non-functional requirements that are most important first
 
 * Important to who?
 
 * How are these priorities recorded?
 
 <img class="diagram" src="img/nonfunctionaltest/priority.jpg"/>
+
+^^ Quiz
+
+<div multichoice ng-controller="NonFunctional" />
+
+--|

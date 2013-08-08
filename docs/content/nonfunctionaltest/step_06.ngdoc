@@ -2,9 +2,6 @@
 @name 6 - Automation
 @description
 
-# How to select what to automate
-
-* Easy wins vs. Priorities
-* Simple tests can show trends, particularly for performance
+Simple tests can show trends, particularly for performance
 
 <img class="diagram" src="img/nonfunctionaltest/PerformanceTrend.jpg" width="600"/>

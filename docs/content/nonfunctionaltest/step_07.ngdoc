@@ -1,60 +1,49 @@
 @ngdoc overview
-@name 7 - JMeter
+@name 7 - JMeter Basics
 @description
 
 |--
 
-^^ Download
+^^ JMeter
 
-<a href="https://jmeter.apache.org/download_jmeter.cgi">Download JMeter</a>
+Launch the application
+
+<img class="diagram" src="img/nonfunctionaltest/JMeter.png" width="600"/>
 
 ^^ Thread Group
 
-<b>Purpose</b>
-<ul>
-<li>the number of users you want to simulate</li>
-<li>how often the users should send requests</li>
-<li>how many requests they should send</li>
-</ul>
-
-Each thread will execute the test plan in its entirety and completely independently of other test threads.
-Multiple threads are used to simulate concurrent connections to your server application.
+A test plan includes a number of threads.<br/>
+Each thread will execute the test plan in its entirety and completely independently of other test threads.<br/>
+Multiple threads are used to simulate concurrent connections to your server application.<br/>
 
 <img class="diagram" src="img/nonfunctionaltest/AddThreadGroup.png"/>
 
-^^ Configuration
+^^ Defaults
 
-* <b>HTTP Request Defaults</b> - lets you set default values that your HTTP requests use
+To share common settings across all samples in a thread
+
+<img class="diagram" src="img/nonfunctionaltest/AddHTTPRequestDefaults.png" width="600"/>
 
 <img class="diagram" src="img/nonfunctionaltest/HTTPRequestDefaults.png" width="600"/>
 
-* <b>HTTP Cookie Manager</b> - gives each thread its own cookies, shared across all HTTP requests
+^^ Cookies
 
-<img class="diagram" src="img/nonfunctionaltest/AddHTTPCookieManager.png"/>
+<img class="diagram" src="img/nonfunctionaltest/AddHTTPCookieManager.png" width="600"/>
 
-^^ Request
+^^ HTTP Sampler
 
-A person visiting <a href="http://www.metservice.com/rural/buller" target="_blank">http://www.metservice.com/rural/buller</a>
+<img class="diagram" src="img/nonfunctionaltest/AddHTTPRequest.png" width="600"/>
 
-<img class="diagram" src="img/nonfunctionaltest/RuralBuller.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/HTTPRequest.png" width="600"/>
 
 ^^ Listener
 
-To view test results in a variety of formats
+<img class="diagram" src="img/nonfunctionaltest/AddViewResultsTree.png" width="600"/>
 
-<img class="diagram" src="img/nonfunctionaltest/listeners.png" width="600"/>
+^^ Run
 
-^^ Tour
+Save the Basic Test Plan and run it, check that your request is processed successfully
 
-* Turn your single request in to a tour of the website
-
-* Explore grouping requests in controllers
-
-* Try altering your Thread Group configuration
-
-* See what data is available from different types of Listeners
-
-<img class="diagram" src="img/nonfunctionaltest/performance.jpg"/>
-
+<img class="diagram" src="img/nonfunctionaltest/Result.png" width="600"/>
 
 --|

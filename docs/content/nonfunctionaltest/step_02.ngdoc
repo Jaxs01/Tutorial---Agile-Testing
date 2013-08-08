@@ -33,8 +33,4 @@ James Bach's Rapid Software Testing (RST) Course
 
 <img class="diagram" src="img/nonfunctionaltest/NonFunctionalTestingMindMap.png" width="568"/>
 
-^^ Quiz
-
-<div multichoice ng-controller="NonFunctional" />
-
 --|
