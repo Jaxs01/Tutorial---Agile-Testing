@@ -42,7 +42,7 @@ To share common settings across all samples in a thread
 
 ^^ Run
 
-Save the Test Plan and run it, check that your request is processed successfully
+Save the Basic Test Plan and run it, check that your request is processed successfully
 
 <img class="diagram" src="img/nonfunctionaltest/Result.png" width="600"/>
 

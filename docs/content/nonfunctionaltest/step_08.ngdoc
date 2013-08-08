@@ -1,26 +1,35 @@
 @ngdoc overview
-@name 8 - Behind the scenes
+@name 8 - JMeter Extended
 @description
 
+|--
 
-^^ Tour
+^^ Challenge
 
-* Turn your single request in to a tour of the website
+* Simulate 10 users accessing this page over a 30s period [Thread Group]
 
-* Explore grouping requests in controllers
+* Find the average response time for these 10 requests [View Results in Table]
 
-* Try altering your Thread Group configuration
+* Graph the response times each second for a single execution [Response Time Graph]
 
-* See what data is available from different types of Listeners
+* Simulate a tour by including another 5 pages from Assurity Education [HTTP Requests]
 
-<img class="diagram" src="img/nonfunctionaltest/performance.jpg"/>
+* How does this alter your reporting?
+
+<countdown time="480"/>
+
+<b>Before starting, save your Test Plan under a different file name</b>
+
+^^ Response
+
+* What are we testing?
+
+<img class="diagram" src="img/nonfunctionaltest/PreData.png" width="600"/>
+
+<img class="diagram" src="img/nonfunctionaltest/PostData.png" width="600"/>
+
+^^ Network
 
 
-# Behind the scenes
 
-* What is being returned?
-* How stable is it?
-* How important is it?
-
-<img class="diagram" src="img/nonfunctionaltest/BehindTheScenes.png" width="600"/>
-
+--|
