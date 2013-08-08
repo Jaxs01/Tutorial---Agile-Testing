@@ -1,0 +1,77 @@
+@ngdoc overview
+@name Tutorial: 0 - Test Automation Pyramid
+@description
+
+<screencast length="6" title="Test Automation Pyramid" byline="It takes a little automation with a dash of manual">
+  <a href="http://vimeo.com/71946508" embed-video controls=0></a>
+
+  <blockquote voice-script heading="Test Automation Pyramid">
+
+Introduction
+
+Welcome to this introduction about the test automation pyramid.
+
+The software testing pyramid is a visual way to represent were you should start focusing your testing effort. It is a metaphor concerning three layers that is foremostly concerned with how we think about going about testing – what types of tests we run and how many of each.
+
+[slide 2 - pyramid]
+
+The test automation pyramid was introduced to explain to people that not all testing needs to go through the UI. It also helps us understand that a test automation strategy requires both automation and manual testing. It has three main layers.
+
+[slide 3 - unit]
+
+Layer one. Unit tests. The key idea is that you want more of these than any other level of test because they:
+
+* test the behaviour inside the code
+* are easy to write & maintain (due to their independence)
+* are quick to run
+
+Having a base of unit tests is cost efficient, but it is not the whole story. They don't provide enough confidence about the for applications.
+[slide 4 - integration]
+ The next layer up is integration tests. They test
+
+* integration between components or external third-party services
+* ensure dependencies of the system being developed continue to work as expected
+* are slower than unit tests to run
+
+[slide 5 - gui ]
+
+The top of the triangle are the acceptance tests - sometimes also called GUI tests, system tests or probably best called end-to-end tests. This layer has the fewest number of tests in test suite. Acceptance tests are:
+
+* best for talking with business stakeholders because they are generally written human readable language
+* a means of knowing when we done
+* checking the UI by actually clicking on buttons and links and entering data
+
+But they have problems:
+
+* they have a high dependency on other components
+* they are brittle and easily broken when the underlying code changes. SO A small change in the user interface can break many tests. When this is repeated many times over the course of a project, teams simply give up and stop correcting tests every time the user interface changes.
+* they are expensive to write. While a quick capture-and-playback approach to recording user interface tests can work, tests recorded this way are usually the most brittle. Writing a good user interface test that will remain useful and valid takes time.
+* finally, they are the slowest out of the three levels to run by a significant difference. Because tests run through the user interface they can take a long time. So often teams have impressive suites of automated user interface tests. But they take so long to run that they may only be run overnight, let alone multiple times a day or after every code commit.
+
+So that is only the automation side of the story. But we can't and shouldn't automate everything.
+
+[slide - exploratory ]
+
+We also need exploratory testing. This is the cloud over the top of the pyramid. We need exploratory testing which is deep, calculative yet ad hoc that attempts to create negative side effects that we can then automate.
+
+[slide - right thing]
+
+There is another way to think about the layering the in pyramid. At the bottom we have technical facing tests which we tend to automate and help us ask and answer the question, are we building the system right. On the top, we have business facing tests which tend to be manual asking, are we building the right system.
+
+[slide - ice cream]
+
+Understanding the shape of the test pyramid in your code  base is important. YOu may have too many automated GUI or acceptance tests because there aren't enough unit tests. This is a common problem for organisations who use automation. The shape of the pyramid in this case is inverted, or more appropriately, it looks like an ice cream. And the problem with the ice cream is it ice cream usually falls off the cone!
+
+[slide - pyramid]
+So in summary, The pyramid gets it shape because:
+* Large numbers of very small unit tests – set a foundation on simple tests
+* Smaller number of functional tests for major components
+* Even fewer tests for the entire application & workflow
+
+But any automation implementation, regardless its shape, requires both automation and manual testing.
+
+Thanks for listening and I hope that has been a useful introduction to the test automation pyramid.
+
+  </blockquote>
+
+</screencast>
