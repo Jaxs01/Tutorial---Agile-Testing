@@ -1,15 +1,8 @@
 @ngdoc overview
-@name 9 - Conclusion
+@name 9 - JMeter Jenkins
 @description
 
-# Conclusion
+How about adding a short video of setting up Jenkins to create the JMeter charts?
+This wouldn't need to show source control, it could pick the JMeter file off the file system.
+I reckon we could aim for a 3 minute video to show the full setup.
 
-* Identify the non-functional testing that needs to occur
-
-* Prioritise this testing with the Product Owner
-
-* Pull the most important items in to sprints
-
-* Automate where possible
-
-<img class="diagram" src="img/nonfunctionaltest/pie.jpg"/>

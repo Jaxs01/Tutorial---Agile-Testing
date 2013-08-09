@@ -1,0 +1,15 @@
+@ngdoc overview
+@name 10 - Conclusion
+@description
+
+# Conclusion
+
+* Identify the non-functional testing that needs to occur
+
+* Prioritise this testing with the Product Owner
+
+* Pull the most important items in to sprints
+
+* Automate where possible
+
+<img class="diagram" src="img/nonfunctionaltest/pie.jpg"/>
