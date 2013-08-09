@@ -16,6 +16,8 @@
 
 * How does this alter your reporting?
 
+* Can you make your test plan and reporting more readable? [Names]
+
 <countdown time="480"/>
 
 <b>Before starting, save your Test Plan under a different file name</b>
@@ -30,6 +32,9 @@
 
 ^^ Network
 
+<img class="diagram" src="img/nonfunctionaltest/RequestingAWebPage.png"/>
+
+Open your basic test plan and request the <b>course data</b> rather than the HTML document
 
 
 --|
