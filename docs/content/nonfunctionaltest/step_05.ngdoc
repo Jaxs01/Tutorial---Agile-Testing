@@ -7,35 +7,30 @@
 ^^ Mission
 
 * The MetService must comply with the NZ Govt Web Usability Standard
-
 * The product owner thinks it is especially important for farmers to be able to print forecasts
-
 * The rural section of the MetService website should meet the printable web page standard
-
 * Complete a 15 minute non-functional test session against the MetService website
-
 * Capture your testing in a session report
 
-<img class="diagram" src="img/nonfunctionaltest/farmer.jpg" width="488"/>
+<img class="diagram" src="img/nonfunctionaltest/the-farmer.jpg" width="488"/>
 
 ^^ Printable web pages
 
-<b>Charter</b>
+#### Charter
 
 The rural section of the MetService website should meet the printable web page standard
 
-<b>Standard</b>
+#### Standard
 
 The main content of each web page, with the exception of archived web pages, must be printable in its entirety on standard sheets of paper.<br/>
 
 The following types of web page content should not be printed:
-<ul>
-    <li>primary content navigation;</li>
-    <li>secondary content navigation;</li>
-    <li>thematic or decorative banner;</li>
-    <li>breadcrumbs;</li>
-    <li>search form.</li>
-</ul>
+
+* primary content navigation
+* secondary content navigation
+* thematic or decorative banner
+* breadcrumbs
+* search form
 
 Web page content should be printable by default as black text on a white background.
 
@@ -44,7 +39,6 @@ Web page content should be printable by default as black text on a white backgro
 ^^ Retrospective
 
 * How did you find that?
-
 * Any bugs?
 
 <img class="diagram" src="img/the-testing-zoo/hhhmmmmm.jpg"/>

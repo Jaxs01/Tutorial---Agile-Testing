@@ -7,16 +7,14 @@
 ^^ Identify
 
 * How do I know what the non-functional requirements are?
-
 * There's no requirements document in agile!
-
 * Where do I start?
 
 <img class="diagram" src="img/nonfunctionaltest/shrug.jpg"/>
 
 ^^ Questions
 
-<b>Heuristic Test Strategy Model</b><br/>
+#### Heuristic Test Strategy Model
 James Bach's Rapid Software Testing (RST) Course
 
 <img class="diagram" src="img/nonfunctionaltest/qualitycriteriacategories.png" width="488"/>
@@ -24,11 +22,8 @@ James Bach's Rapid Software Testing (RST) Course
 ^^ Mind Maps
 
 * Are useful to retain structure in conversations with stakeholders
-
 * Are an effective way of communicating complex information
-
 * Show scope and progress in a graphical way
-
 * Can be posted on the visual management board
 
 <img class="diagram" src="img/nonfunctionaltest/NonFunctionalTestingMindMap.png" width="568"/>
