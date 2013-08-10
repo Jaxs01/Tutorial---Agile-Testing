@@ -8,73 +8,59 @@ Agile Testing tutorial
 
 You are now ready to build the Todo app. In this step, you will become familiar
 with the most important source code files, learn how to start the development servers bundled with
-angular-seed, and run the application in the browser.
+the application, and run the application in the browser.
+
+|--
+^^ Git on Mac/Linux
+
+1.  Clone the todo-tutorial repository located at [BitBucket](https://bitbucket.org/Assurity/todo-tutorial/) by running the following command:
+
+    <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
+
+    This command creates the `todo-tutorial` directory in your current directory
+2.  Change your current directory to `todo-tutorial`:
+
+    <pre>cd todo-tutorial</pre>
+
+    The tutorial instructions assume you are running all commands from the todo-tutorial directory.
+
+3.  In `todo-tutorial` directory, run this command:
+
+    <pre>git checkout -f step-exploratory-0</pre>
+
+    This resets your workspace to step 0 of the tutorial app.
+
+    You must repeat this for every future step in the tutorial and change the number to the number of the step you are on. This will cause any changes you made within your working directory to be lost.
+
+4.  To see the app running in a browser, do one of the following:
+    1. In a _separate_ terminal tab or window, run `grunt server` to start the web server.
+    2. Open a browser window for the app and navigate to [http://localhost:9999](http://localhost:9999)
+
+^^ Git on Windows
+
+1.  Clone the todo-tutorial repository located at [BitBucket](https://bitbucket.org/Assurity/todo-tutorial/) by running the following command:
+
+    <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
+
+    This command creates the `todo-tutorial` directory in your current directory
+2.  Change your current directory to `todo-tutorial`:
+
+    <pre>cd todo-tutorial</pre>
+
+    The tutorial instructions assume you are running all commands from the todo-tutorial directory.
+
+3.  In `todo-tutorial` directory, run this command:
+
+    <pre>git checkout -f step-exploratory-0</pre>
+
+    This resets your workspace to step 0 of the tutorial app.
+
+    You must repeat this for every future step in the tutorial and change the number to the number of the step you are on. This will cause any changes you made within your working directory to be lost.
+
+4.  To see the app running in a browser, do one of the following:
+    1. In a _separate_ terminal tab or window, run `grunt server` to start the web server.
+    2. Open a browser window for the app and navigate to [http://localhost:9999](http://localhost:9999)
+--|
 
 
-<div class="tabbable" show="true" ng-model="$cookies.platformPreference">
-  <div class="tab-pane well" id="git-mac" title="Git on Mac/Linux" value="gitUnix">
-    <ol>
-      <li><p>Clone the todo-tutorial repository located at <a
-    href="https://bitbucket.org/Assurity/todo-tutorial/">Github</a> by running the following command:</p>
-          <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
-          <p>This command creates the <code>todo-tutorial</code> directory in your current
-    directory.</p></li>
-          <li><p>Change your current directory to <code>todo-tutorial</code>:</p>
-          <pre>cd todo-tutorial</pre>
-          <p>The tutorial instructions assume you are running all commands from the todo-tutorial
-    directory.</p></li>
-      <li><p>In <code>todo-tutorial</code> directory, run this command:</p>
-      <pre>git checkout -f step-exploratory-0</pre>
-      <p>This resets your workspace to step 0 of the tutorial app.</p>
-      <p>You must repeat this for every future step in the tutorial and change the number to
-      the number of the step you are on. This will cause any changes you made within
-      your working directory to be lost.</p></li>
-
-      <li>To see the app running in a browser, do one of the following:
-        <ul>
-            <ol>
-              <li>In a <i>separate</i> terminal tab or window, run
-<code>grunt server</code> to start the web server.</li>
-              <li>Open a browser window for the app and navigate to <a
-href="http://localhost:9999">http://localhost:9999/</a></li>
-            </ol>
-          </li>
-        </ul>
-      </li>
-    </ol>
-  </div>
-
-
-  <div class="tab-pane well" id="git-win" title="Git on Windows" value="gitWin">
-    <ol>
-      <li><p>Clone the todo-tutorial repository located at <a
-    href="https://bitbucket.org/Assurity/todo-tutorial/">Github</a> by running the following command:</p>
-          <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
-          <p>This command creates the <code>todo-tutorial</code> directory in your current
-    directory.</p></li>
-          <li><p>Change your current directory to <code>todo-tutorial</code>:</p>
-          <pre>cd todo-tutorial</pre>
-          <p>The tutorial instructions assume you are running all commands from the todo-tutorial
-    directory.</p></li>
-      <li><p>Open Git bash and run this command (in <code>todo-tutorial</code> directory):</p>
-      <pre>git checkout -f step-exploratory-0</pre>
-      <p>This resets your workspace to step 0 of the tutorial app.</p>
-      <p>You must repeat this for every future step in the tutorial and change the number to
-      the number of the step you are on. This will cause any changes you made within
-      your working directory to be lost.</p></li>
-      <li>To see the app running in a browser, do one of the following:
-        <ul>
-            <ol>
-              <li>In a <i>separate</i> terminal tab or window, run <code>grunt server</code> to start the web server.</li>
-              <li>Open a browser window for the app and navigate to <a
-href="http://localhost:9999">http://localhost:9999/</a></li>
-            </ol>
-          </li>
-        </ul>
-      </li>
-    </ol>
-  </div>
-</div>
-
-
-You should now see the <a href="http://localhost:9999">TODO</a> app in your browser. It's not very exciting, but that's OK.
+You should now see the [TODO](http://localhost:9999) app in your browser. It's not very exciting, but that's OK.
