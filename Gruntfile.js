@@ -55,7 +55,7 @@ module.exports = function (grunt) {
                 path: 'http://localhost:9001'
             },
             prod : {
-                path : 'http:://test:secret@localhost:9955'
+                path : 'http://test:secret@localhost:9955'
             }
         },
         watch: {
