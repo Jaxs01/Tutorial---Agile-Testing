@@ -6,14 +6,14 @@
 
 You are now ready to build the Todo app. In this step, you will become familiar
 with the most important source code files, learn how to start the development servers bundled with
-angular-seed, and run the application in the browser.
+the TODO app, and run the application in the browser.
 
 |--
 ^^ Testing
 
 1. In todo directory, run this command:
 
-        git checkout -f exploratory-step-1
+    <pre>git checkout -f exploratory-step-1</pre>
 
     This resets your workspace to step 1 of the tutorial app.
 
