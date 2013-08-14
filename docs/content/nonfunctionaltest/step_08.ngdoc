@@ -26,13 +26,13 @@
 
 * What are we testing?
 
-<img class="diagram" src="img/nonfunctionaltest/PreData.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/predata.png" width="600"/>
 
-<img class="diagram" src="img/nonfunctionaltest/PostData.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/postdata.png" width="600"/>
 
 ^^ Network
 
-<img class="diagram" src="img/nonfunctionaltest/RequestingAWebPage.png"/>
+<img class="diagram" src="img/nonfunctionaltest/requestingawebpage.png"/>
 
 Open your basic test plan and request the <b>course data</b> rather than the HTML document
 

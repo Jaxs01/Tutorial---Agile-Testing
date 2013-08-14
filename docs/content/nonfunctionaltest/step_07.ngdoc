@@ -8,7 +8,7 @@
 
 Launch the application
 
-<img class="diagram" src="img/nonfunctionaltest/JMeter.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/jmeter.png" width="600"/>
 
 ^^ Thread Group
 
@@ -16,34 +16,34 @@ A test plan includes a number of threads.<br/>
 Each thread will execute the test plan in its entirety and completely independently of other test threads.<br/>
 Multiple threads are used to simulate concurrent connections to your server application.<br/>
 
-<img class="diagram" src="img/nonfunctionaltest/AddThreadGroup.png"/>
+<img class="diagram" src="img/nonfunctionaltest/addthreadgroup.png"/>
 
 ^^ Defaults
 
 To share common settings across all samples in a thread
 
-<img class="diagram" src="img/nonfunctionaltest/AddHTTPRequestDefaults.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/addhttprequestdefaults.png" width="600"/>
 
-<img class="diagram" src="img/nonfunctionaltest/HTTPRequestDefaults.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/httprequestdefaults.png" width="600"/>
 
 ^^ Cookies
 
-<img class="diagram" src="img/nonfunctionaltest/AddHTTPCookieManager.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/addhttpcookiemanager.png" width="600"/>
 
 ^^ HTTP Sampler
 
-<img class="diagram" src="img/nonfunctionaltest/AddHTTPRequest.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/addhttprequest.png" width="600"/>
 
-<img class="diagram" src="img/nonfunctionaltest/HTTPRequest.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/httprequest.png" width="600"/>
 
 ^^ Listener
 
-<img class="diagram" src="img/nonfunctionaltest/AddViewResultsTree.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/addviewresultstree.png" width="600"/>
 
 ^^ Run
 
 Save the Basic Test Plan and run it, check that your request is processed successfully
 
-<img class="diagram" src="img/nonfunctionaltest/Result.png" width="600"/>
+<img class="diagram" src="img/nonfunctionaltest/result.png" width="600"/>
 
 --|
