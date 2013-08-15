@@ -20,21 +20,29 @@ module.exports = function (grunt) {
                 ignoreFile: 'docs/ignore.words',
                 indexTemplate: 'docs/index.tmpl'
             },
-            overview: {
-                src: ['docs/content/overview/**/*.ngdoc'],
-                title: 'Overview'
+//            overview: {
+//                src: ['docs/content/overview/**/*.ngdoc'],
+//                title: 'Overview'
+//            },
+            'thetestingzoo': {
+                src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
+                title: 'The Testing Zoo'
+            },
+            'collaborativerequirements': {
+                src: ['docs/content/collaborative-requirements/**/*.ngdoc'],
+                title: 'Collaborative Requirements'
             },
             'thetestingcoin': {
                 src: ['docs/content/the-testing-coin/**/*.ngdoc'],
                 title: 'The Testing Coin'
             },
-            'thetestingzoo': {
-                src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
-                title: 'The Testing Zoo'
-            },
             'nonfunctionaltest': {
                 src: ['docs/content/nonfunctionaltest/**/*.ngdoc'],
                 title: 'Non Functional Test'
+            },
+            'communication': {
+                src: ['docs/content/communication/**/*.ngdoc'],
+                title: 'Communication'
             }
 //      planning: {
 //        src: ['docs/content/planning/**/*.ngdoc'],

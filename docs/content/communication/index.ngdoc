@@ -1,0 +1,34 @@
+@ngdoc overview
+@name Communication
+@description
+
+# Communication
+
+Goals for this module.
+
+1. Explain the roles and responsibilities in agile for tester / BA / PO / Dev (Section 3.1.*)
+
+2. Talk about communication between roles
+   - Opportunities for this to occur
+   - Retaining power of 3 in decision making / meetings
+
+3. Advocacy & Confidence
+   - Story planning (what to ask?)
+   - Sizing / planning poker (confidence in estimate, what should it mean?)
+   - EXERCISE - role play a story planning session?
+
+4. Reporting of testing
+   - How we communicate results
+   - What we count (defects / metrics / SBTM)
+   - Visual communication and shared understanding
+   - EXERCISE - testing from a mind map / visual representation of results?
+
+5. Deliverables
+   - What documents are included, and what aren't
+   - EXERCISE - how to create a test strategy in agile?
+
+6. Organisation & Cultural change required to support agile (Section 5.3.*)
+   - Handling ambiguity
+   - Management changes
+   - Regulated environments or those with stringent policies
+   - Social contract
