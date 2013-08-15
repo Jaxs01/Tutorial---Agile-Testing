@@ -1,0 +1,50 @@
+@ngdoc overview
+@name 1 - Roles
+@description
+
+|--
+
+^^ Tester
+
+Testing during an agile project is team-oriented wherein it is common for every member of the team to provide some level of testing support.
+The purpose of this LO is to provide the Learner with an understanding that within an agile project, the entire project team is responsible
+for test plans, test design, test cases, test automation, and test reporting. (KE - this is bollocks)
+
+Software testers typically work hand-in-hand with the product owner and programmers to plan, execute, and report on the testing that is
+performed at all levels.  Testers often are responsible for creating User Story and business process tests cases and performing
+exploratory testing. Testers participate in and may develop automated tests along with programmers or a dedicated test automation team.
+The purpose of this LO is to provide the Learner with an understanding of the role software tester’s play within an agile testing process
+
+^^ Product Owner
+
+Product owners typically provide guidance on acceptance criteria and sometimes create test cases that provide examples of what Stories are
+intended to accomplish. (KE - bleurgh)
+The purpose of this LO is to provide the Learner with an understanding of the common test activities that a product owner is involved with
+during an agile project.
+
+^^ Developer
+Software programmers typically build, automate, and run a variety of tests at a variety of levels as part of their development process.  TDD
+and ATDD leverages this testing to improve design and development.
+The purpose of this LO is to provide the Learner with an understanding of the role software programmer’s play within an agile testing process.
+
+^^ Customers
+
+Customers typically support testing through definition of Stories and associated acceptance criteria and by performing user acceptance testing
+(UAT) prior to release or when it makes sense after a series of iterations.
+The purpose of this LO is to provide the Learner with an understanding of the role customer’s play within an agile testing process.
+
+^^ Test Manager
+
+When an organization has decided to organize around products / projects, test managers are often left to wonder what their role within this
+new structure will be.
+The purpose of this LO is to provide the Learner with an understanding of the role that a test manager plays within an organization that is
+moving toward a product / project based staff organizational model.
+
+^^ Forming a Team
+
+A common recommendation is for organizations that are embracing agile to organize their staff around products / projects instead of functional
+responsibilities.
+The purpose of this LO is to provide the Learner with the pros and cons of various organizational structures when implementing agile.
+
+
+--|

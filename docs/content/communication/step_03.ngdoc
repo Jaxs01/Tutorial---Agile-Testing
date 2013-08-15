@@ -1,0 +1,27 @@
+@ngdoc overview
+@name 3 - Planning Poker
+@description
+
+|--
+
+^^ Planning Poker
+
+* The team pick the smallest item of work to size as a 1
+* Further sizing of stories is done relative to the baseline story
+* Size options are based on the Fibonacci sequence; 1, 2, 3, 5, 8, 13, etc.
+* Where there is disagreement, the people with the lowest and highest values explain their position then the group re-vote
+
+^^ Mission
+
+You've been asked to size the five stories that are about to be pulled in to the next sprint.
+In your team, play planning poker with the provided stories and provide your estimates
+
+<countdown time="900"/>
+
+^^ Advocacy
+
+* What happened when people disagreed on their estimate?
+* How was this resolved?
+* Any similarities to raising a bug?
+
+--|

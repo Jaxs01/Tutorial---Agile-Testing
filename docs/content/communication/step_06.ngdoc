@@ -1,0 +1,42 @@
+@ngdoc overview
+@name 6 - Organisation
+@description
+
+|--
+
+^^ Whole team approach
+
+Working in a whole team approach takes a completely different mindset than working in a traditional process.
+The purpose of this LO is to give the Learner an appreciation for the differences between working as a “whole team” and
+working in a traditional team structure and the ways in which this transition can be made.
+
+Any type of change is often difficult for some people to overcome.
+The purpose of this LO is to provide the Learner with an understanding that moving to agile is a change process and will
+likely result in some resistance to change from various parts of the organization.
+
+^^ Ambiguity
+
+Ambiguity surrounding requirements and release definition is something many individuals new to agile are not used to.
+The purpose of this LO is to provide the Learner with an understanding of the challenges associated with the ambiguity
+that a learning-driven process has up front and how to best cope with this change.
+
+Management is sometimes not comfortable with the lack of definition for the scope of a planned release.
+The purpose of this LO is to provide the Learner with an understanding of the reasons why management is not comfortable
+with an agile project planning process and how to overcome that discomfort over time.
+
+^^ Policies
+
+Organizations often have a variety of corporate policies and procedures that must be adhered to during software
+development activities.
+The purpose of this LO is to provide the Learner with an understanding of the various corporate governance, policy,
+and procedures that are often required during software development activities.
+
+Regulatory compliance often demands particular documentation be developed as part of any software development process.
+The purpose of this LO is to provide the Learner with an understanding of how regulatory requirements can still be
+fulfilled when following an agile development process.
+
+^^ Social contract
+
+Steal some of Edwin's material about social contracts, why we need them, why they aid communication
+
+--|

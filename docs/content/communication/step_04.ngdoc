@@ -1,0 +1,38 @@
+@ngdoc overview
+@name 4 - Reporting
+@description
+
+|--
+
+^^ How?
+
+* Visual
+* Transparent
+* Accessible
+* Shared understanding
+
+^^ What?
+
+* Minimise overhead in reporting
+* Ask why?
+* Be sure that numbers are used responsibly
+
+^^ Should we?
+
+* Count the number of automated checks?
+* Track percentage of time spent on setup vs execution?
+* Provide a bug count?
+* Compare numbers between sprints?
+
+^^ Exercise
+
+Provide some history of bugs found and test cases written?
+Give a new story to test in the same application.
+How did knowing previous sprints change expectations?
+
+^^ Exercise
+
+Illustrate test effort using a mind map of scope
+Share results with others in the class
+
+--|
