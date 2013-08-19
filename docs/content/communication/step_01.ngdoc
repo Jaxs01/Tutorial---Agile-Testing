@@ -4,47 +4,75 @@
 
 |--
 
-^^ Tester
+^^ Forming a Team
 
-Testing during an agile project is team-oriented wherein it is common for every member of the team to provide some level of testing support.
-The purpose of this LO is to provide the Learner with an understanding that within an agile project, the entire project team is responsible
-for test plans, test design, test cases, test automation, and test reporting. (KE - this is bollocks)
+* Co-location of team rather than siloed by specialisation
 
-Software testers typically work hand-in-hand with the product owner and programmers to plan, execute, and report on the testing that is
-performed at all levels.  Testers often are responsible for creating User Story and business process tests cases and performing
-exploratory testing. Testers participate in and may develop automated tests along with programmers or a dedicated test automation team.
-The purpose of this LO is to provide the Learner with an understanding of the role software tester’s play within an agile testing process
+* Focus on products / projects
+
+<img class="diagram" src="img/communication/team.png"/>
+
 
 ^^ Product Owner
 
-Product owners typically provide guidance on acceptance criteria and sometimes create test cases that provide examples of what Stories are
-intended to accomplish. (KE - bleurgh)
-The purpose of this LO is to provide the Learner with an understanding of the common test activities that a product owner is involved with
-during an agile project.
+* Guidance on acceptance criteria
+
+* Participate in workshops that define examples of what stories intend to accomplish
+
+* Review of testing from a business perspective
+
+<img class="diagram" src="img/communication/team_a.png"/>
+
+
+^^ Business Analyst
+
+* Ownership of acceptance criteria
+
+* Focus on user goals rather than technical solution
+
+* Often subject matter experts on business processes
+
+<img class="diagram" src="img/communication/team_b.png"/>
+
 
 ^^ Developer
-Software programmers typically build, automate, and run a variety of tests at a variety of levels as part of their development process.  TDD
-and ATDD leverages this testing to improve design and development.
-The purpose of this LO is to provide the Learner with an understanding of the role software programmer’s play within an agile testing process.
 
-^^ Customers
+* Must write a solid base of unit tests
 
-Customers typically support testing through definition of Stories and associated acceptance criteria and by performing user acceptance testing
-(UAT) prior to release or when it makes sense after a series of iterations.
-The purpose of this LO is to provide the Learner with an understanding of the role customer’s play within an agile testing process.
+* Some development teams adopt TDD or ATDD to embed this need
+
+<img class="diagram" src="img/communication/team_c.png"/>
+
+
+
+^^ Tester
+
+* Testing in agile is team-oriented, every member of the team is involved
+
+* The tester retains ultimate responsibility for testing
+
+* Change in deliverables when compared to other methodologies
+
+* Greater focus on automation
+
+* Test analysis and design is unchanged, though presentation may differ
+
+* Test early; involvement in story development and understand development testing
+
+<img class="diagram" src="img/communication/team_d.png"/>
+
 
 ^^ Test Manager
 
-When an organization has decided to organize around products / projects, test managers are often left to wonder what their role within this
-new structure will be.
-The purpose of this LO is to provide the Learner with an understanding of the role that a test manager plays within an organization that is
-moving toward a product / project based staff organizational model.
+* Can feel excluded when focus shifts to products / projects
 
-^^ Forming a Team
+* Reporting within teams should already have transparency to business stakeholders
 
-A common recommendation is for organizations that are embracing agile to organize their staff around products / projects instead of functional
-responsibilities.
-The purpose of this LO is to provide the Learner with the pros and cons of various organizational structures when implementing agile.
+* Should facilitate inter-team communication and knowledge sharing
+
+* Present an aggregate view to high level management
+
+<img class="diagram" src="img/communication/team_e.png"/>
 
 
 --|
