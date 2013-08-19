@@ -11,28 +11,40 @@
 * Accessible
 * Shared understanding
 
+<img class="diagram" src="img/communication/notonthesamepage.jpg"/>
+
+
 ^^ What?
 
 * Minimise overhead in reporting
 * Ask why?
 * Be sure that numbers are used responsibly
 
+<img class="diagram" src="img/communication/testcases.jpg"/>
+
+
 ^^ Should we?
 
+* Provide a bug count?
 * Count the number of automated checks?
 * Track percentage of time spent on setup vs execution?
-* Provide a bug count?
 * Compare numbers between sprints?
 
-^^ Exercise
+<img class="diagram" src="img/communication/statistics.jpg"/>
 
-Provide some history of bugs found and test cases written (statistics)?
-Give a new story to test in the same application.
-How did knowing previous sprints change expectations?
 
-^^ Exercise
+^^ Match it!
 
-Illustrate test effort using a mind map of scope
-Share results with others in the class
+* Provide some history of bugs found and test cases written (statistics)?
+* Give a new story to test in the same application.
+* How did knowing previous sprints change expectations?
+
+
+
+^^ Show it!
+
+* Illustrate test effort using a mind map of scope
+* Share results with others in the class
+
 
 --|
