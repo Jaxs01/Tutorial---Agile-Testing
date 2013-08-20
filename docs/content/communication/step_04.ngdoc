@@ -16,7 +16,7 @@
 
 * Test Case Template
 
-<countdown time="720"/>
+<countdown time="600"/>
 
 ^^ Change
 
@@ -30,7 +30,7 @@
 
 * Use Excel as you wish
 
-<countdown time="720"/>
+<countdown time="600"/>
 
 ^^ Steal
 
@@ -43,7 +43,7 @@
 
 * Adapt your spreadsheet to take the best from attendees around you
 
-<countdown time="720"/>
+<countdown time="600"/>
 
 ^^ Break Free
 
@@ -56,7 +56,7 @@
 
 * No more Excel!
 
-<countdown time="720"/>
+<countdown time="600"/>
 
 ^^ Adopt
 
@@ -70,7 +70,7 @@
 
 * Adapt your mindmap to take the best from attendees around you
 
-<countdown time="720"/>
+<countdown time="600"/>
 
 
 --|
