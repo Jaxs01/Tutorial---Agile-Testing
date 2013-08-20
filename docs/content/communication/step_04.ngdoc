@@ -1,50 +1,76 @@
 @ngdoc overview
-@name 4 - Reporting
+@name 4 - Sweet Spot
 @description
 
 |--
 
-^^ How?
+^^ Templates
 
-* Visual
-* Transparent
-* Accessible
-* Shared understanding
+<b>Stories</b>
 
-<img class="diagram" src="img/communication/notonthesamepage.jpg"/>
+* Each player will be given a turn to drop a sweet in to the columns of the board
+* Each player will know when it is their turn
+* Each player will have their own colour of sweet
 
+<b>Reporting</b>
 
-^^ What?
+* Test Case Template
 
-* Minimise overhead in reporting
-* Ask why?
-* Be sure that numbers are used responsibly
+<countdown time="720"/>
 
-<img class="diagram" src="img/communication/testcases.jpg"/>
+^^ Change
 
+<b>Stories</b>
 
-^^ Should we?
+* A game is won where a player makes a row of four sweets in their colour
+* A winning row of sweets may be horizontal, vertical or diagonal
+* Include instructions that describe how to play
 
-* Provide a bug count?
-* Count the number of automated checks?
-* Track percentage of time spent on setup vs execution?
-* Compare numbers between sprints?
+<b>Reporting</b>
 
-<img class="diagram" src="img/communication/statistics.jpg"/>
+* Use Excel as you wish
 
+<countdown time="720"/>
 
-^^ Match it!
+^^ Steal
 
-* Provide some history of bugs found and test cases written (statistics)?
-* Give a new story to test in the same application.
-* How did knowing previous sprints change expectations?
+<b>Stories</b>
 
+* If no player wins before the board is full, the board is reset and play continues
+* If a player wins a match, they are asked whether they wish to Play Again or Start Over
 
+<b>Reporting</b>
 
-^^ Show it!
+* Adapt your spreadsheet to take the best from attendees around you
 
-* Illustrate test effort using a mind map of scope
-* Share results with others in the class
+<countdown time="720"/>
+
+^^ Break Free
+
+<b>Stories</b>
+
+* Prompt each player to select a colour for their sweets; orange, green, red or blue
+* Don’t allow both players to use the same colour sweets
+
+<b>Reporting</b>
+
+* No more Excel!
+
+<countdown time="720"/>
+
+^^ Adopt
+
+<b>Stories</b>
+
+* Players will be asked to select the number of games they wish to play; 1, 3 or 5.
+* If a player wins a game they receive a point
+* If a player wins a majority of games they win the match
+
+<b>Reporting</b>
+
+* Adapt your mindmap to take the best from attendees around you
+
+<countdown time="720"/>
 
 
 --|
