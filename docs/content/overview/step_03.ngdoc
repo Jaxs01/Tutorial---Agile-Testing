@@ -1,0 +1,105 @@
+@ngdoc overview
+@name Tutorial: 3 - Installation for Windows by pictures
+@description
+
+# Installation via pictures for windows
+
+## Installing node
+
+![](img/installation/win/2013-08-20_191028.png)
+![](img/installation/win/2013-08-20_191032.png)
+![](img/installation/win/2013-08-20_191038.png)
+![](img/installation/win/2013-08-20_191044.png)
+![](img/installation/win/2013-08-20_191053.png)
+![](img/installation/win/2013-08-20_191059.png)
+![](img/installation/win/2013-08-20_191103.png)
+![](img/installation/win/2013-08-20_191110.png)
+![](img/installation/win/2013-08-20_191114.png)
+![](img/installation/win/2013-08-20_191118.png)
+![](img/installation/win/2013-08-20_191122.png)
+![](img/installation/win/2013-08-20_191132.png)
+![](img/installation/win/2013-08-20_191134.png)
+![](img/installation/win/2013-08-20_191142.png)
+
+## Installing Webstorm
+
+![](img/installation/win/2013-08-20_191626.png)
+![](img/installation/win/2013-08-20_191631.png)
+![](img/installation/win/2013-08-20_191635.png)
+![](img/installation/win/2013-08-20_191648.png)
+![](img/installation/win/2013-08-20_191651.png)
+![](img/installation/win/2013-08-20_191700.png)
+![](img/installation/win/2013-08-20_191703.png)
+![](img/installation/win/2013-08-20_191707.png)
+![](img/installation/win/2013-08-20_191710.png)
+![](img/installation/win/2013-08-20_191716.png)
+![](img/installation/win/2013-08-20_191719.png)
+![](img/installation/win/2013-08-20_191722.png)
+![](img/installation/win/2013-08-20_191812.png)
+![](img/installation/win/2013-08-20_191819.png)
+![](img/installation/win/2013-08-20_191823.png)
+![](img/installation/win/2013-08-20_191826.png)
+![](img/installation/win/2013-08-20_191831.png)
+
+## Configuring Webstorm with BitBucket
+
+Assurity/todo
+
+![](img/installation/win/2013-08-20_191942.png)
+![](img/installation/win/2013-08-20_191955.png)
+![](img/installation/win/2013-08-20_192012.png)
+![](img/installation/win/2013-08-20_192017.png)
+![](img/installation/win/2013-08-20_192020.png)
+![](img/installation/win/2013-08-20_192025.png)
+![](img/installation/win/2013-08-20_192033.png)
+
+## Checking out manuals from Version Control (Git via Bitbucket)
+
+![](img/installation/win/2013-08-20_192129.png)
+![](img/installation/win/2013-08-20_192133.png)
+![](img/installation/win/2013-08-20_192156.png)
+![](img/installation/win/2013-08-20_192237.png)
+![](img/installation/win/2013-08-20_192244.png)
+
+## Installing the basics
+
+````
+npm install -g grunt-cli grunt-init
+````
+
+![](img/installation/win/2013-08-20_192321.png)
+![](img/installation/win/2013-08-20_192337.png)
+![](img/installation/win/2013-08-20_192350.png)
+![](img/installation/win/2013-08-20_192356.png)
+![](img/installation/win/2013-08-20_192402.png)
+
+````
+cd C:\Users\<you>\manuals
+npm install -d
+````
+
+![](img/installation/win/2013-08-20_203010.png)
+![](img/installation/win/2013-08-20_203018.png)
+
+## Back to Webstorm
+
+![](img/installation/win/2013-08-20_201525.png)
+![](img/installation/win/2013-08-20_201531.png)
+![](img/installation/win/2013-08-20_201547.png)
+
+## Setting up configurations
+![](img/installation/win/2013-08-20_201547.png)
+![](img/installation/win/2013-08-20_201551.png)
+![](img/installation/win/2013-08-20_201559.png)
+![](img/installation/win/2013-08-20_201601.png)
+![](img/installation/win/2013-08-20_201603.png)
+![](img/installation/win/2013-08-20_201606.png)
+![](img/installation/win/2013-08-20_201850.png)
+![](img/installation/win/2013-08-20_202026.png)
+![](img/installation/win/2013-08-20_202639.png)
+![](img/installation/win/2013-08-20_202643.png)
+![](img/installation/win/2013-08-20_202659.png)
+![](img/installation/win/2013-08-20_202703.png)
+![](img/installation/win/2013-08-20_202744.png)
+![](img/installation/win/2013-08-20_202748.png)
+![](img/installation/win/2013-08-20_202803.png)

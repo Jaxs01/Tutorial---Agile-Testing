@@ -20,10 +20,10 @@ module.exports = function (grunt) {
                 ignoreFile: 'docs/ignore.words',
                 indexTemplate: 'docs/index.tmpl'
             },
-//            overview: {
-//                src: ['docs/content/overview/**/*.ngdoc'],
-//                title: 'Overview'
-//            },
+            overview: {
+                src: ['docs/content/overview/**/*.ngdoc'],
+                title: 'Overview'
+            },
             'thetestingzoo': {
                 src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
                 title: 'The Testing Zoo'
