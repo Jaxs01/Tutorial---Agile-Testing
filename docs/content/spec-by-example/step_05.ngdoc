@@ -1,0 +1,22 @@
+@ngdoc overview
+@name 5 - Automation
+@description
+
+|--
+
+^^ Living Documentation
+
+* Automation generates documentation with test results embedded
+* Living documentation is kept in sync with the system by running automation on each change
+* Feedback is fast
+
+^^ Stop!
+
+* Using documentation that "is not quite correct"
+* Digging functionality and requirements out of code
+
+^^ Exercise
+
+Code stuff...
+
+--|

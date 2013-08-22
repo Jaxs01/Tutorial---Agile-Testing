@@ -1,0 +1,44 @@
+@ngdoc overview
+@name 4 - Refining
+@description
+
+|--
+
+^^ Tidy
+
+Refine the following specification:
+
+<img class="diagram" src="img/spec-by-example/long-specification.png" width="550"/>
+
+<countdown time="300"/>
+
+^^ Good examples
+
+* Avoid implementation details
+* Avoid yes/no answers
+* Use concrete examples rather than class equivalence (i.e. > 10)
+* Are complete, realistic and understandable
+* Use real data
+
+^^ Good specifications
+
+* Don't test too much at once
+* Chunk up (from how to what)
+* Avoid interface specifics
+* Use domain language
+* Remove incidental detail
+* Avoid yawn factor
+
+^^ Squeeze
+
+Refine the following specification:
+
+<img class="diagram" src="img/spec-by-example/long-specification.png" width="550"/>
+
+<countdown time="300"/>
+
+^^ Answer
+
+<img class="diagram" src="img/spec-by-example/short-specification.png" width="550"/>
+
+--|

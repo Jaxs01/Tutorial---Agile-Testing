@@ -1,0 +1,17 @@
+@ngdoc overview
+@name 2 - Structure
+@description
+
+
+|--
+
+^^ Story
+
+<img class="diagram" src="img/spec-by-example/story.png" width="550"/>
+
+^^ Example
+
+<img class="diagram" src="img/spec-by-example/example.png" width="550"/>
+
+
+--|

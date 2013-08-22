@@ -1,0 +1,40 @@
+@ngdoc overview
+@name 3 - Collaboration
+@description
+
+|--
+
+^^ Exercise
+
+Hold a group workshop to collaboratively specify a feature, with pre-defined roles.<br/>
+One participant to be the Product Owner (someone who understands cricket)
+
+<b>Basic Scoring</b>
+
+As a cricket scorer, I want an application to help me add the scores so that the score is always up to date.
+
+* I can enter the score for each ball
+* I can view the score card for all balls to date
+* I can view the total runs scored
+
+<b>Extra detail</b>
+
+* A dot ball scores zero runs. Dot balls are entered as a full stop
+* The batsman can also score 1 to 6 runs per ball, which are entered numerically
+
+<b>Example - Dot ball</b>
+
+Given a new game, when I enter a '.' then the score card should show '.' and the total score should be 0
+
+<countdown time="1200"/>
+
+^^ Collaboration
+
+* Help everyone use consistent language
+* Find missing examples
+* Uncover missing scope
+* People stop blaming each other for bugs; they're examples that the team missed
+* Have hard conversations before development starts, not later when they cost money!
+
+
+--|

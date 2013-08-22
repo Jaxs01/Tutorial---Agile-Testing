@@ -26,15 +26,15 @@ module.exports = function (grunt) {
             },
             'thetestingzoo': {
                 src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
-                title: 'The Testing Zoo'
+                title: 'Testing Zoo'
             },
-            'collaborativerequirements': {
-                src: ['docs/content/collaborative-requirements/**/*.ngdoc'],
-                title: 'Collaborative Requirements'
+            'specbyexample': {
+                src: ['docs/content/spec-by-example/**/*.ngdoc'],
+                title: 'Spec by Example'
             },
             'thetestingcoin': {
                 src: ['docs/content/the-testing-coin/**/*.ngdoc'],
-                title: 'The Testing Coin'
+                title: 'Testing Coin'
             },
             'nonfunctionaltest': {
                 src: ['docs/content/nonfunctionaltest/**/*.ngdoc'],

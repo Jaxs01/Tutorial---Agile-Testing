@@ -1,0 +1,25 @@
+@ngdoc overview
+@name 1 - Introduction
+@description
+
+|--
+
+^^ History
+
+Specification by Example - Gojko Adzic
+
+<img class="diagram" src="img/spec-by-example/gojko-adzic.png" width="550"/>
+
+^^ Sample
+
+<img class="diagram" src="img/spec-by-example/specification.png" width="550"/>
+
+^^ Benefits
+
+* Powerful tool for communication
+* Gives a vision of the solution
+* Simple to understand
+* Reduces assumptions
+* Can be automatically checked
+
+--|
