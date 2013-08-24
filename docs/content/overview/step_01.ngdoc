@@ -3,15 +3,20 @@
 @description
 
 <screencast length="6" title="Values, Principles, Practices and Tools" byline="Align your practices and tools with principles and values">
-  <a href="http://vimeo.com/" embed-video controls=0></a>
+  <a href="https://vimeo.com/73022802" embed-video controls=0></a>
 
   <blockquote voice-script heading="Changing mindset">
 
+
+  Screenshot: Slide - an agile mindset - align your practices and tools with principles and practices
+
+Welcome to this video about an agile mindset. Today we are going to talk about aligning your practice and tools with your principles and practices.
+
 # Curiosity: An agile mindset
 
-Let's start with the basics. We are work in the context of business. Most businesses are concerned with sustainable prosperity. It makes sense that what we talk about is leading change for improvement and being resilient to risk. But our reality is more often than not fighting fires and being too busy to inspect and adapt our processes to improve.
+  Screenshot: Slide
 
-Central to an agile mindset is the openness to try something new. So from the individuals willingness to remain open and be curious we wrap values.
+One major concern of the agile mindset is keeping open and curious. But why?
 
   Screenshot: Slide
 
@@ -19,20 +24,22 @@ Central to an agile mindset is the openness to try something new. So from the in
     The vision                      The reality
     What want we do...	            What we actually do...
 
-    Deliver Quality Outcomes	    Deliver  What Is Expected
+    Deliver Quality Outcomes	      Deliver  What Is Expected
     Lead Change	                    React To change
     Provide Innovative Solutions    Stifle Innovation
-    Be Resilient to Risk	        Try To Manage Risk
+    Be Resilient to Risk	          Try To Manage Risk
     Continuously Improve Everything	Fight Fires
-    Economies of Flow	            Economies Of Scale
+    Economies of Flow	              Economies Of Scale
     Feel Empowered	                Conform
-    Create Wealth	                Make Money
+    Create Wealth	                  Make Money
 
+Let's start with the basics. We work in the context of business. Most businesses are concerned with sustainable prosperity. It makes sense that what we talk about is leading change for improvement and being resilient to risk (these are just some of the items on the left - our vision of what we want). But our reality (the items on the right) is more often than not fighting fires and being too busy to inspect and adapt our processes to improve.
 
+So, central to an agile mindset is the openness to try something new. It is from the individual's willingness to remain open, and be curious. We must remember that people are central.
 
 # People are central
 
-So, to get change itself, and it results, there is a significant shift in the way we work. It starts with individuals and their mindset. Remembering that this mindset change also filter through to the team and throughout the organisation. Take for example, the focus on improvement in the fifth point. We tend to expect that we want continuous improvements. However, if we in an organisation where we are busy fighting fires all the time then we never get to inspect our own process and figure out how to improve it. So at the heart of an curious mindset is questioning what we are doing, why and what effects that has. To do this, we break up and understand the interrelation between values, practices, practice and methods and tools.
+So, to get change itself, and its results, there is a significant shift in the way we work. It starts with individuals and their mindset. Remembering that this mindset change also filters through to the team and throughout the organisation. Take for example, from the last slide, the vision to focus on improvement. We tend to expect that we want continuous improvements. However, if we in an organisation where we are busy fighting fires all the time then we never get to inspect our own process and figure out how to improve it. So at the heart of an curious mindset is questioning what we are doing, why and what effects that has. To do this, we break up and understand the interrelation between values, principles, practice and methods and tools.
 
   Screenshot: Slide        Methods and Tools
                            Practices
@@ -42,59 +49,62 @@ So, to get change itself, and it results, there is a significant shift in the wa
 
 # Values
 
-Values are important. You need to start with them because software is about people and teams. People must be to communicate and collaborate. It is not necessarily that there is a certain set of values themselves but that you work out what set of values you need inside the team and make sure that you have a common understanding at the team level and anyone who interacts with the team as well.
-
-The agile manifesto is an example of values. It has four statements....
+Values are important. You need to start with them because software is about people and teams. People must be able to communicate and collaborate. It is not necessarily that there is a certain set of values themselves but that you work out what set of values you need inside the team and make sure that you have a common understanding at the team level and anyone who interacts with the team as well. So what do some values look like?
 
    Screenshot: Slide - The Agile Manifesto
 
-So in having values it is acknowledging that you have got to start with the people, and starting with their values. Then you can move on to the principles.
+The agile manifesto is an example of values. It has four statements....
+
+In doing so, it is acknowledging that you have got to start with the people, and start with their values. Then you can move on to the principles.
+
+They say, we are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value. They give the four statements each outlining a tension between two ways doing things. On the one hand, individuals and interactions, on the other hand, processes and tools. The important issue is that they side one way or the other but rather than the value is finding the right balance in your context. Yet, the guiding value as they say is.
+
+"while there is value in the items on the right, we value the items on the left more”
+
+So they value working software over comprehensive documentation. They value customer collaboration over contract negotiation, they value responding to change over following a plan.
 
 # Principles
 
-Principles are these are the underlying truths if you like. These are the principles of the Agile manifesto or the house of lean. It’s the theory, the reasons why agile works.
-
-There are couple of important areas to look at for principles. Again there is the agile manifesto which has 10 principles.
-
   Screenshot: Slide - Principles of the Agile Manifesto slide
-  Screenshot: Slide - House of Lean
-  Screenshot: Slide - Principles of flow
 
+Principles are these are the underlying truths if you like. For example, there are principles of the agile manifesto, different from the values. It’s the theory, the reasons why agile works. So looking at the agile manifesto, there are 10 principles.  Go take a look at those on the web if you already haven't.
 
-Also there are the principles of flow. This is based on the work of Donald Reinertsen. He first wrote about these ideas in the 80s coming out of the work from Toyota production system translating ideas from lean manufacturing to knowledge work. He helps us understand how to adapt practices from the manufacturing sector to the software industry.
+  Screenshot: Slide - Other principles
+
+The principles of the agile manifesto are not the only principles. There are others.
+There is the house of lean. There are the principles of product flow. The later is based on the work of Donald Reinertsen. He first wrote about these ideas in the 80s coming out of the work from Toyota production system translating ideas from lean manufacturing to knowledge work. He helps us understand how to adapt practices from the manufacturing sector to the software industry.
 
 # Practices
 
   Screenshot: Slide - Agile umbrella
 
+Then we move on to the practices, so once you have acknowledged that you need the people side, you need the values in place, and we need to be able to understand the why, then you are ready to take on the new practices.
 
-Then we move on to the practices, so once you have acknowledged that you need the people side, the values in place, and we need to be able to understand the why, then you are ready to take on the new practices.
+Agile itself can be thought of as an umbrella with a lot of knowledge underneath it. Scrum and Kanban the two most popular. Scrum is a framework, Kanban is a method. There are many others. Less used now, but popular in the UK government, was DSDM. There is XP, extreme programming, it doesn't get alot of credit where it should - it has given us collaboration practices such user stories and pair programming, as well as test-driven development. There is the ability to mix and match. For example, XP and TDD can and are used in Scrum or Kanban.
 
-Agile itself can be thought of as an umbrella with a lot of knowledge underneath it. Scrum and Kanban the two most popular. Scrum is a framework, Kanban is a method. There are many others. Less used now but popular in the UK government was DSDM. There is XP, extreme programming, it doesn't get alot of credit where it should - it has given us collaboration practices such user stories and  pair programming, as well as test-driven development. All of these we can and do use in Scrum or Kanban. Lean is a whole body of knowledge itself - there is lean manufacturing but also the Poppendick's also wrote about lean software development back in the early 2000s. There are some slightly newer ones. There is also continuous delivery and specification by example. This is interesting because some practices have put pressure that require us to innovate and adapt in terms of the way that they have done software. Most practices are trying to delivery not only repeatably and reliably but also faster - or shorter cycle times. In response to this are these two newer ones: continuous delivery and specification by example. Specification by example is about testing in an agile world and that includes automation and doing it in a maintainable way. Then there is Continuous delivery. If we are encouraging this
- faster cycle times to market then what does that really mean for our technical practices? We must reduce transaction costs of moving bits of code between environments - and that's what that body of knowledge is about.
+In contrast, Lean is a whole body of knowledge itself - there is lean manufacturing - there's also the Poppendick's work about lean software development back in the early 2000s. There are some slightly newer ones. There is also continuous delivery and specification by example. This is interesting because some practices have put pressure that require us to innovate and adapt in terms of the way that they have done software. Most practices are trying to delivery not only repeatably and reliably but also faster - or shorter cycle times. In response to this are these two newer ones: continuous delivery and specification by example. Specification by example is about testing in an agile world and that includes automation and doing it in a maintainable way.
 
+Then there is continuous delivery. So, if we are encouraging this faster cycle times to market, then what does that really mean for our technical practices? It probably means that must reduce transaction costs of moving bits of code between environments - and that's what continuous delivery body of knowledge is about.
 
 # Your Method/Tools
 
+Finally, there is a next step up - methods and tools. It is the acknowledgement that you can’t necessarily take each practice out of the box as your context as is going to be different from any other team’s and you may have to adapt those practices in order to make them work.
 
-So, finally, there is a next step up. It is the acknowledgement that you can’t necessarily take each practice out of the box as your context as is going to be different from any other team’s and you may have to adapt those practices in order to make them work.
+Some practices we can adopt out of the box as they happen to match our context. But many don't and need to be adjusted to our context.  What teams usually end up with is a set of practices - some out of the box, some changed, but all match the specific context and all are aligned with Agile/Lean principles.
 
-Some practices we can adopt out of the box as they happen to match our context. For those that don't we need to adjust so that they make sense in our context. The result is a set of practices, some out of the box and some changed but all match the specific context and all are aligned with Agile/Lean principles.
+If you adapt the practices then you need to be aligned with the principles. Unforetunately, a lot of teams when they start out get confused about what to adopt and what to adapt. And this is why more prescriptive practices can be successful to start with as well. But you always get to the point where not every practice fits perfectly with your context. So if you remain aligned with the principles and you understand the meaning of the principles, it means now you can start to adapt the practices and actually create your own method. Sure, early on, it is going to look a lot like perhaps, Scrum, or perhaps Kanban or Scaled Agile but it is yours - it fits your particular context.
 
-If you adapt the practices then you need to be aligned with the principles and this is what a lot of teams when they start out they get confused about and and this is why more prescriptive practices can be successful to start with as well. But you always get to the point where not every practice fits perfectly with your context. So if you remain aligned with the principles and you understand the meaning of the principles it mean now you can start to adapt the practices and actually create your own method. Sure it is going to look a lot like perhaps Scrum, or perhaps Kanban or Scaled Agile but it is yours, it fits your particular context.
-
-Tools support the practices. These can be electronic tools such as bug trackers, project trackers or choices of IDE. They may also be use of physical space such as whiteboards, cards and post-it notes. These need to support the practices and be aligned to the principles and form part of your context specific method.
-
-
+Tools as specific instance of a method should also support the practices. These can be electronic tools such as bug trackers, project trackers or choices of IDE. They may also be use of physical space such as whiteboards, cards and post-it notes. These need to support the practices and be aligned to the principles and form part of your context-specific methods.
 
 # Mindset - it is about alignment
 
-So as you can see there is a great deal of change involved and this reflects the hardest part about Agile and Lean. It is about people and changing the way we work...you need to have a set of values that allow you to work as a team to create your own method and that encourage and support continuous improvement. This is a long term strategy not a short term workaround.
-
+So as you can see there is a great deal of change involved and this reflects the hardest part about Agile and Lean. It is about people and changing the way we work ... you need to have a set of values that allow you to work as a team to create your own method and that encourage and support continuous improvement. This is a long-term strategy not a short-term workaround.
 
 In summary, have a mindset of adaption and alignment.
 
-You'll always need to adapt your practices but you'll struggle to bring them into our own context because your context is slightly different from everyone other team's context. But once your understand the principles then you are able to adapt those practices. Then you essentially end up with your own method but your method is always going to be aligned with the principles. So, it doesn't matter which series of practices you might use, Scrum, Kanban, Scaled Agile Framework, Continuous Delivery. It is likely to be the same problem. You'll need to adapt them to meet your own context yet still remaining aligned to the underlying principles whether they be agile manifesto, principles of flow or something other set. And finally, those practices and principles must remain align with the core team values.
+You'll always need to adapt your practices but you'll struggle to bring them into your own context because your context is slightly different from everyone's. But once your understand the principles then you are able to adapt those practices. Then you essentially end up with your own method but your method is always going to be aligned with the principles. So, it doesn't matter which series of practices you might use, Scrum, Kanban, Scaled Agile Framework, Continuous Delivery. It is likely to be the same problem. You'll need to adapt them to meet your own context yet still remaining aligned to the underlying principles whether that be agile manifesto, principles of flow or something other set. And, finally, those practices and principles must remain aligned with the core team values.
+
+Thanks for listening. Happy software development!
 
   </blockquote>
 
