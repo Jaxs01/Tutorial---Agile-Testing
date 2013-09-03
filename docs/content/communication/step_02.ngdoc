@@ -13,8 +13,6 @@
 
 * Raise items that prevent shared understanding of the upcoming sprint
 
-  - An ill defined set of acceptance criteria
-
 <img class="diagram" src="img/communication/sprintplanning.png" width="600"/>
 
 
@@ -22,16 +20,12 @@
 
 * Raise items that are important for the entire team to be aware of quickly
 
-  - Developers aren't doing regular commits, testing is being pushed to the end of the sprint
-
 <img class="diagram" src="img/communication/standup.png" width="600"/>
 
 
 ^^ Retrospective
 
 * Raise items that reflect on the current sprint
-
-  - Stories aren't ready until the morning of sprint planning
 
 <img class="diagram" src="img/communication/retrospective.png" width="600"/>
 
@@ -42,44 +36,14 @@
 
 * Retain the power of 3 in decision making and informal meetings
 
-* Consensus management in moderation; don't vote on everything
-
 <img class="diagram" src="img/communication/powerofthree.jpg"/>
-
-
-^^ One voice
-
-* Often only one tester
-* Confidence in your unique skills
-* Offer your opinion
-
-<img class="diagram" src="img/communication/speakup.jpg"/>
 
 
 ^^ Exercise
 
 * Put each conversation in to a category
 
-<countdown time="300"/>
-
-
-* Implementation of automation against a new feature is unexpectedly tricky
-
-* The Product Owner has not been available for timely input
-
-* UI Designer is consistently breaking web standards
-
-* Testing is regularly not completed within a sprint, preventing work from being accepted
-
-* A planning poker session where everyone throws low except testing (or vice versa)
-
-* UI Designer wants feedback on a new set of mock-ups
-
-* No shared understanding
-
-* A developer is pulled from the project for a day to deal with a support emergency
-
-* You regularly have to do overtime to meet sprint commitments
+<img class="diagram" src="img/communication/agile-cycle-choice.png" width="600"/>
 
 
 --|

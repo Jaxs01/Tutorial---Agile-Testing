@@ -4,13 +4,13 @@
 
 |--
 
-^^ Forming a Team
+^^ Teams
 
 * Co-location of team rather than siloed by specialisation
 
 * Focus on products / projects
 
-<img class="diagram" src="img/communication/team.png"/>
+<countdown time="180"/>
 
 
 ^^ Product Owner
@@ -37,12 +37,11 @@
 
 ^^ Developer
 
-* Must write a solid base of unit tests
+* Must write a solid base of automated unit tests
 
 * Some development teams adopt TDD or ATDD to embed this need
 
 <img class="diagram" src="img/communication/team_c.png"/>
-
 
 
 ^^ Tester
@@ -71,6 +70,10 @@
 * Should facilitate inter-team communication and knowledge sharing
 
 * Present an aggregate view to high level management
+
+* Escalation point for testers
+
+* May hold responsibility for budget and resourcing
 
 <img class="diagram" src="img/communication/team_e.png"/>
 

@@ -6,23 +6,16 @@
 
 ^^ Planning Poker
 
-* The team pick what they think is the smallest item of work and call it a 1
-* Further sizing of stories is done relative to the baseline story
+* Sizing of stories is done relative to other stories
+* A size is not a number of hours
+* A size is an indicator of complexity
 * Size options are based on the Fibonacci sequence; 1, 2, 3, 5, 8, 13, etc.
 * Where there is disagreement
   - the person with the lowest number speaks
   - the person with the highest number speaks
   - the group vote again
 
-<img class="diagram" src="img/communication/planningpoker.jpg"/>
-
-^^ Mission
-
-* Size five stories that are at the top of your backlog
-* Play planning poker
-* Provide your estimates
-
-<countdown time="900"/>
+<countdown time="600"/>
 
 ^^ Advocacy
 
