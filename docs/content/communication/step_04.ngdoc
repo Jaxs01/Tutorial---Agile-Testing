@@ -4,73 +4,72 @@
 
 |--
 
-^^ Templates
+^^ Spreadsheets
 
 <b>Stories</b>
 
 * Each player will be given a turn to drop a sweet in to the columns of the board
 * Each player will know when it is their turn
-* Each player will have their own colour of sweet
-
-<b>Reporting</b>
-
-* Test Case Template
-
-<countdown time="600"/>
-
-^^ Change
-
-<b>Stories</b>
-
 * A game is won where a player makes a row of four sweets in their colour
 * A winning row of sweets may be horizontal, vertical or diagonal
-* Include instructions that describe how to play
+* If a player wins a match, the application closes
+* If no player wins before the board is full, the application closes
 
 <b>Reporting</b>
 
-* Use Excel as you wish
+* Use a spreadsheet to track your testing
 
-<countdown time="600"/>
+<countdown time="420"/>
 
-^^ Steal
+
+^^ Pinch
 
 <b>Stories</b>
 
-* If no player wins before the board is full, the board is reset and play continues
+* Include instructions that describe how to play
 * If a player wins a match, they are asked whether they wish to Play Again or Start Over
+* If no player wins before the board is full, the board is reset and play continues
 
 <b>Reporting</b>
 
-* Adapt your spreadsheet to take the best from attendees around you
+* Stick with the format
+* Take the best ideas of those around you
+* At the end of this sprint you should have a full regression suite in your chosen format
 
-<countdown time="600"/>
+<countdown time="300"/>
+
 
 ^^ Break Free
 
 <b>Stories</b>
 
 * Prompt each player to select a colour for their sweets; orange, green, red or blue
-* Don’t allow both players to use the same colour sweets
-
-<b>Reporting</b>
-
-* No more Excel!
-
-<countdown time="600"/>
-
-^^ Adopt
-
-<b>Stories</b>
-
+* Don't allow both players to use the same colour sweets
 * Players will be asked to select the number of games they wish to play; 1, 3 or 5.
 * If a player wins a game they receive a point
 * If a player wins a majority of games they win the match
 
 <b>Reporting</b>
 
-* Adapt your mindmap to take the best from attendees around you
+* No more Excel!
+* At the end of this sprint you should have a full regression suite in your chosen format
 
-<countdown time="600"/>
+<countdown time="420"/>
+
+
+^^ Adopt
+
+<b>Stories</b>
+
+* Allow each player to enter their name
+
+<b>Reporting</b>
+
+* Stick with the format
+* Take the best ideas of those around you
+* At the end of this sprint you should have a full regression suite in your chosen format
+
+<countdown time="300"/>
 
 
 --|
