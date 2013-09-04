@@ -2,13 +2,50 @@
 @name Tutorial: 1 - Exploring todo
 @description
 
-# The todos application
+|--
 
-With this exercise, once you have the code running, you need to do some exploratory testing. You are looking for:
 
-* defects
-* new features
+^^ What would you do?
 
-Then, you need to look at the code base and see how it might helped you solve the problem of those defects.
+How would you test this app?
+
+1. Spent 5 minutes thinking about how you would test this app?
+2. Think about how you specify this application? How have you done this in the past?
+3. Would you use test plans or cases, acceptance criteria, none of those?
+4. Who does these and when?
+5. How might that change with an agile process?
 
 <img class="diagram" src="img/exploratory/todos.png" width="488" height="413">
+
+
+^^ Purpose
+
+* Open the [To Do application](http://todo.assurity-co.cloudbees.net/#/)
+
+* Identify the purpose of the product
+
+
+^^ Why?
+
+* Identify fundamental services provided
+
+* Identify the audience for the product
+
+* Identify the needs of the user
+
+
+^^ Functions
+
+* Identify functions of the product
+
+* Identify potential areas of instability
+
+<img class="diagram" src="img/the-testing-coin/testsandinstability.png" width="488" height="413">
+
+
+^^ Testing
+
+* Test each function and record issues
+
+
+--|

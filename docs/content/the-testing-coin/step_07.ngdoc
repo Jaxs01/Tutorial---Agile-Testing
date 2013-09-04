@@ -9,7 +9,7 @@ with the most important source code files, learn how to start the development se
 the TODO app, and run the application in the browser.
 
 |--
-^^ Testing
+^^ Running
 
 1. In todo directory, run this command:
 
@@ -19,16 +19,6 @@ the TODO app, and run the application in the browser.
 
 2. Start the app: `grunt server`
 3. Load the app in the browser: {@link http://localhost:9999}
-
-## Scripted Manual Testing
-
-How would you test this app?
-
-1. Spent 5 minutes thinking about how you would test this app?
-2. Think about how you specify this application? How have you done this in the past?
-3. Would you use test plans or cases, acceptance criteria, none of those?
-4. Who does these and when?
-5. How might that change with an agile process?
 
 ^^ Record-Replay
 
@@ -78,14 +68,14 @@ Unit tests can tell you a lot about how to go about testing the application. Und
 4. Can you understand the tests?
 5. What test scenarios do these NOT cover?
 
-^^ Manual tests
+^^ Explore
   
-## Manual exploratory testing
+## Exploratory testing
 
-Now that we know that the application should be working as expected, now it is time to break it!
+Now that we know that the application should be working as expected, it is time to break it!
 
 1. Start the app: `grunt server`
 2. Load the app in the browser: {@link http://localhost:9999}
-3. What strategies could you now use to use to do exploratory testing?
+3. What strategies could you now use to do exploratory testing?
 
 --|
