@@ -1,66 +1,30 @@
 @ngdoc overview
-@name Tutorial: 5 - Acceptance
+@name Tutorial: 6 - Unit
 @description
 
-# Agile Testing tutorial
+# Unit tests
 
 You are now ready to build the Todo app. In this step, you will become familiar
 with the most important source code files, learn how to start the development servers bundled with
 the TODO app, and run the application in the browser.
 
+Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.
+
 |--
-^^ Running
+^^ Setup
 
 1. In todo directory, run this command:
 
-    <pre>git checkout -f exploratory-step-1</pre>
+    <pre>git checkout -f step-2</pre>
 
-    This resets your workspace to step 1 of the tutorial app.
+    This resets your workspace to step 2 of the tutorial app.
 
 2. Start the app: `grunt server`
 3. Load the app in the browser: {@link http://localhost:9999}
 
-^^ Record-Replay
-
-## Install Selenium IDE for mozilla
-
-1. Install Mozilla Firefox
-2. Install Selenium IDE
-3. In Firefox, Tools, Selenium IDE, Open Test &gt; `test/e2e/record-replay.html`
-4. Run tests
-
-## Recording acceptance tests
-
-Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.
-
-1. `grunt server-test`
-2. Can you read the test results?
-3. Open up source code, can you find the tests and relate them back to the results?
-4. Can you understand the tests?
-5. How reliable are these tests going to be?
-
-###  Extending yourself
-
-1. Record your own tests
-2. Extend the test suite with a new test case?
-3. Just record, the same test, how easy is it? What might some problems be?
-
-^^ Acceptance
-
-## Running acceptance tests
-Acceptance tests usually give the big picture about the application - business processes or whether the application looks like it is in a working state. They don't tend to tell you much about the internal workings of the application. The goal of this step is to run and read the acceptance tests for the todo application.
-
-1. `grunt acceptance`
-2. Can you read the test results?
-3. Open up source code, can you find the tests and relate them back to the results?
-4. Can you understand the tests?
-5. How reliable are these tests going to be?
-
 ^^ Unit tests
 
 ## Running unit tests
-
-Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.
 
 1. `grunt unit`
 2. Can you read the test results?

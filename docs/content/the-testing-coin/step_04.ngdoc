@@ -1,5 +1,5 @@
 @ngdoc overview
-@name Tutorial: 3 - Exploring
+@name Tutorial: 4 - Record & Replay
 @description
 
 # Record and Replay
@@ -13,37 +13,81 @@ You are now ready to test the Todo app. In this step, you will become familiar w
 
     <pre>git checkout -f step-0</pre>
 
-    This resets your workspace to step 1 of the tutorial app.
+    This resets your workspace to step 1 of the todo app.
 
 2. Start the app: `grunt server`
 3. Load the app in the browser: {@link http://localhost:9999}
 
-^^ Play
+^^ (re)Play
 
 Run the pre-recorded tests in Mozilla Firefox using Selenium WebDriver.
 
 1. Load up Mozilla Firefox
 2. Open Selenium WebDriver
-3. Open Script or Suite > todo\test\create-close-filter-clear.json
+3. Open Script or Suite > `todo\test\create-close-filter-clear.json`
 4. Run > Run tests locally
 5. Work out what the tests are actually testing
 
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  Load up Mozilla Firefox
+  <img class="screenshot" src="img/the-testing-coin/webdriver-1.png">
+  Open Selenium WebDriver (click on the bottom-right corner lego block!)
+  <img class="screenshot" src="img/the-testing-coin/webdriver-2.png">
+  Open Script or Suite > todo\test\create-close-filter-clear.json
+  <img class="screenshot" src="img/the-testing-coin/webdriver-3.png">
+  <img class="screenshot small" src="img/the-testing-coin/webdriver-4.png">
+  Now that you have the test, let's run it! Run > Run tests locally
+  <img class="screenshot" src="img/the-testing-coin/webdriver-5.png">
+  <img class="screenshot small" src="img/the-testing-coin/webdriver-6.png">
+  You should see the tests passing. Fingers crossed.
+</div>
+
 <img class="screenshot" src="img/the-testing-coin/webdriver-7.png">
-
-^^  Recording
-
-1. Record your own tests
-2. Extend the test suite with a new test case?
-3. Just record, the same test, how easy is it? What might some problems be?
 
 ^^ Cheatsheet
 
-<img class="screenshot" src="img/the-testing-coin/webdriver-1.png">
-<img class="screenshot small" src="img/the-testing-coin/webdriver-2.png">
-<img class="screenshot" src="img/the-testing-coin/webdriver-3.png">
-<img class="screenshot small" src="img/the-testing-coin/webdriver-4.png">
-<img class="screenshot" src="img/the-testing-coin/webdriver-5.png">
-<img class="screenshot" src="img/the-testing-coin/webdriver-6.png">
-<img class="screenshot" src="img/the-testing-coin/webdriver-7.png">
+Here is what the tests are doing:
+
+<pre>
+    Start Firefox (like a boss)
+
+    (When you follow these steps, make sure page content is loaded before clicking, etc... Since you're a human, this is probably what you do already)
+
+    - Navigate to http://todo.assurity-co.cloudbees.net/
+    - Type "a new list" in "new-todo", replacing any text that was already there
+    - Submit the form containing the element on the page with the id of "new-todo"
+    - Make sure "All" is on the page
+    - Make sure "Active" is on the page
+    - Make sure "Completed" is on the page
+    - Make sure "Clear completed" is not on the page
+    - Make sure "1 item left" is on the page
+    - Select the element(s) on the page identified by the xpath query "//div[@class='view']/input"
+    - Make sure "0 items left" is on the page
+    - Make sure "Clear completed" is on the page
+    - Click the link which says "All"
+    - Make sure "a new list" is on the page
+    - Click the link which says "Completed"
+    - Make sure "a new list" is on the page
+    - Click the link which says "Active"
+    - Make sure "a new list" is not on the page
+    - Click the element on the page with the id of "clear-completed"
+    - Make sure "Clear completed" is not on the page
+    - Make sure "0 items left" is not on the page
+    - Make sure "All" is not on the page
+    - Make sure "Active" is not on the page
+    - Make sure "Completed" is not on the page
+    - Make sure "Clear completed" is not on the page
+
+    You're done! Sweet.
+ </pre>
+
+^^  Extension
+
+1. Just record the same test, how easy is it? Did you have problems?
+2. Extend the test suite with a new test case
+3. Refactor the tests into a well organised suite
 
 --|

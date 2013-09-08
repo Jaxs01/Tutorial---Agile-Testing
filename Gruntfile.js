@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         ngdocs: {
             options: {
                 dest: 'app/public',
-                scripts: ['angular.js', '../js/multichoice.js', '../js/quizes.js', '../js/screencast.js', '../js/workspace.js', '../js/timer.js'],
+                scripts: ['angular.js', '../js/multichoice.js', '../js/quizes.js', '../js/screencast.js', '../js/workspace.js', '../js/timer.js', '../js/links.js'],
                 styles: ['css/multichoice.css', 'css/timer.css', 'css/images.css'],
                 html5Mode: false,
                 title: "Agile Testing",
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             },
             'thetestingzoo': {
                 src: ['docs/content/the-testing-zoo/**/*.ngdoc'],
-                title: 'Testing Zoo'
+                title: 'Zoo'
             },
             'specbyexample': {
                 src: ['docs/content/spec-by-example/**/*.ngdoc'],
@@ -34,11 +34,11 @@ module.exports = function (grunt) {
             },
             'thetestingcoin': {
                 src: ['docs/content/the-testing-coin/**/*.ngdoc'],
-                title: 'Testing Coin'
+                title: 'Coin'
             },
             'nonfunctionaltest': {
                 src: ['docs/content/nonfunctionaltest/**/*.ngdoc'],
-                title: 'Non Functional Test'
+                title: 'Non Functional'
             },
             'communication': {
                 src: ['docs/content/communication/**/*.ngdoc'],
