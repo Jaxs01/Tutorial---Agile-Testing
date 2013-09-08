@@ -38,6 +38,7 @@ Thumbs.db
 node_modules
 app/public
 app/node_modules
+dist
 
 .gradle
 .settings

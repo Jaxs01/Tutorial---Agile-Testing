@@ -1,0 +1,49 @@
+@ngdoc overview
+@name Tutorial: 3 - Exploring
+@description
+
+# Record and Replay
+
+You are now ready to test the Todo app. In this step, you will become familiar with using Selenium WebDriver as a way to perform record and replay tests.
+
+|--
+^^ Setup
+
+1. In todo directory, run this command:
+
+    <pre>git checkout -f step-0</pre>
+
+    This resets your workspace to step 1 of the tutorial app.
+
+2. Start the app: `grunt server`
+3. Load the app in the browser: {@link http://localhost:9999}
+
+^^ Play
+
+Run the pre-recorded tests in Mozilla Firefox using Selenium WebDriver.
+
+1. Load up Mozilla Firefox
+2. Open Selenium WebDriver
+3. Open Script or Suite > todo\test\create-close-filter-clear.json
+4. Run > Run tests locally
+5. Work out what the tests are actually testing
+
+<img class="screenshot" src="img/the-testing-coin/webdriver-7.png">
+
+^^  Recording
+
+1. Record your own tests
+2. Extend the test suite with a new test case?
+3. Just record, the same test, how easy is it? What might some problems be?
+
+^^ Cheatsheet
+
+<img class="screenshot" src="img/the-testing-coin/webdriver-1.png">
+<img class="screenshot small" src="img/the-testing-coin/webdriver-2.png">
+<img class="screenshot" src="img/the-testing-coin/webdriver-3.png">
+<img class="screenshot small" src="img/the-testing-coin/webdriver-4.png">
+<img class="screenshot" src="img/the-testing-coin/webdriver-5.png">
+<img class="screenshot" src="img/the-testing-coin/webdriver-6.png">
+<img class="screenshot" src="img/the-testing-coin/webdriver-7.png">
+
+--|

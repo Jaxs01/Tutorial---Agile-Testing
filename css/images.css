@@ -1,0 +1,19 @@
+.screenshot {
+    display: block;
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid black;
+
+    -moz-box-shadow: 4px 4px 6px #48577D;
+    -webkit-box-shadow: 4px 4px 6px #48577D;
+    box-shadow: 4px 4px 6px #48577D;
+
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.screenshot.small {
+    width: 50%;
+}

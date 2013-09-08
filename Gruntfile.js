@@ -13,7 +13,7 @@ module.exports = function (grunt) {
             options: {
                 dest: 'app/public',
                 scripts: ['angular.js', '../js/multichoice.js', '../js/quizes.js', '../js/screencast.js', '../js/workspace.js', '../js/timer.js'],
-                styles: ['css/multichoice.css', 'css/timer.css'],
+                styles: ['css/multichoice.css', 'css/timer.css', 'css/images.css'],
                 html5Mode: false,
                 title: "Agile Testing",
                 extensions: ['tabs', 'notes'],

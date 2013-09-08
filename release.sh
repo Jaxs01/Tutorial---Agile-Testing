@@ -1,31 +1,20 @@
 #!/bin/sh
 
-#just for testing
+# assumes that node & grunt are installed
+# also `chmod +x release.sh` (make this file executable)
 
-#http://nodejs.org/dist/v0.8.14/node-v0.8.14-linux-x64.tar.gz
-node_version=v0.8.14
-file_name=node-$node_version-linux-x64
-
-if [ ! -e $file_name ]
-then
-    wget http://nodejs.org/dist/$node_version/$file_name.tar.gz
-    tar xf $file_name.tar.gz
-fi
-rm -rf target
-mkdir target
-
-export PATH=$PWD/$file_name/bin:$PATH
+rm -rf dist
+mkdir dist
 
 grunt
 
 cd app
 npm install
-#npm test
 
+zip -r ../dist/app.zip *
 
-rm -rf ../target/app.zip
-zip -r ../target/app.zip *
+# now deploy
+# please be careful this is unrestricted access
 
-
-
+bees app:deploy -k 09F13925BDE9CAA6 -s AMM4EYHPVCNDH++JWGBJCMN6Q67XGCRQLGY8UWXKT5K= -a assurity-co/agiletesting -t nodejs -RPLUGIN.SRC.nodejs=https://s3.amazonaws.com/clickstacks/admin/nodejs-plugin-0.10.5.zip ../dist/app.zip
 
