@@ -15,15 +15,42 @@ Acceptance tests usually give the big picture about the application - business p
 
     This resets your workspace to step 1 of the todo app.
 
-2. Start the app: `grunt server-test`
-3. Load the app in the browser: {@link http://localhost:9555}
+1. `grunt watch` - this starts up the test server in the browser and keeps it open
 
 ^^ Acceptance
 
-1. `grunt server-test` - this starts up the test server
 2. Can you read the test results?
-3. Open up source code, can you find the tests and relate them back to the results?
 4. Can you understand the tests?
 5. How reliable are these tests going to be?
+
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  Browser window open, the test should automatically run
+  <img class="screenshot" src="img/the-testing-coin/e2e-1.png">
+  Then it is blank! So click on `Debug`
+  <img class="screenshot" src="img/the-testing-coin/e2e-2.png">
+  Then you can run it all again, and again.
+  <img class="screenshot" src="img/the-testing-coin/e2e-3.png">
+  To see more detail, expand open the sections
+</div>
+  <img class="screenshot" src="img/the-testing-coin/e2e-4.png">
+
+^^ Extension
+
+3. Open up source code, can you find the tests and relate them back to the results?
+4. Can you understand the tests in this form?
+5. Could you change them and run them again?
+
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  Open up Webstorm to the file test/e2e/acceptance.js
+  <img class="screenshot small" src="img/the-testing-coin/acceptance-1.png">
+</div>
+  <img class="screenshot" src="img/the-testing-coin/acceptance-2.png">
+
 
 --|
