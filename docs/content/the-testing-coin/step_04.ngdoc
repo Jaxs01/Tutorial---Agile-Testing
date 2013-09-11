@@ -4,7 +4,7 @@
 
 # Record and Replay
 
-You are now ready to test the Todo app. In this step, you will become familiar with using Selenium WebDriver as a way to perform record and replay tests.
+You are now ready to test the Todo app. In this step, you will become familiar with using SeleniumBuilder as a way to perform record and replay tests.
 
 |--
 ^^ Setup
@@ -26,7 +26,7 @@ Run the pre-recorded tests in Mozilla Firefox using Selenium WebDriver.
 2. Open Selenium WebDriver
 3. Open Script or Suite > `todo\test\create-close-filter-clear.json`
 4. Run > Run tests locally
-5. Work out what the tests are actually testing
+5. Work out what the tests are actually testing (before looking at the cheatsheet)
 
 <div ng-hide="show" class="">
   <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
@@ -49,7 +49,7 @@ Run the pre-recorded tests in Mozilla Firefox using Selenium WebDriver.
 
 ^^ Cheatsheet
 
-Here is what the tests are doing:
+Here is what the previous tests are doing:
 
 <pre>
     Start Firefox (like a boss)
@@ -83,6 +83,26 @@ Here is what the tests are doing:
 
     You're done! Sweet.
  </pre>
+
+*Note:* selenium builder actually exports this text from the script. Give it a try:
+
+1. File > Export > English
+
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  Start with the test showing
+  <img class="screenshot" src="img/the-testing-coin/seleniumbuilder-export-1.png">
+  File > Export
+  <img class="screenshot" src="img/the-testing-coin/seleniumbuilder-export-2.png">
+  English (bottom of the list)
+  <img class="screenshot" src="img/the-testing-coin/seleniumbuilder-export-3.png">
+  Save file into location, say `todo\test\create-close-filter-clear.en.txt`
+  <img class="screenshot small" src="img/the-testing-coin/seleniumbuilder-export-4.png">
+  Now you can open the text to see what is above. Not bad!
+</div>
+
 
 ^^  Extension
 
