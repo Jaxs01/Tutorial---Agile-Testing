@@ -7,6 +7,6 @@
 * We don’t want manual regression
 * We need automation to keep up with development
 * We need complex manual testing in order to find interesting “relevant”  bugs that the automated regression checks won’t discover
-* Important to retain both sides of the testing coin
+* Important to retain both sides of the testing coin: manual & automation
 
-<img class="diagram" src="img/the-testing-coin/coin.jpeg" width="488" height="413">
+<img class="diagram" src="img/the-testing-coin/coin.png" height="413">

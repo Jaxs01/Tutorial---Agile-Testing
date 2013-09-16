@@ -4,8 +4,10 @@
 
 # Summary - The Testing Coin
 
-* build a whole-team approach
-* you care trying to create space for as much exploratory testing as possible
+* both sides: manual and automation
+* the coin is the whole-team approach
+* you are trying to create time for as much exploratory testing as possible
 * make sure the base of e2e/acceptance and unit tests is the right shape
 * avoid manual regression tests
+* build as small a GUI set of tests as possible to retain confidence
 * hard to do without a solid base of automation because you end of doing manual regression testing instead
