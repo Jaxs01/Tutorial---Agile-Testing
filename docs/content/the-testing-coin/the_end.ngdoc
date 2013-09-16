@@ -4,7 +4,8 @@
 
 # Summary - The Testing Coin
 
-* do as much exploratory testing as possible
-* do e2e/acceptance and unit tests
+* build a whole-team approach
+* you care trying to create space for as much exploratory testing as possible
+* make sure the base of e2e/acceptance and unit tests is the right shape
 * avoid manual regression tests
-* hard to do without a solid base of automation because you end of doing regression testing instead
+* hard to do without a solid base of automation because you end of doing manual regression testing instead

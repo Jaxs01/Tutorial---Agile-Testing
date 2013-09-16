@@ -1,0 +1,5 @@
+@ngdoc overview
+@name Tutorial: 9 - Quiz
+@description
+
+<div multichoice ng-controller="TestingCoin" />
