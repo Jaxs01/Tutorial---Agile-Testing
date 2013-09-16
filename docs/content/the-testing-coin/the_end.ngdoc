@@ -7,7 +7,4 @@
 * do as much exploratory testing as possible
 * do e2e/acceptance and unit tests
 * avoid manual regression tests
-* critical thinking, no requirements doc needed
-* diverse ideas
-* rich resources
-* hard to do with a solid base of automation because you end of doing regression testing instead
+* hard to do without a solid base of automation because you end of doing regression testing instead
