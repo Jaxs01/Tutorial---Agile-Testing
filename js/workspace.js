@@ -9,7 +9,7 @@ angular.module('ng')
         "<ol ng-show='visible'>" +
         "<li>" +
         "<p>Reset the workspace to step {{step}}.</p>" +
-        "<pre>git checkout -f exploratory-step-{{step}}</pre>" +
+        "<pre>git checkout -f step-{{step}}</pre>" +
         "</li>" +
         "</ol>" +
         "<a ng-show='visible' ng-click='visible = false'>← Hide</a>" +

@@ -15,8 +15,11 @@ You are now ready to test the Todo app. In this step, you will become familiar w
 
     This resets your workspace to step 1 of the todo app.
 
-2. Start the app: `grunt server`
-3. Load the app in the browser: {@link http://localhost:9999}
+2. Start the app
+
+    <pre>grunt server</pre>
+
+3. This should automatically start the app in the browser: {@link http://localhost:9999}
 
 ^^ (re)Play
 

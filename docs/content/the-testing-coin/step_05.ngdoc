@@ -15,7 +15,9 @@ Acceptance tests usually give the big picture about the application - business p
 
     This resets your workspace to step 1 of the todo app.
 
-1. `grunt watch` - this starts up the test server in the browser and keeps it open
+2. Start up the test server in the browser and keeps it open
+
+    <pre>grunt watch</pre>
 
 ^^ Acceptance
 

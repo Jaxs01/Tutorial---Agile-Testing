@@ -4,9 +4,8 @@
 
 # Summary - The Testing Coin
 
-Exploratory testing requires you to use quite sophisticated heuristics. Exploring reveals unintended consequences and uncovers implicit expectations
-
 * do as much exploratory testing as possible
+* do e2e/acceptance and unit tests
 * avoid manual regression tests
 * critical thinking, no requirements doc needed
 * diverse ideas

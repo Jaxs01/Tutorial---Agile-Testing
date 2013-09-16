@@ -4,11 +4,7 @@
 
 # Unit tests
 
-You are now ready to build the Todo app. In this step, you will become familiar
-with the most important source code files, learn how to start the development servers bundled with
-the TODO app, and run the application in the browser.
-
-Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the unit tests for the todo application.
+In this step, you will become familiar with the most important source code files through the unit tests. Unit tests can tell you a lot about how to go about testing the application. Understanding the intent of the unit tests will start to inform you about the structure of the application if the unit tests are well written. The goal of this step is to run and read the *intent* of unit tests for the todo application.
 
 |--
 ^^ Setup
@@ -19,27 +15,50 @@ Unit tests can tell you a lot about how to go about testing the application. Und
 
     This resets your workspace to step 2 of the tutorial app.
 
-2. Start the app: `grunt server`
-3. Load the app in the browser: {@link http://localhost:9999}
+2. Start up the test server with unit tests in the browser (and keeps it open)
 
-^^ Unit tests
+    <pre>grunt unit</pre>
 
-## Running unit tests
+^^ Unit tests (results)
 
-1. `grunt unit`
-2. Can you read the test results?
-3. Open up source code, can you find the tests and relate them back to the results?
-4. Can you understand the tests?
-5. What test scenarios do these NOT cover?
+From the previous step, you should have already run `grunt unit`. This part of the exercise uses a test runner that doesn't give a fancy looking result. But with a little patience, you'll see that it gives us what we need - a list of passing/failing tests.
 
-^^ Explore
-  
-## Exploratory testing
+1. In the browser, click on `Debug` and then once that window is open, open the console and look at the results
+2. Can you read the test results? How do these relate to you previous e2e tests?
+3. Did these match the results in the terminal window?
+
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  Go to the open Browser window, the test should automatically run (feel free to refresh!). Then it is blank! So click on `Debug`
+  <img class="screenshot" src="img/the-testing-coin/unit-1.png">
+  But it is still blank. (yes, we'll live with this for now - but it should look like the e2e tests)
+  <img class="screenshot" src="img/the-testing-coin/unit-2.png">
+  Now, open the Javascript console
+  <img class="screenshot" src="img/the-testing-coin/unit-3.png">
+  Now you can see more detail. Here are all the tests.
+</div>
+  <img class="screenshot" src="img/the-testing-coin/unit-4.png">
+
+^^ Unit tests (source)
+
+1. Open up source code, can you find the tests and relate them back to the results?
+
+    Start with the `test\unit\todoCtrlSpec.js`. When looking at this, try and hide the noise of the code to begin with. To do this, click on the `-` to the left of the `describe` and `it`. You should be able to relate the tests to the ones in the browser.
+2. Can you understand the tests?
+
+    Most people, other than developers, are unlikely to be able to read the test implementation. That's okay. Look around them, see if you can find the test `should count Todos correctly` - how many todos should be showing on the screen?
+3. What test scenarios do these NOT cover?
+
+  <img class="screenshot" src="img/the-testing-coin/unit-src-1.png">
+
+^^ Extension
 
 Now that we know that the application should be working as expected, it is time to break it!
 
-1. Start the app: `grunt server`
-2. Load the app in the browser: {@link http://localhost:9999}
-3. What strategies could you now use to do exploratory testing?
+1. With the test still running, try changing some tests and get some failing.
+2. Can run these tests in another browser? (hint: `http://localhost:9876/`)
+3. Can you get karma to run these test in multiple browser in the same run? (hint `config\unit.conf.js`)
 
 --|

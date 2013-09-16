@@ -15,15 +15,32 @@ Mindmaps are good for understanding test coverage. Another way is via *code cove
 
     This resets your workspace to step 3 of the tutorial app.
 
-2. Start the app: `grunt server`
-3. Load the app in the browser: {@link http://localhost:9999}
+2. Run the coverage
+
+    <pre>grunt coverage</pre>
 
 ^^ Coverage
 
-Now that we know that the application should be working as expected, it is time to break it!
+In the unit tests, we saw that the code was tested - we say that it had *coverage*. But how much was covered? Code coverage looks at all the paths of the code that were run. In our example, any code in *red* was not run.
 
 1. Run the tests with coverage: `grunt coverage`
-2. Load the test results in the browser: {@link http://localhost:9999}
-3. What strategies could you now use to do exploratory testing?
+2. Load the test results in the browser: `coverage\<your browser>\index.html`
+3. What purpose do you think coverage is good for?
+
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+<div class="tabbable ng-hide" ng-show="show" >
+  You looking to open the coverage view through a browser. The file to open changes depending on the version of the browser. Start in webstorm `coverage\<your browser>\index.html`
+  <img class="screenshot small" src="img/the-testing-coin/coverage-1.png">
+  Open this file: right click Open in Browser)
+  <img class="screenshot small" src="img/the-testing-coin/coverage-1-2.png">
+  Now study the stats. Anything less than 100% does have full coverage (this may not be bad). Click through on the `js\controllers`.
+  <img class="screenshot" src="img/the-testing-coin/coverage-2.png">
+  Click on the `todoCtrl`
+  <img class="screenshot" src="img/the-testing-coin/coverage-3.png">
+  Now you can see more detail with the red code that has been covered.
+</div>
+  <img class="screenshot" src="img/the-testing-coin/coverage-4.png">
 
 --|
