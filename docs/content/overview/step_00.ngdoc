@@ -22,11 +22,14 @@ and follow the instructions for setting up your computer.
 2. You'll also need Git, which you can get from [the Git site](http://git-scm.com/download)
 3. Clone the todo-tutorial repository located at [Github](https://bitbucket.org/Assurity/todo-tutorial) by running the following command:
 
-    <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
+    <pre>git clone https://bitbucket.org/Assurity/todo-tutorial.git</pre>
     This command creates the `todo-tutorial` directory in your current directory.
 
 4. Change your current directory to `todo-tutorial`:
-   <pre>cd todo-tutorial</pre>
+<pre>
+cd todo-tutorial
+npm install -d
+</pre>
    The tutorial instructions assume you are running all commands from the todo-tutorial directory.
 5. You will need an http server running on your system. Mac and Linux machines typically have Apache pre-installed, but If you don't already have one installed, you can use `node` to run `grunt server`,  a simple bundled http server with grunt.
 
@@ -44,12 +47,15 @@ and follow the instructions for setting up your computer.
 2. You'll also need Git, which you can get from [the Git site](http://git-scm.com/download)
 3. Clone the todo-tutorial repository located at [Github](https://bitbucket.org/Assurity/todo-tutorial) by running the following command:
 
-    <pre>git clone git@bitbucket.org:Assurity/todo-tutorial.git</pre>
+    <pre>git clone https://bitbucket.org/Assurity/todo-tutorial.git</pre>
 
     This command creates the `todo-tutorial` directory in your current directory.
 
 4. Change your current directory to `todo-tutorial`:
-   <pre>cd todo-tutorial</pre>
+<pre>
+cd todo-tutorial
+npm install -d
+</pre>
    The tutorial instructions assume you are running all commands from the todo-tutorial directory.
 5. You will need an http server running on your system. Mac and Linux machines typically have Apache pre-installed, but If you don't already have one installed, you can use `node` to run `grunt server`, a simple bundled http server with grunt.
 
@@ -59,4 +65,4 @@ and follow the instructions for setting up your computer.
 The last thing to do is to make sure your computer has a web browser and a good text editor
 installed. Now, let's get some cool stuff done!
 
-{@link #/exploratory/intro <span class="btn btn-primary">Get Started!</span>}
+{@link #/thetestingcoin/intro <span class="btn btn-primary">Get Started!</span>}
