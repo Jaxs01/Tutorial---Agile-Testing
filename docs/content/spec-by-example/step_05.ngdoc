@@ -21,7 +21,7 @@
 
     Click the second icon down on the left called "Home Folder" this will open the file finder. You can then open Webstorm by clicking the icon.
 
-<img class="diagram" src="img/spec-by-example/ubuntu-home-folder.png" width="550"/>
+    <img class="diagram" src="img/spec-by-example/ubuntu-home-folder.png" width="550"/>
 
     Select "Open Directory" then navigate to and select the folder `/home/vagrant/repo/specification-by-example`
 
