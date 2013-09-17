@@ -26,7 +26,7 @@ You are now ready to test the Todo app. In this step, you will become familiar w
 Run the pre-recorded tests in Mozilla Firefox using Selenium WebDriver.
 
 1. Load up Mozilla Firefox
-2. Open Selenium WebDriver
+2. Open Selenium WebDriver (you'll need this installed from {@ http://sebuilder.github.io/se-builder/}
 3. Open Script or Suite > `todo\test\create-close-filter-clear.json`
 4. Run > Run tests locally
 5. Work out what the tests are actually testing (before looking at the cheatsheet)
