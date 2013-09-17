@@ -19,7 +19,7 @@ You are now ready to test the Todo app. In this step, you will become familiar w
 
     <pre>grunt server</pre>
 
-3. This should automatically start the app in the browser: {@link http://localhost:9999}
+3. This should automatically start the app in the browser: {@link http://localhost:9999} - the browser may need refreshing
 
 ^^ (re)Play
 
