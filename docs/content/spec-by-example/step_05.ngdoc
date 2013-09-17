@@ -17,6 +17,61 @@
 
 ^^ Exercise
 
-Code stuff...
+1.  Let's view the files
+
+* Open Webstorm
+* select the folder `/home/vagrant/repo/specification-by-example`
+
+2.  You should now have Webstorm open with the specification by example directory as the root making it easy to navigate to all the files we will be working on
+
+* Right click on the file web/calc.html and open in a browser
+
+3.  This is the application we are testing
+
+* Right click on the file spec/CricketSpec.html
+
+4.  This is the living documentation. Now lets see if the tests are passing!
+
+* In your browser go to assurity-starter:8080
+
+5. This is the Jenkins build server that runs the tests.
+
+* In your browser go to assurity-starter:8080
+* Open the cricket-commit build
+
+6.  This is the first build in the deployment pipeline. See if it runs...
+
+The first build triggers other builds. Open the Cricket Pipeline view and see how far it goes before failing.
+
+* cricket-commit should pass
+* cricket-acceptance-deploy should pass
+* cricket-acceptance-test should fail
+
+7.  See if you can find out why it is failing?
+
+8.  Now lets run the tests locally, navigate to `/home/vagrant/repo/education-spec-by-example`
+
+Run the following command:
+
+<pre>gradle test</pre>
+
+You should see the tests fail for the same reason.
+
+9.  Now go back to the code in Webstorm, can you find the code it is running? Can you fix the code?
+
+Once you fix the code try running it locally again
+
+<pre>gradle test</pre>
+
+If it is fixed check it in using git.
+
+<pre>git add .</pre>
+<pre>git commit -m "Fixed the bug."</pre>
+
+Go back to the build server and trigger the cricket-commit build if it has not already run.
+
+Does it pass?
+
+What other tests could you add to the specification to improve it?
 
 --|
