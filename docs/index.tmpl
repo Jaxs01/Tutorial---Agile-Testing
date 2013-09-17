@@ -83,13 +83,16 @@
             <a class="brand"><%= title %></a>
           <% } %>
           <ul class="nav">
-            <li ng-repeat="(url, name) in sections" ng-class="{active: isActivePath(url)}">
+            <li ng-repeat="(url, name) in sections | orderBy:name | without:'Overview'" ng-class="{active: isActivePath(url)}">
               <a ng-href="{{url}}"><i class="icon-book icon-white"></i> {{name}}</a>
             </li>
           </ul>
           <%= navContent %>
           <ul class="nav" style="float:right">
-            <li class="nav-link">
+            <li ng-repeat="(url, name) in sections | only:'Overview'" ng-class="{active: isActivePath(url)}">
+              <a ng-href="{{url}}"><i class="icon-white"></i> {{name}}</a>
+            </li>
+            <li class="nav-link" ng-hide="document.location.hostname.indexOf('local') != -1">
                 <a href="/logout">Logout</a>
             </li>
           </ul>
