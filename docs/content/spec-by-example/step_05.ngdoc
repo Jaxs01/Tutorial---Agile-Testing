@@ -17,61 +17,71 @@
 
 ^^ Exercise
 
-1.  Let's view the files
+1.  Let's view the files we are going to work with in Webstorm
 
-* Open Webstorm
-* select the folder `/home/vagrant/repo/specification-by-example`
+    Click the second icon down on the left called "Home Folder" this will open the file finder. You can then open Webstorm by clicking the icon.
 
-2.  You should now have Webstorm open with the specification by example directory as the root making it easy to navigate to all the files we will be working on
+<img class="diagram" src="img/spec-by-example/ubuntu-home-folder.png" width="550"/>
 
-* Right click on the file web/calc.html and open in a browser
+    Select "Open Directory" then navigate to and select the folder `/home/vagrant/repo/specification-by-example`
 
-3.  This is the application we are testing
+    You should now have Webstorm open with the specification by example directory as the root making it easy to navigate to all the files we will be working on
 
-* Right click on the file spec/CricketSpec.html
+2.  Right click on the file web/calc.html and select "Open in Browser"
 
-4.  This is the living documentation. Now lets see if the tests are passing!
+    This is the application we are testing, spend a few minutes getting familiar with the application. Notice any strange behaviour?
 
-* In your browser go to assurity-starter:8080
+    Go back to Webstorm and right click on the file spec/CricketSpec.html and select "Open in Browser"
 
-5. This is the Jenkins build server that runs the tests.
+    Follow the "Basic Scoring" link. This is the living documentation. Now lets see if the tests are passing!
 
-* In your browser go to assurity-starter:8080
-* Open the cricket-commit build
+3.  In your browser in a new tab go to assurity-starter:8080
 
-6.  This is the first build in the deployment pipeline. See if it runs...
+    This is the Jenkins build server that runs the tests, it brings the documentation to life and provides feedback on the health of the system.
 
-The first build triggers other builds. Open the Cricket Pipeline view and see how far it goes before failing.
+    Open the cricket-commit build by following the link. Trigger the build by clicking "Build Now"
 
-* cricket-commit should pass
-* cricket-acceptance-deploy should pass
-* cricket-acceptance-test should fail
+    This is the first build in the deployment pipeline. Go back to Jenkins home by clicking the Jenkins logo on the top left.
 
-7.  See if you can find out why it is failing?
+    Find the Cricket Pipeline view and watch the builds running...
 
-8.  Now lets run the tests locally, navigate to `/home/vagrant/repo/education-spec-by-example`
+    The first cricket-commit build triggers other builds in the deployment pipeline, lets see how far it goes before failing.
 
-Run the following command:
+    What do you think is happening at each stage of the build?
 
-<pre>gradle test</pre>
+        cricket-commit should pass
+        cricket-acceptance-deploy should pass
+        cricket-acceptance-test should fail
 
-You should see the tests fail for the same reason.
+4.  See if you can find out why it is failing? Click the failing cricket-acceptance-test stage and see if you can find the "Console Output".
 
-9.  Now go back to the code in Webstorm, can you find the code it is running? Can you fix the code?
+5.  It's time to try and fix the bug and get the living documentation back in sync with the system. First we need to learn how to run the tests locally.
 
-Once you fix the code try running it locally again
+    Open the Terminal command line application and navigate to `/home/vagrant/repo/education-spec-by-example`
 
-<pre>gradle test</pre>
+    <pre>cd /home/vagrant/repo/education-spec-by-example</pre>
 
-If it is fixed check it in using git.
+    Then run the following command:
 
-<pre>git add .</pre>
-<pre>git commit -m "Fixed the bug."</pre>
+    <pre>gradle test</pre>
 
-Go back to the build server and trigger the cricket-commit build if it has not already run.
+    You should see the tests fail for the same reason but now we have more control over running the tests and faster feedback.
 
-Does it pass?
+6.  Now go back to the code in Webstorm, can you find the code it is running? Can you fix the bug?
 
-What other tests could you add to the specification to improve it?
+    Once you fix the code try running it locally again
+
+    <pre>gradle test</pre>
+
+    If it is fixed check it in using git. From the directory /home/vagrant/repo/education-spec-by-example run the following commands to check in your changes to git source control:
+
+    <pre>git add .</pre>
+    <pre>git commit -m "Fixed the bug."</pre>
+
+7.  Go back to the build server and trigger the cricket-commit build if it has not already run.
+
+    Does it pass?
+
+    What other tests could you add to the specification to improve it?
 
 --|
