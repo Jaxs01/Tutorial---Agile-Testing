@@ -13,7 +13,7 @@ You are now ready to test the Todo app. In this step, you will become familiar w
 
     <pre>git checkout -f step-0</pre>
 
-    This resets your workspace to step 1 of the todo app.
+    This resets your workspace to step 0 of the todo app.
 
 2. Start the app
 

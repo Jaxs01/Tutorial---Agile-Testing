@@ -17,7 +17,7 @@ Acceptance tests usually give the big picture about the application - business p
 
 2. Start up the test server in the browser and keeps it open
 
-    <pre>grunt watch</pre>
+    <pre>grunt acceptance</pre>
 
 ^^ Acceptance
 
