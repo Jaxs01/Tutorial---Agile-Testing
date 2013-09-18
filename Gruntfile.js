@@ -89,5 +89,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['clean', 'ngdocs', 'copy']);
     grunt.registerTask('build', ['default', 'open:dev']);
+    grunt.registerTask('server', ['build', 'connect']);
 
 };
