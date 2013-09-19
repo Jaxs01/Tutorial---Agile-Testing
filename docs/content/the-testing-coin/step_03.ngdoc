@@ -7,16 +7,12 @@ with the most important source code files, learn how to start the development se
 the application, and run the application in the browser.
 
 |--
-^^ Git on Mac/Linux/Windows
+^^ Tutorial Source
 
-1.  Clone the todo-tutorial repository located at [BitBucket](https://bitbucket.org/Assurity/todo-tutorial/) by running the following command:
-
-    <pre>git clone https://bitbucket.org/Assurity/todo-tutorial.git</pre>
-
-    This command creates the `todo-tutorial` directory in your current directory
+1.  You already have the `todo-tutorial` directory in your `repo` directory
 2.  Change your current directory to `todo-tutorial`:
 
-    <pre>cd todo-tutorial</pre>
+    <pre>cd repo/todo-tutorial</pre>
 
     The tutorial instructions assume you are running all commands from the todo-tutorial directory.
 
@@ -31,8 +27,22 @@ the application, and run the application in the browser.
     In a _separate_ terminal tab or window, run below which will start a server and open a browser window at to [http://localhost:9999](http://localhost:9999). You may need to press refresh because the browser opens as the server is starting and the server may not have quite got there yet!
         <pre>grunt server</pre>
 
---|
-
 You should now see the [TODO](http://localhost:9999) app in your browser (and it would be good if you ensure you are in Mozilla Firefox). It's not very exciting, but that's OK.
 
 <img class="diagram" src="img/the-testing-coin/todo-blank.png" width="488" height="413">
+
+
+^^ Avoiding command line
+
+You may not want to work in the `terminal` window (command line). If you don't want to you'll first need to setup Webstorm. It has two steps:
+
+1. Setup configurations
+
+  <img class="screenshot" src="img/the-testing-coin/configuration-1.png">
+  <img class="screenshot" src="img/the-testing-coin/configuration-2.png">
+
+2. Change branches
+
+  <img class="screenshot" src="img/the-testing-coin/branch-1.png">
+
+--|
