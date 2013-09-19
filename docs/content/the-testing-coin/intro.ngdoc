@@ -2,8 +2,6 @@
 @name The Testing Coin: Introduction
 @description
 
-# The Testing Coin
-
 * We don’t want manual regression
 * We need automation to keep up with development
 * We need complex manual testing in order to find interesting “relevant”  bugs that the automated regression checks won’t discover

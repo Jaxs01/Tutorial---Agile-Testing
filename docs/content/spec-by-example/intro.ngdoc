@@ -1,0 +1,16 @@
+@ngdoc overview
+@name Overview
+@description
+
+Goals for this module.
+
+1. What are acceptance criteria?
+   - How should testers use these?
+   - Dangers of confirmatory testing
+
+2. What are we automating?
+   - Developers and testers should have a different focus
+   - Living documentation for reporting to non-technical stakeholders
+
+3. Specification by Example
+   - EXERCISE: Identify a set of examples and add them to an automated suite

@@ -7,75 +7,53 @@
 ^^ Teams
 
 * Co-location of team rather than siloed by specialisation
-
 * Focus on products / projects
 
 <countdown time="180"/>
 
-
 ^^ Product Owner
 
 * Guidance on acceptance criteria
-
 * Participate in workshops that define examples of what stories intend to accomplish
-
 * Review of testing from a business perspective
 
 <img class="diagram" src="img/communication/team_a.png"/>
 
-
 ^^ Business Analyst
 
 * Ownership of acceptance criteria
-
 * Focus on user goals rather than technical solution
-
 * Often subject matter experts on business processes
 
 <img class="diagram" src="img/communication/team_b.png"/>
 
-
 ^^ Developer
 
 * Must write a solid base of automated unit tests
-
 * Some development teams adopt TDD or ATDD to embed this need
 
 <img class="diagram" src="img/communication/team_c.png"/>
 
-
 ^^ Tester
 
 * Testing in agile is team-oriented, every member of the team is involved
-
 * The tester retains ultimate responsibility for testing
-
 * Change in deliverables when compared to other methodologies
-
 * Greater focus on automation
-
 * Test analysis and design is unchanged, though presentation may differ
-
 * Test early; involvement in story development and understand development testing
 
 <img class="diagram" src="img/communication/team_d.png"/>
 
-
 ^^ Test Manager
 
 * Can feel excluded when focus shifts to products / projects
-
 * Reporting within teams should already have transparency to business stakeholders
-
 * Should facilitate inter-team communication and knowledge sharing
-
 * Present an aggregate view to high level management
-
 * Escalation point for testers
-
 * May hold responsibility for budget and resourcing
 
 <img class="diagram" src="img/communication/team_e.png"/>
-
 
 --|

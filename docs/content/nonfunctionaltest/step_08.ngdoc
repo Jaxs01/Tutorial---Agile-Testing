@@ -7,15 +7,10 @@
 ^^ Challenge
 
 * Simulate 10 users accessing this page over a 30s period [Thread Group]
-
 * Find the average response time for these 10 requests [View Results in Table]
-
 * Graph the response times each second for a single execution [Response Time Graph]
-
 * Simulate a tour by including another 5 pages from Assurity Education [HTTP Requests]
-
 * How does this alter your reporting?
-
 * Can you make your test plan and reporting more readable? [Names]
 
 <countdown time="480"/>
@@ -27,7 +22,6 @@
 * What are we testing?
 
 <img class="diagram" src="img/nonfunctionaltest/predata.png" width="600"/>
-
 <img class="diagram" src="img/nonfunctionaltest/postdata.png" width="600"/>
 
 ^^ Network

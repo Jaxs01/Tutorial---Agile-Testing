@@ -7,11 +7,8 @@
 ^^ Session based testing
 
 * __Session__ - an uninterrupted period of time spent testing, ideally lasting one to two hours.
-
 * __Charter__ - a goal or agenda for a test session.
-
 * Each session is focused on a charter, but not restricted to it.
-
 * The tester creates and executes tests based on ideas or heuristics and records their progress.
 
 <img class="diagram" src="img/nonfunctionaltest/goal.jpg"/>
