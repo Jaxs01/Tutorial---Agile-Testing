@@ -1,0 +1,23 @@
+@ngdoc overview
+@name 0 - Health & Safety
+@description
+
+|--
+
+^^ Overview
+
+* Location of common facilities and amenities (toilets, refreshments)
+* Fire precautions (fire extinguisher, fire exits)
+* Fire Warden / First Aider
+* Evacuation / Assembly Point
+
+^^ Auckland
+<img class="diagram" src="img/overview/evacuation_akl.png" width="400px">
+
+^^ Christchurch
+<img class="diagram" src="img/overview/evacuation_chch.png" width="400px">
+
+^^ Wellington
+<img class="diagram" src="img/overview/evacuation_wgtn.png" width="400px">
+
+--|
