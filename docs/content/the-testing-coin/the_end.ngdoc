@@ -11,3 +11,4 @@
 * avoid manual regression tests
 * build as small a GUI set of tests as possible to retain confidence
 * hard to do without a solid base of automation because you end of doing manual regression testing instead
+* remember there are always economic costs to manual and automated testing

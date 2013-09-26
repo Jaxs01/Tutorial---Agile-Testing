@@ -2,6 +2,8 @@
 @name Tutorial: 1 - Automation Pyramid
 @description
 
+When balancing automation and manual testing, you also need to understand that there are different types of automation.
+
 <screencast length="6" title="Test Automation Pyramid" byline="It takes a little automation with a dash of manual">
   <a href="http://vimeo.com/71946508" embed-video controls=0></a>
 

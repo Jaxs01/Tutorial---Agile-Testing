@@ -2,9 +2,10 @@
 @name The Testing Coin: Introduction
 @description
 
-* We don’t want manual regression
+* We don’t want manual regression - it's costly and slow at scale
 * We need automation to keep up with development
 * We need complex manual testing in order to find interesting “relevant”  bugs that the automated regression checks won’t discover
 * Important to retain both sides of the testing coin: manual & automation
+* Always think about the economic cost in your balance
 
 <img class="diagram" src="img/the-testing-coin/coin.png" height="413">
