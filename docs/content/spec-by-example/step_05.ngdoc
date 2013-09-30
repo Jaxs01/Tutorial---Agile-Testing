@@ -23,7 +23,7 @@
 
     <img class="diagram" src="img/spec-by-example/ubuntu-home-folder.png" width="550"/>
 
-    Select "Open Directory" then navigate to and select the folder `/home/vagrant/repo/specification-by-example`
+    Select "Open Directory" then navigate to and select the folder `/home/vagrant/tutorial/specification-by-example`
 
     You should now have Webstorm open with the specification by example directory as the root making it easy to navigate to all the files we will be working on
 
@@ -57,9 +57,9 @@
 
 5.  It's time to try and fix the bug and get the living documentation back in sync with the system. First we need to learn how to run the tests locally.
 
-    Open the Terminal command line application and navigate to `/home/vagrant/repo/education-spec-by-example`
+    Open the Terminal command line application and navigate to `/home/vagrant/tutorial/spec-by-example`
 
-    <pre>cd /home/vagrant/repo/education-spec-by-example</pre>
+    <pre>cd /home/vagrant/tutorial/spec-by-example</pre>
 
     Then run the following command:
 
@@ -73,7 +73,7 @@
 
     <pre>gradle test</pre>
 
-    If it is fixed check it in using git. From the directory /home/vagrant/repo/education-spec-by-example run the following commands to check in your changes to git source control:
+    If it is fixed check it in using git. From the directory /home/vagrant/tutorial/spec-by-example run the following commands to check in your changes to git source control:
 
     <pre>git add .</pre>
     <pre>git commit -m "Fixed the bug."</pre>

@@ -9,10 +9,10 @@ the application, and run the application in the browser.
 |--
 ^^ Tutorial Source
 
-1.  You already have the `todo-tutorial` directory in your `repo` directory
+1.  You already have the `todo-tutorial` directory in your `tutorial` directory
 2.  Change your current directory to `todo-tutorial`:
 
-    <pre>cd repo/todo-tutorial</pre>
+    <pre>cd tutorial/todo-tutorial</pre>
 
     The tutorial instructions assume you are running all commands from the todo-tutorial directory.
 
