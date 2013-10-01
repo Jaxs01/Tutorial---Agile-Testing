@@ -67,6 +67,8 @@ Lets fix the bug to get the living documentation back in sync with the system an
 
 3.  Now go back to the code in Webstorm, can you find the code it is running? Can you fix the bug?
 
+    Hint: Look in web/js/cricketCalc.js
+
     Once you fix the code try running it locally again
 
     <pre>gradle test</pre>
