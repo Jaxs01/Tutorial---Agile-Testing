@@ -6,36 +6,39 @@
 
 ^^ Red
 
-Stop the line! A developer on the team has just told you that the build is red!
+<b>Stop the line!</b>
+A developer on the team has just told you that the build is red!
 When the build is red the living documentation that describes the system actually turns red where the tests are failing.
+
+<img class="diagram" src="img/spec-by-example/stop-the-line.jpg" width="200"/>
 
 1.  First let's view the files we are going to work with in Webstorm.
 
     Open Webstorm by clicking the icon on your desktop.
 
-    Select "Open Directory" then navigate to and select the folder `/home/vagrant/tutorial/specification-by-example`
+    Select `Open Directory` then navigate to and select the folder `/home/vagrant/tutorial/specification-by-example`
 
     You should now have Webstorm open with the specification by example directory as the root making it easy to navigate to all the files we will be working on.
 
-2.  Right click on the file web/calc.html and select "Open in Browser"
+2.  Right click on the file `web/calc.html` and select `Open in Browser`
 
     This is the application we are testing, spend a few minutes getting familiar with the application. Notice any strange behaviour?
 
-    Go back to Webstorm and right click on the file spec/CricketSpec.html and select "Open in Browser"
+    Go back to Webstorm and right click on the file `spec/CricketSpec.html` and select `Open in Browser`
 
-    Follow the "Basic Scoring" link. This is the living documentation. Now lets see if the tests are passing!
+    Follow the `Basic Scoring` link. This is the living documentation. Now lets see if the tests are passing!
 
 3.  Open the Jenkins icon on your desktop. This should open a browser showing the Jenkins build server.
 
     The Jenkins build server runs the tests, it brings the documentation to life and provides feedback on the health of the system.
 
-    Open the cricket-commit build by following the link. Trigger the build by clicking "Build Now"
+    Open the cricket-commit build by following the link. Trigger the build by clicking `Build Now`
 
     This is the first build in the deployment pipeline. Go back to Jenkins home by clicking the Jenkins logo on the top left.
 
-    Find the Cricket Pipeline view and watch the builds running...
+    Find the `Cricket Pipeline` view and watch the builds running...
 
-    The first cricket-commit build triggers other builds in the deployment pipeline, lets see how far it goes before failing.
+    The first `cricket-commit` build triggers other builds in the deployment pipeline, lets see how far it goes before failing.
 
     What do you think is happening at each stage of the build?
 
@@ -46,16 +49,22 @@ When the build is red the living documentation that describes the system actuall
 
 ^^ Green
 
+<b>Let's get back to a green light.</b>
+
+<img class="diagram" src="img/spec-by-example/green-light.jpeg" width="200"/>
+
 Well actually with Jenkins it is blue...
 Lets fix the bug to get the living documentation back in sync with the system and get a green light for the build.
 
-1.  See if you can find out why the build is failing? Click the failing cricket-acceptance-test stage and see if you can find the "Console Output".
+1.  See if you can find out why the build is failing? Click the failing `cricket-acceptance-test` stage and see if you can find the `Console Output`.
 
-    Now look in the workspace under build - reports -
+    Now look in the workspace under
+
+    <pre>build/reports/spec/CricketSpec.html</pre>
 
 2.  It's time to try and fix the bug and get the living documentation back in sync with the system. First we need to learn how to run the tests locally.
 
-    Open the Terminal command line application and navigate to `/home/vagrant/tutorial/spec-by-example`
+    Open the Terminal command line application and navigate to:
 
     <pre>cd /home/vagrant/tutorial/spec-by-example</pre>
 
@@ -73,16 +82,18 @@ Lets fix the bug to get the living documentation back in sync with the system an
 
     <pre>gradle test</pre>
 
-
 ^^ Commit
 
+<b>Let's commit the fix.</b>
+
+Let's commit the fix back into source control so the build server can run against the living documentation
 
 1.  If it is fixed check it in to git source control. From the directory /home/vagrant/tutorial/spec-by-example run the following commands to check in your changes to git source control:
 
     <pre>git add .</pre>
     <pre>git commit -m "Put your description of the change here in quotes."</pre>
 
-2.  Go back to the build server and trigger the cricket-commit build if it has not already run.
+2.  Go back to the build server and trigger the `cricket-commit` build if it has not already run.
 
     Does it pass?
 
