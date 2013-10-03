@@ -1,96 +1,46 @@
 @ngdoc overview
-@name Tutorial: 1 - Automation Pyramid
+@name Tutorial: 1 - Exploring todo
 @description
 
-When balancing automation and manual testing, you also need to understand that there are different types of automation.
+|--
 
-<screencast length="6" title="Test Automation Pyramid" byline="It takes a little automation with a dash of manual">
-  <a href="http://vimeo.com/71946508" embed-video controls=0></a>
+^^ What would you do?
 
-  <blockquote voice-script heading="Test Automation Pyramid">
+How would you test this application?
 
-Introduction
+<img class="diagram" src="img/exploratory/todos.png" width="488" height="413">
 
-Welcome to this introduction to the test automation pyramid.
 
-[slide 2 - pyramid]
+^^ Purpose
+* Open the [To Do application](http://todo.assurity-co.cloudbees.net/#/)
+* Identify the purpose of the product
 
-The test automation pyramid is a visual way to represent where you should start focusing your testing effort. It helps
-us think about the types of tests we run and how much testing we are doing at each layer. It was introduced to explain
-to people that not all testing needs to go through the UI, and helps us to understand that a test automation strategy
-requires both automation and manual testing. The pyramid has three main layers.
+<countdown time="120"/>
 
-[slide 3 - unit]
+^^ Why?
+* Identify fundamental services provided
+* Identify the audience for the product
+* Identify the needs of the user
 
-Layer one. Unit tests. The key idea is that you want more of these than any other level of test because they:
 
-* test the behaviour inside the code
-* are easy to write & maintain (due to their independence)
-* are quick to run, because they test the application code directly
+^^ Functions
+* Identify functions of the product
+* Identify potential areas of instability
 
-Having a base of unit tests is cost efficient, but it is not the whole story. They don't provide enough confidence about
-the entire application.
+<img class="diagram" src="img/the-testing-coin/testsandinstability.png" width="488" height="413">
 
-[slide 4 - integration]
- The next layer up is integration tests. They test
+<countdown time="180"/>
 
-* integration between components or external third-party services
-* ensure dependencies of the system being developed continue to work as expected
-* are slower than unit tests to run, because they interact with other systems
+^^ Testing
+* Test each function and record issues
 
-[slide 5 - gui ]
+<countdown time="600"/>
 
-At the top of the triangle are the acceptance tests - also known as GUI tests, system tests or end-to-end tests.
-This layer has the fewest number of tests in test suite. Acceptance tests are:
+^^ Links
 
-* best for talking with business stakeholders because they are generally written human readable language
-* an important piece of information in determining when we're done
-* simulate user interactions with the application; clicking on buttons and links and entering data
+<a href="http://www.satisfice.com/tools/htsm.pdf">Heuristic Test Strategy Model</a><br/>
 
-But they have problems:
+<a href="http://www.workroom-productions.com/papers/Exploration%20and%20Strategy.pdf">Why exploration is necessary in any strategy</a><br/>
 
-* they have a high dependency on other components
-* they are brittle and easily broken when the underlying code changes - a small change in the user interface can break many tests.
-* they are expensive to write. While a quick capture-and-playback approach to recording user interface tests can work, tests recorded
-this way are usually the most brittle. Writing a good user interface test that will remain useful and valid takes time.
-* finally, they are the slowest out of the three levels to run by a significant difference. Because tests run through the user interface
-they can take a long time. So often teams have impressive suites of automated user interface tests. But they take so long to run that they
-may only be run overnight, let alone multiple times a day or after every code commit.
+--|
 
-That is the automation side of the story. But we can't and shouldn't automate everything.
-
-[slide - exploratory ]
-
-We also need exploratory testing. This is the cloud over the top of the pyramid. We need exploratory testing to discover
-information about our application that a machine is unable to determine through basic checks. Exploratory testing encourages
-critical thinking and creativity, to exercise functionality and provide rich observations about the behaviour of our software. Automation can
-only check what it has been told to look at - exploratory testing covers the many areas where a tool cannot replace a human.
-
-[slide - right thing]
-
-There is another way to think about the layering the in pyramid. At the bottom we have technical facing tests which we tend
-to automate and help us ask and answer the question, are we building the system right. On the top, we have business facing
-tests which tend to be manual, asking are we building the right system.
-
-[slide - ice cream]
-
-Understanding the shape of the test pyramid in your code  base is important. YOu may have too many automated GUI or acceptance
-tests because there aren't enough unit tests. This is a common problem for organisations who use automation. The shape of the
-pyramid in this case is inverted, or more appropriately, it looks like an ice cream. And the problem with the ice cream is it
-ice cream usually falls off the cone!
-
-[slide - pyramid]
-So in summary, The pyramid gets it shape because:
-* Large numbers of very small unit tests – set a foundation on simple tests
-* Smaller number of functional tests for major components
-* Even fewer tests for the entire application & workflow
-
-But any automation implementation, regardless its shape, requires both automation and manual testing.
-
-Thanks for listening and I hope that has been a useful introduction to the test automation pyramid.
-
-[Slide deck found at prezi](http://prezi.com/vjtnpchraafu/?utm_campaign=share&utm_medium=copy&rc=ex0share)
-
-  </blockquote>
-
-</screencast>
