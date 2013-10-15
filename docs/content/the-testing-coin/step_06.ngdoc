@@ -23,13 +23,15 @@ In this step, you will become familiar with the most important source code files
 
 From the previous step, you should have already run `grunt unit`. This part of the exercise uses a test runner that doesn't give a fancy looking result. But with a little patience, you'll see that it gives us what we need - a list of passing/failing tests.
 
+<div ng-hide="show" class="">
+  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
+</div>
+</br>
+
 1. In the browser, click on `Debug` and then once that window is open, open the console and look at the results
 2. Can you read the test results? How do these relate to you previous e2e tests?
 3. Did these match the results in the terminal window?
 
-<div ng-hide="show" class="">
-  <a href="" ng-click="show=true;$event.stopPropagation()">Show fuller instructions with pictures  ➤</a>
-</div>
 <div class="tabbable ng-hide" ng-show="show" >
   Go to the open Browser window, the test should automatically run (feel free to refresh!). Then it is blank! So click on `Debug`
   <img class="screenshot" src="img/the-testing-coin/unit-1.png">
