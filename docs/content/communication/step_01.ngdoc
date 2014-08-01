@@ -4,10 +4,9 @@
 
 |--
 
-^^ Teams
+^^ Roles
 
-* Co-location of team rather than siloed by specialisation
-* Focus on products / projects
+* What are the differences between agile and traditional for each?
 
 <countdown time="180"/>
 
@@ -19,7 +18,7 @@
 
 <img class="diagram" src="img/communication/team_a.png"/>
 
-^^ Business Analyst
+^^ Analyst
 
 * Ownership of acceptance criteria
 * Focus on user goals rather than technical solution
@@ -59,9 +58,11 @@
 
 ^^ Team
 
-* The team is responsible for quality
-* The team is responsible for test plans, test design, test cases, test automation, and test reporting
-* Dependencies between teams are part of quality
+* Stable, co-located rather than siloed by specialisation
+* Ideally all the skills to deliver completed features to customer/users
+* Responsible for quality
+* Responsible for test plans, test design, test cases, test automation and test reporting
+* Dependencies and delays between teams are part of quality
 
 <img class="diagram" src="img/communication/team.png"/>
 

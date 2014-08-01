@@ -4,9 +4,34 @@
 
 |--
 
-^^ History
 
-Specification by Example - Gojko Adzic
+^^ ATDD
+
+Acceptance Test Driven Development - 2006
+
+* Focuses on the automated tests that are part of the specification process
+* Creates clearer targets for development
+* Prevents functional regression
+
+<img class="diagram" src="img/spec-by-example/atdd.png" width="300"/>
+
+^^ BDD
+
+Behaviour Driven Development - Dan North, 2008
+
+* Focuses on the process of specifying scenarios of system behavior
+* Builds shared understanding between stakeholders and delivery teams
+* Highly collaborative using examples to clarify specifications
+* Preventing functional regression through test automation is also considered important
+
+<img class="diagram" src="img/spec-by-example/bdd.png" width="400"/>
+
+^^ Specification by Example
+
+Specification by Example - Gojko Adzic, 2011
+
+* Includes key ideas from ATDD and BDD
+* Also emphasises the long term value of living documentation
 
 <img class="diagram" src="img/spec-by-example/howitworks.png" width="550"/>
 
@@ -14,12 +39,19 @@ Specification by Example - Gojko Adzic
 
 <img class="diagram" src="img/spec-by-example/specification.png" width="550"/>
 
-^^ Benefits
+^^ Lifecycle
 
-* Powerful tool for communication
-* Gives a vision of the solution
-* Simple to understand
-* Reduces assumptions
-* Can be automatically checked
+<img class="diagram" src="img/spec-by-example/sbe-snail.png" width="500"/>
+
+<a href="http://itsadeliverything.com/agile-requirements-snail-feature-to-user-story-to-scenario#more-1570">by Steven Thomas</a>
+
+^^ Why?
+
+* Business requirements
+* Concrete requirements
+* Earlier conversations
+* Shared understanding
+* Automated tests
+* Living documentation
 
 --|
