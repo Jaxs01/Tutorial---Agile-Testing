@@ -1,46 +1,47 @@
 @ngdoc overview
-@name Tutorial: 1 - Exploring todo
+@name Tutorial: 1 - Running the code
 @description
 
+Lets load up the Todo app for this section. Once we have the Todo app running we can use
+it to compare different types of testing including looking at automation.
+
 |--
+^^ Tutorial Source
 
-^^ What would you do?
+1.  You already have the `todo-tutorial` directory in your `tutorial` directory
+2.  Change your current directory to `todo-tutorial`:
 
-How would you test this application?
+    <pre>cd tutorial/todo-tutorial</pre>
 
-<img class="diagram" src="img/exploratory/todos.png" width="488" height="413">
+    The tutorial instructions assume you are running all commands from the todo-tutorial directory.
+
+3.  In `todo-tutorial` directory, run this command (note if you are returning to this step you may have to `git checkout -f master`):
+
+    <pre>npm install -d</pre>
+
+    This ensures that everything will be installed in your workspace for the rest of the tutorial app.
+
+4.  To see the app running in a browser, do one of the following:
+
+    In a _separate_ terminal tab or window, run below which will start a server and open a browser window at to [http://localhost:9999](http://localhost:9999). You may need to press refresh because the browser opens as the server is starting and the server may not have quite got there yet!
+        <pre>grunt server</pre>
+
+You should now see the [TODO](http://localhost:9999) app in your browser. It's is pretty simple, but that's OK.
+
+<img class="diagram" src="img/the-testing-coin/todo-blank.png" width="488" height="413">
 
 
-^^ Purpose
-* Open the [To Do application](http://todo.assurity-co.cloudbees.net/#/)
-* Identify the purpose of the product
+^^ Avoiding command line
 
-<countdown time="120"/>
+You may not want to work in the `terminal` window (command line). If you don't want to you'll first need to setup Webstorm. It has two steps:
 
-^^ Why?
-* Identify fundamental services provided
-* Identify the audience for the product
-* Identify the needs of the user
+1. Setup configurations
 
+  <img class="screenshot" src="img/the-testing-coin/configuration-1.png">
+  <img class="screenshot" src="img/the-testing-coin/configuration-2.png">
 
-^^ Functions
-* Identify functions of the product
-* Identify potential areas of instability
+2. Change branches
 
-<img class="diagram" src="img/the-testing-coin/testsandinstability.png" width="488" height="413">
-
-<countdown time="180"/>
-
-^^ Testing
-* Test each function and record issues
-
-<countdown time="600"/>
-
-^^ Links
-
-<a href="http://www.satisfice.com/tools/htsm.pdf">Heuristic Test Strategy Model</a><br/>
-
-<a href="http://www.workroom-productions.com/papers/Exploration%20and%20Strategy.pdf">Why exploration is necessary in any strategy</a><br/>
+  <img class="screenshot" src="img/the-testing-coin/branch-1.png">
 
 --|
-

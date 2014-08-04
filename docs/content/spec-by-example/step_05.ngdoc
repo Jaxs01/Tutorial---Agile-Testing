@@ -4,6 +4,14 @@
 
 |--
 
+^^ Continuous Delivery
+
+<b>Deployment Pipeline</b>
+
+<img class="diagram" src="img/spec-by-example/pipeline.png" width="550"/>
+
+<a href="http://continuousdelivery.com/">Continuous Delivery - Humble and Farley</a>
+
 ^^ Red
 
 <b>Stop the line!</b>
