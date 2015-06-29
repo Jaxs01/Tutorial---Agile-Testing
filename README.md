@@ -20,7 +20,7 @@ The tutorial for Agile Testing course.
 - Point your browser to `http://localhost:9001`
 
 # Production mode
-- `npm start` Starts the web server in production mode with authentication on localhost:9955 (test:secret) - see `app/config/users.htpasswd` for details
+- `npm start` Starts the web server in production mode with authentication on localhost:9955 (guest:secret) - see `app/config/users.htpasswd` for details
 
 # Other Commands
 - `grunt` [ngdocs] Default runs all build tasks.
